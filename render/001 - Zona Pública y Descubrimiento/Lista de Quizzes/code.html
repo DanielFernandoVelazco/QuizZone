@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"inverse-surface":"#dae2fd","inverse-on-surface":"#283044","surface-container-highest":"#2d3449","secondary":"#c3c0ff","surface-container":"#171f33","on-error":"#690005","on-primary-container":"#0d0096","tertiary-fixed-dim":"#ffb95f","secondary-fixed":"#e2dfff","primary-fixed-dim":"#c0c1ff","on-secondary-container":"#b3b1ff","on-tertiary":"#472a00","surface-container-high":"#222a3d","secondary-container":"#3626ce","outline-variant":"#464554","secondary-fixed-dim":"#c3c0ff","tertiary-container":"#ca8100","on-tertiary-fixed":"#2a1700","on-surface-variant":"#c7c4d7","tertiary":"#ffb95f","primary-container":"#8083ff","on-tertiary-fixed-variant":"#653e00","on-secondary-fixed":"#0f0069","on-primary-fixed":"#07006c","surface":"#0b1326","primary":"#c0c1ff","surface-variant":"#2d3449","surface-dim":"#0b1326","outline":"#908fa0","on-background":"#dae2fd","on-tertiary-container":"#3e2400","surface-container-lowest":"#060e20","on-primary-fixed-variant":"#2f2ebe","on-primary":"#1000a9","error-container":"#93000a","primary-fixed":"#e1e0ff","surface-bright":"#31394d","surface-tint":"#c0c1ff","on-secondary":"#1d00a5","surface-container-low":"#131b2e","error":"#ffb4ab","on-surface":"#dae2fd","background":"#0b1326","on-error-container":"#ffdad6","inverse-primary":"#494bd6","on-secondary-fixed-variant":"#3323cc","tertiary-fixed":"#ffddb8"},borderRadius:{DEFAULT:"0.25rem",lg:"0.5rem",xl:"0.75rem",full:"9999px"},spacing:{"gutter":"1.5rem","margin-mobile":"1rem","margin":"2rem","space-md":"1rem","space-xl":"2.5rem","space-sm":"0.5rem","gutter-mobile":"1rem","space-xs":"0.25rem","space-lg":"1.5rem"},fontFamily:{"label-md":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"display-lg":["Plus Jakarta Sans"],"label-lg":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"headline-xl":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"headline-xl-mobile":["Plus Jakarta Sans"],"display-lg-mobile":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"caption":["Plus Jakarta Sans"]},fontSize:{"label-md":["0.875rem",{lineHeight:"1.25rem",fontWeight:"600"}],"body-lg":["1.125rem",{lineHeight:"1.75rem",fontWeight:"400"}],"display-lg":["3.5rem",{lineHeight:"4rem",fontWeight:"800"}],"label-lg":["1rem",{lineHeight:"1.5rem",fontWeight:"600"}],"body-sm":["0.875rem",{lineHeight:"1.25rem",fontWeight:"400"}],"headline-xl":["2.5rem",{lineHeight:"3rem",fontWeight:"800"}],"body-md":["1rem",{lineHeight:"1.5rem",fontWeight:"400"}],"headline-xl-mobile":["1.75rem",{lineHeight:"2.25rem",fontWeight:"700"}],"display-lg-mobile":["2.25rem",{lineHeight:"2.75rem",fontWeight:"800"}],"headline-lg":["2rem",{lineHeight:"2.5rem",fontWeight:"700"}],"headline-sm":["1.25rem",{lineHeight:"1.75rem",fontWeight:"600"}],"headline-md":["1.5rem",{lineHeight:"2rem",fontWeight:"700"}],"label-sm":["0.75rem",{lineHeight:"1rem",fontWeight:"700"}],"caption":["0.75rem",{lineHeight:"1rem",fontWeight:"500"}]}}}}</script></head><body class="bg-surface font-body-md text-body-md text-on-surface min-h-screen selection:bg-primary-container selection:text-on-primary-container"><header class="fixed top-0 w-full z-50 bg-surface-container-lowest/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.4)]"><div class="h-20 w-full px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-lg shrink-0"><a class="flex items-center gap-space-sm group" data-path="inicio" href="#"><img alt="QuizPulse Logo" class="h-8 w-auto object-contain transition-transform group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD2y67OihtqdUAdbh4SEo05Jp6jzf4ywOzHpmKn2p4NwHKtCiDym_MBL2PD2CAk0LYrZTTaVFVbrzvW0-q40GglrtUC-agL3PQrER2wlQMzh3KGfyhkfETP7zaYj2tVA1xDD4G1I1Mqm2RLX7D_8bk_QIJwC4ijYTJTOzI5pLmZsmEgqFAFYKQKV7BGNk8uz-Ikr0ckhF7_J40gScT2xR3Rmi959jGwCYpRyLaVES4"/><span class="font-headline-sm text-headline-sm font-bold tracking-tight text-on-surface">Quiz<span class="text-primary">Pulse</span></span></a><nav class="hidden xl:flex items-center gap-space-xs" data-active-classes="bg-surface-container-high text-on-surface font-label-md text-label-md rounded-lg"><a class="px-3 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="inicio" href="#">Inicio</a><a class="px-3 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="categorias" href="#">Categorías</a><a aria-current="page" class="px-3 py-2 transition-colors bg-surface-container-high text-on-surface font-label-md text-label-md rounded-lg" data-path="explorar-quizzes" href="#">Explorar Quizzes</a><a class="px-3 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="ranking" href="#">Ranking</a><a class="px-3 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="mis-logros" href="#">Mis Logros</a><a class="px-3 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="admin-dashboard" href="#">Admin Dashboard</a></nav></div><div class="flex-1 max-w-md mx-space-sm hidden md:block"><div class="relative flex items-center"><span class="material-symbols-outlined absolute left-3 text-outline select-none pointer-events-none">search</span><input class="w-full bg-surface-container pl-10 pr-4 py-2 rounded-xl text-on-surface placeholder:text-outline font-body-sm text-body-sm focus:outline-none focus:ring-1 focus:ring-primary shadow-inner" placeholder="Buscar quizzes, temas o creadores..." type="text"/></div></div><div class="flex items-center gap-space-sm shrink-0"><div class="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container-high shadow-[0_0_12px_-2px_rgba(245,158,11,0.2)]"><span class="text-tertiary font-label-md text-label-md select-none">🔥</span><span class="font-label-md text-label-md text-on-surface">7 días</span></div><div class="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container-high shadow-[0_0_12px_-2px_rgba(192,193,255,0.2)]"><span class="text-primary font-label-md text-label-md select-none">⚡</span><span class="font-label-md text-label-md text-primary">2,450 XP</span></div><button aria-label="Notificaciones" class="relative p-2 rounded-full text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined block">notifications</span><span class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-tertiary"></span></button><div class="flex items-center gap-space-xs pl-space-xs cursor-pointer group"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-surface-container-highest group-hover:ring-primary transition-all" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDe-iH6G0TuMGAKeQfl3Gj_gkkRYvwY4RcEuWdJ7blaEhiff00Kl3Wz4CC27F5HdACDuS0ktNewVxieEAOm443WLMLUS1bXl7VInuWwUgZi7YHMoquC2WIS3pQDxycna43oCWitjSlCPG-iCcRzv1ZQM6JeWNUOYCIsREIAkH4SAw1sObCMELBCUewCL38SVVTnpe6soJ8WgpTRPThLkEO33HHuPogPMRlawkCpjcw"/><span class="material-symbols-outlined text-outline group-hover:text-on-surface text-lg transition-transform group-hover:translate-y-0.5">expand_more</span></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-140px)]"><div class="flex flex-col w-full">
+<!-- Subtle decorative ambient background glows (strictly bounded) -->
+<div class="relative w-full overflow-hidden px-margin py-space-xl">
+<div class="absolute -top-32 left-1/4 w-96 h-96 bg-primary-container/10 rounded-full blur-3xl pointer-events-none -z-10"></div>
+<div class="absolute top-48 right-12 w-80 h-80 bg-tertiary-container/10 rounded-full blur-3xl pointer-events-none -z-10"></div>
+<!-- Header & Summary Meta Section -->
+<div class="w-full flex flex-col lg:flex-row lg:items-end justify-between gap-space-lg mb-space-xl">
+<div class="space-y-space-xs max-w-2xl">
+<div class="flex items-center gap-space-xs">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-high text-tertiary font-label-sm text-label-sm shadow-[0_0_12px_-2px_rgba(255,185,95,0.25)]">
+<span class="material-symbols-outlined text-sm leading-none" style="font-variation-settings: 'FILL' 1;">bolt</span>
+            MODO TEMPORADA ACTIVA
+          </span>
+<span class="text-outline font-label-sm text-label-sm">•</span>
+<span class="text-outline font-label-sm text-label-sm tracking-wider uppercase">Catálogo Global</span>
+</div>
+<h1 class="font-headline-xl text-headline-xl text-on-surface tracking-tight font-extrabold">
+          Explorador de Quizzes
+        </h1>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Pon a prueba tu agilidad mental, compite contra creadores de élite y acumula multiplicadores de XP en tiempo real.
+        </p>
+</div>
+<!-- Controls Right: Counter & Sorter -->
+<div class="flex flex-wrap items-center gap-space-md">
+<div class="flex items-center gap-2 px-4 py-2.5 rounded-xl bg-surface-container-low shadow-sm">
+<span class="w-2.5 h-2.5 rounded-full bg-primary animate-pulse"></span>
+<span class="font-label-md text-label-md text-on-surface">Mostrando <span class="text-primary font-bold">128</span> quizzes disponibles</span>
+</div>
+<div class="relative inline-flex items-center">
+<label class="sr-only" for="sort-select">Ordenar quizzes por</label>
+<div class="flex items-center bg-surface-container-high rounded-xl px-3 py-2 text-on-surface focus-within:ring-1 focus-within:ring-primary shadow-sm">
+<span class="material-symbols-outlined text-primary text-xl mr-2 select-none">swap_vert</span>
+<span class="font-label-sm text-label-sm text-outline mr-2 hidden sm:inline">Ordenar:</span>
+<select class="bg-transparent font-label-md text-label-md text-on-surface focus:outline-none cursor-pointer pr-4 appearance-none" id="sort-select">
+<option class="bg-surface-container-high text-on-surface" value="pop">Más populares</option>
+<option class="bg-surface-container-high text-on-surface" value="rating">Mejor valorados</option>
+<option class="bg-surface-container-high text-on-surface" value="recent">Más recientes</option>
+<option class="bg-surface-container-high text-on-surface" value="xp">Mayor recompensa XP</option>
+</select>
+<span class="material-symbols-outlined text-outline text-lg pointer-events-none select-none">expand_more</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Quick Pill Badges Filters Row -->
+<div class="w-full flex items-center gap-space-sm overflow-x-auto pb-space-xs scrollbar-none mb-space-lg" id="filter-pills">
+<button class="group flex items-center gap-2 px-4 py-2 rounded-xl bg-primary text-on-primary font-label-md text-label-md shadow-[0_0_20px_-3px_rgba(192,193,255,0.4)] transition-all shrink-0" type="button">
+<span>Populares</span>
+<span class="text-base select-none">🔥</span>
+</button>
+<button class="group flex items-center gap-2 px-4 py-2 rounded-xl bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-label-md text-label-md transition-all shrink-0 shadow-sm" type="button">
+<span>Nuevos</span>
+<span class="text-base select-none">✨</span>
+</button>
+<button class="group flex items-center gap-2 px-4 py-2 rounded-xl bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-label-md text-label-md transition-all shrink-0 shadow-sm" type="button">
+<span class="text-tertiary">Doble XP</span>
+<span class="text-base select-none">⚡</span>
+</button>
+<button class="group flex items-center gap-2 px-4 py-2 rounded-xl bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-label-md text-label-md transition-all shrink-0 shadow-sm" type="button">
+<span>Desafíos de la Semana</span>
+<span class="text-base select-none">🏆</span>
+</button>
+<button class="group flex items-center gap-2 px-4 py-2 rounded-xl bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-label-md text-label-md transition-all shrink-0 shadow-sm" type="button">
+<span>Modo Cronómetro</span>
+<span class="text-base select-none">⏱️</span>
+</button>
+<button class="group flex items-center gap-2 px-3 py-2 rounded-xl bg-surface-container hover:bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm transition-all shrink-0" type="button">
+<span class="material-symbols-outlined text-sm">tune</span>
+<span>Más filtros</span>
+</button>
+</div>
+<!-- Active Search & Layout Mode Toolbar -->
+<div class="w-full flex flex-col md:flex-row items-stretch md:items-center justify-between gap-space-md p-space-md rounded-2xl bg-surface-container-low shadow-sm mb-space-xl">
+<!-- Search with autocomplete placeholder indicator -->
+<div class="flex-1 relative flex items-center">
+<span class="material-symbols-outlined absolute left-3.5 text-primary text-xl select-none">search</span>
+<input class="w-full pl-11 pr-24 py-2.5 rounded-xl bg-surface-container text-on-surface placeholder:text-outline font-body-sm text-body-sm focus:outline-none focus:ring-1 focus:ring-primary shadow-inner" id="quiz-search" placeholder="Buscar por tema, tecnología, periodo o autor..." type="text"/>
+<div class="absolute right-3 hidden sm:flex items-center gap-1 px-2 py-0.5 rounded bg-surface-container-highest text-outline font-caption text-caption uppercase tracking-wider">
+          ⌘K
+        </div>
+</div>
+<!-- Quick Category Select Tags & Layout toggles -->
+<div class="flex items-center justify-between sm:justify-end gap-space-md shrink-0">
+<div class="hidden lg:flex items-center gap-1.5 text-outline font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-base">category</span>
+<span>Categoría:</span>
+<span class="text-on-surface font-semibold">Todas</span>
+</div>
+<!-- View Mode Switcher -->
+<div class="flex items-center bg-surface-container p-1 rounded-xl shadow-inner">
+<button aria-label="Vista de cuadrícula" class="flex items-center justify-center p-2 rounded-lg bg-surface-container-highest text-primary transition-colors shadow-sm" id="view-grid-btn" type="button">
+<span class="material-symbols-outlined text-xl">grid_view</span>
+</button>
+<button aria-label="Vista de lista" class="flex items-center justify-center p-2 rounded-lg text-outline hover:text-on-surface transition-colors" id="view-list-btn" type="button">
+<span class="material-symbols-outlined text-xl">view_agenda</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Quizzes Grid Bento -->
+<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-space-lg" id="quiz-grid-container">
+<!-- Quiz Card 1: Frontend / JS Moderno -->
+<article class="group relative flex flex-col justify-between rounded-2xl bg-surface-container-low hover:bg-surface-container transition-all duration-300 shadow-md hover:shadow-xl hover:-translate-y-1 overflow-hidden">
+<!-- Visual Scrim Media Header -->
+<div class="relative h-48 w-full overflow-hidden bg-surface-container">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="Digital developer workspace at dusk with dual glowing monitors displaying modern JavaScript code and glowing neon circuits in high contrast purple and indigo tones, 8k render." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCCUVDDmUV8pdM9XwKYXt_QZX-34mUiSIC-MBYwF-m730y6cHufW8BdmCAc54rZ5964EaR_b3YRoO8_9rGbKfoVoNTPAgQZL6KRmc7erAdnAQu-rgcMaXqernJe9UGUZXRNzq86HuLnWeounNwBlWNEYaE60CDYESFG3wGf_hxohC1DihHb4Y8RaIpaJBJPuhKK55FIVaLFzra__Sf0_0euk-SZpAd3CIvD1bQntOU')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low via-surface-container-low/40 to-transparent"></div>
+<!-- Top Floating Pills -->
+<div class="absolute top-3 inset-x-3 flex items-center justify-between">
+<span class="px-2.5 py-1 rounded-lg bg-surface-container-lowest/80 backdrop-blur-md text-tertiary font-label-sm text-label-sm font-bold flex items-center gap-1 shadow-sm">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">bolt</span>
+              +350 XP
+            </span>
+<button aria-label="Guardar en favoritos" class="fav-toggle w-9 h-9 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-outline hover:text-error flex items-center justify-center transition-colors shadow-sm" type="button">
+<span class="material-symbols-outlined text-lg">bookmark</span>
+</button>
+</div>
+<!-- Badge Achievement Highlight -->
+<div class="absolute bottom-3 left-3 flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-secondary-container/90 text-on-secondary-container font-caption text-caption shadow-sm backdrop-blur-sm">
+<span class="material-symbols-outlined text-sm">verified</span>
+<span>Insignia Código Ninja</span>
+</div>
+</div>
+<!-- Body Details -->
+<div class="p-space-lg flex-1 flex flex-col justify-between">
+<div class="space-y-space-sm">
+<!-- Author Block -->
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<img class="w-7 h-7 rounded-full object-cover shadow-sm" data-alt="Avatar portrait of an experienced software engineer with soft studio lighting against an abstract violet background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC9ZxFb7soYIN1RZwgEz6_Pz-91Q1648cdZnEesmInbq0QMPB1ZnJ_52dvUd6l3YkvGlKeVRlgfPHcAyF5JMuOfG_TIWsW_z1l6NqzuB7HoiUPykEr622otYPVcQIpvKb0tYOPTC-2Z7kfKM9peNs0h4JkfaQ0IyyyGdSPZ4IMZM-WZetBp4cTg0h7GmZLnhocpcMzBzuOGOL-P4zH1hjdZjgD19Kr3sb3jS5anxg4"/>
+<div class="flex items-center gap-1">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold">David Velasco</span>
+<span class="material-symbols-outlined text-primary text-sm select-none" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+</div>
+</div>
+<span class="px-2 py-0.5 rounded bg-surface-container-highest text-secondary font-label-sm text-label-sm font-medium">
+                Intermedio
+              </span>
+</div>
+<!-- Quiz Title -->
+<h2 class="font-headline-sm text-headline-sm text-on-surface font-bold group-hover:text-primary transition-colors line-clamp-2">
+              Mundo Frontend: JavaScript Moderno &amp; ES2024
+            </h2>
+<!-- Metrics bar -->
+<div class="flex items-center gap-space-md text-on-surface-variant font-body-sm text-body-sm pt-1">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-sm text-outline">quiz</span>
+<span>15 preguntas</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-sm text-outline">schedule</span>
+<span>10 min</span>
+</div>
+<div class="flex items-center gap-1 text-tertiary">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-bold text-on-surface">4.9</span>
+<span class="text-outline text-caption">(2.4k)</span>
+</div>
+</div>
+<!-- Tag Chips -->
+<div class="flex flex-wrap gap-1.5 pt-space-xs">
+<a class="px-2 py-0.5 rounded bg-surface-container text-outline hover:text-on-surface font-caption text-caption transition-colors" href="#">#JavaScript</a>
+<a class="px-2 py-0.5 rounded bg-surface-container text-outline hover:text-on-surface font-caption text-caption transition-colors" href="#">#Frontend</a>
+<a class="px-2 py-0.5 rounded bg-surface-container text-outline hover:text-on-surface font-caption text-caption transition-colors" href="#">#WebDev</a>
+</div>
+</div>
+<!-- Bottom Action -->
+<div class="pt-space-lg mt-space-md border-t-0 flex items-center justify-between gap-space-sm">
+<div class="flex -space-x-2 overflow-hidden">
+<span class="inline-block h-6 w-6 rounded-full bg-surface-container-highest text-center text-outline font-caption leading-6 text-xs">⚡</span>
+<span class="inline-block h-6 w-6 rounded-full bg-surface-container text-center text-outline font-caption leading-6 text-xs">+42</span>
+</div>
+<button class="flex-1 max-w-[160px] py-2 px-4 rounded-xl bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md flex items-center justify-center gap-1.5 transition-all shadow-[0_0_16px_-4px_rgba(192,193,255,0.3)]" type="button">
+<span>Ver Quiz</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Quiz Card 2: Astrofísica Básica -->
+<article class="group relative flex flex-col justify-between rounded-2xl bg-surface-container-low hover:bg-surface-container transition-all duration-300 shadow-md hover:shadow-xl hover:-translate-y-1 overflow-hidden">
+<!-- Visual Scrim Media Header -->
+<div class="relative h-48 w-full overflow-hidden bg-surface-container">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="Deep space nebula with vibrant cosmic dust in indigo and gold hues, surrounding distant galaxies and luminous stars, captured by an orbital space observatory telescope, cinematic hyper-detailed." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC8lnbPPWVI6fjm137xqPcup4zpN1_qtypiLMx-15a2JdhbnKfneNOzc2mCQFY7bGf-xQ2KUDK1EWL9R2IZKPQVRtR718yxpJCmx4V8sBbBa8ayRJgvZzvKHgxr6qLJOPt7doZLNpsWU2cjrYH_HF2Ely5uwwmaNUQclJcWMDUPQsnh8zh3GrMq1kun21ogsNVfG_-nwz6joSUFFhmCcGwuFrRGa6OYJvVywFv9-OQ')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low via-surface-container-low/40 to-transparent"></div>
+<div class="absolute top-3 inset-x-3 flex items-center justify-between">
+<span class="px-2.5 py-1 rounded-lg bg-surface-container-lowest/80 backdrop-blur-md text-tertiary font-label-sm text-label-sm font-bold flex items-center gap-1 shadow-sm">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">bolt</span>
+              +500 XP
+            </span>
+<button aria-label="Guardar en favoritos" class="fav-toggle w-9 h-9 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-outline hover:text-error flex items-center justify-center transition-colors shadow-sm" type="button">
+<span class="material-symbols-outlined text-lg">bookmark</span>
+</button>
+</div>
+<div class="absolute bottom-3 left-3 flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-tertiary-container/90 text-on-tertiary font-caption text-caption shadow-sm backdrop-blur-sm">
+<span class="material-symbols-outlined text-sm">military_tech</span>
+<span>Explorador Estelar</span>
+</div>
+</div>
+<div class="p-space-lg flex-1 flex flex-col justify-between">
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<img class="w-7 h-7 rounded-full object-cover shadow-sm" data-alt="Profile portrait of a female astrophysicist with glasses smiling under atmospheric dark observatory lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAP_vy1NRPAALBQUbVzbfJb26GMc1FM8vPNUV2TPYjtG3oxA-ITpuL-m01sDkNx_sjJJmolD20n0L183GvaQ7L4P2FTLR5ogvwRGjgmC6q-JGqEKLxEDk9TRrBWG_pIZDvbBhM1bIsgmWEH9Wy7BAidGwrdJlex4bh_-f7j3sy45EJLcM9873Bo9nAv9NtUm1rdLrF4NtecTpfIMLxjBxm_tYLyZKOFzKKNaoRulMg"/>
+<div class="flex items-center gap-1">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold">Dra. Sara Morales</span>
+<span class="material-symbols-outlined text-primary text-sm select-none" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+</div>
+</div>
+<span class="px-2 py-0.5 rounded bg-error-container text-on-error-container font-label-sm text-label-sm font-medium">
+                Difícil
+              </span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface font-bold group-hover:text-primary transition-colors line-clamp-2">
+              Secretos del Universo: Astrofísica Básica &amp; Cosmología
+            </h2>
+<div class="flex items-center gap-space-md text-on-surface-variant font-body-sm text-body-sm pt-1">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-sm text-outline">quiz</span>
+<span>20 preguntas</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-sm text-outline">schedule</span>
+<span>15 min</span>
+</div>
+<div class="flex items-center gap-1 text-tertiary">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-bold text-on-surface">4.8</span>
+<span class="text-outline text-caption">(1.8k)</span>
+</div>
+</div>
+<div class="flex flex-wrap gap-1.5 pt-space-xs">
+<a class="px-2 py-0.5 rounded bg-surface-container text-outline hover:text-on-surface font-caption text-caption transition-colors" href="#">#Cosmología</a>
+<a class="px-2 py-0.5 rounded bg-surface-container text-outline hover:text-on-surface font-caption text-caption transition-colors" href="#">#Espacio</a>
+<a class="px-2 py-0.5 rounded bg-surface-container text-outline hover:text-on-surface font-caption text-caption transition-colors" href="#">#Física</a>
+</div>
+</div>
+<div class="pt-space-lg mt-space-md flex items-center justify-between gap-space-sm">
+<div class="flex -space-x-2 overflow-hidden">
+<span class="inline-block h-6 w-6 rounded-full bg-surface-container-highest text-center text-outline font-caption leading-6 text-xs">🚀</span>
+<span class="inline-block h-6 w-6 rounded-full bg-surface-container text-center text-outline font-caption leading-6 text-xs">+89</span>
+</div>
+<button class="flex-1 max-w-[160px] py-2 px-4 rounded-xl bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md flex items-center justify-center gap-1.5 transition-all shadow-[0_0_16px_-4px_rgba(192,193,255,0.3)]" type="button">
+<span>Ver Quiz</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Quiz Card 3: Historia Medieval -->
+<article class="group relative flex flex-col justify-between rounded-2xl bg-surface-container-low hover:bg-surface-container transition-all duration-300 shadow-md hover:shadow-xl hover:-translate-y-1 overflow-hidden">
+<!-- Visual Scrim Media Header -->
+<div class="relative h-48 w-full overflow-hidden bg-surface-container">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="Gothic medieval stone castle surrounded by misty ancient forest with dramatic torchlight glow and starry twilight sky, cinematic historical atmosphere." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC6LlF4XkS9Erfcd7RBSOX9KMpWUIs42tNEmqANU_tIbsLbCcvh4-PLxIINvavFS6mmE61AxgFPC57Tkj9Uvi2Sp6k-r8vJhepWpf7PPt2ftLBCsliods8lpUkQ7FFb-zda7_KXFxK44h_ACF492cGluIYootoI3gJywfVNks2oVbSkGGokOSgoa5fksw-6GH4B4h-Io7y3c5M39R9b6kL3ui1ByrgVMANVe6ODgQg')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low via-surface-container-low/40 to-transparent"></div>
+<div class="absolute top-3 inset-x-3 flex items-center justify-between">
+<span class="px-2.5 py-1 rounded-lg bg-surface-container-lowest/80 backdrop-blur-md text-tertiary font-label-sm text-label-sm font-bold flex items-center gap-1 shadow-sm">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">bolt</span>
+              +300 XP
+            </span>
+<button aria-label="Guardar en favoritos" class="fav-toggle w-9 h-9 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-outline hover:text-error flex items-center justify-center transition-colors shadow-sm" type="button">
+<span class="material-symbols-outlined text-lg">bookmark</span>
+</button>
+</div>
+<div class="absolute bottom-3 left-3 flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-caption text-caption shadow-sm backdrop-blur-sm">
+<span class="material-symbols-outlined text-sm">shield</span>
+<span>Corona Medieval</span>
+</div>
+</div>
+<div class="p-space-lg flex-1 flex flex-col justify-between">
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<img class="w-7 h-7 rounded-full object-cover shadow-sm" data-alt="Portrait photograph of a scholarly historian in tweed with archival library in the soft blurred background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDTpCQSsBNMM3iLnJ673FRLBMyJ2nVZjZdVIx9-9bX18LD3Mki8dAkriiLbshg_8EMWdcHFsec4dmEWQ19tIkujASmj0c3l1J17TqSsrcgNx1Nt_Mv7aVIisa4wocq_Mht8jySO4IoiGZ-qbfjI2A1KFs3MjS3-JEkMYZDkOmJK6JN6b-GHUVYwhbpZ4MSRFWhKfbxWUDrPFhldvlEivpA4cchTgag_-x4cosKVg64"/>
+<div class="flex items-center gap-1">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold">Rodrigo Almansa</span>
+<span class="material-symbols-outlined text-primary text-sm select-none" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+</div>
+</div>
+<span class="px-2 py-0.5 rounded bg-surface-container-highest text-secondary font-label-sm text-label-sm font-medium">
+                Intermedio
+              </span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface font-bold group-hover:text-primary transition-colors line-clamp-2">
+              Historia Medieval: Reyes, Cruzadas y Conquistas
+            </h2>
+<div class="flex items-center gap-space-md text-on-surface-variant font-body-sm text-body-sm pt-1">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-sm text-outline">quiz</span>
+<span>12 preguntas</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-sm text-outline">schedule</span>
+<span>8 min</span>
+</div>
+<div class="flex items-center gap-1 text-tertiary">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-bold text-on-surface">4.7</span>
+<span class="text-outline text-caption">(950)</span>
+</div>
+</div>
+<div class="flex flex-wrap gap-1.5 pt-space-xs">
+<a class="px-2 py-0.5 rounded bg-surface-container text-outline hover:text-on-surface font-caption text-caption transition-colors" href="#">#Historia</a>
+<a class="px-2 py-0.5 rounded bg-surface-container text-outline hover:text-on-surface font-caption text-caption transition-colors" href="#">#Europa</a>
+<a class="px-2 py-0.5 rounded bg-surface-container text-outline hover:text-on-surface font-caption text-caption transition-colors" href="#">#Monarquías</a>
+</div>
+</div>
+<div class="pt-space-lg mt-space-md flex items-center justify-between gap-space-sm">
+<div class="flex -space-x-2 overflow-hidden">
+<span class="inline-block h-6 w-6 rounded-full bg-surface-container-highest text-center text-outline font-caption leading-6 text-xs">⚔️</span>
+<span class="inline-block h-6 w-6 rounded-full bg-surface-container text-center text-outline font-caption leading-6 text-xs">+15</span>
+</div>
+<button class="flex-1 max-w-[160px] py-2 px-4 rounded-xl bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md flex items-center justify-center gap-1.5 transition-all shadow-[0_0_16px_-4px_rgba(192,193,255,0.3)]" type="button">
+<span>Ver Quiz</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Quiz Card 4: Cine de los 90s -->
+<article class="group relative flex flex-col justify-between rounded-2xl bg-surface-container-low hover:bg-surface-container transition-all duration-300 shadow-md hover:shadow-xl hover:-translate-y-1 overflow-hidden">
+<!-- Visual Scrim Media Header -->
+<div class="relative h-48 w-full overflow-hidden bg-surface-container">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="Retro 1990s vintage cinema atmosphere with analog neon signage, film strips, clapperboard, and soft nostalgic lens flare in midnight teal and gold tones." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCfD1iOxzjTh5oVhESfzWAZEVHp2apnxzQde-XSQYIHDYjCHhSeaYnwND-nAf0eZEGCmTuD9_K-KMfVaryNy_YZtoTXMk-5kVoIi7vscZ7f2XiHVzYiF5aPW31g7XSdA76Tcup3ttWWvHnrb4ck_BNnijye3NyQoqS0et7jrbRdR--TqyttVOE7A32RfNfikDeXVXCkyhG1bxXTXrI8Jm2rcIL7B6_xVXDFQOQYmBk')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low via-surface-container-low/40 to-transparent"></div>
+<div class="absolute top-3 inset-x-3 flex items-center justify-between">
+<span class="px-2.5 py-1 rounded-lg bg-surface-container-lowest/80 backdrop-blur-md text-tertiary font-label-sm text-label-sm font-bold flex items-center gap-1 shadow-sm">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">bolt</span>
+              +280 XP
+            </span>
+<button aria-label="Guardar en favoritos" class="fav-toggle w-9 h-9 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-outline hover:text-error flex items-center justify-center transition-colors shadow-sm" type="button">
+<span class="material-symbols-outlined text-lg">bookmark</span>
+</button>
+</div>
+<div class="absolute bottom-3 left-3 flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-secondary-container/90 text-on-secondary-container font-caption text-caption shadow-sm backdrop-blur-sm">
+<span class="material-symbols-outlined text-sm">movie_filter</span>
+<span>Cinéfilo Vintage</span>
+</div>
+</div>
+<div class="p-space-lg flex-1 flex flex-col justify-between">
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<img class="w-7 h-7 rounded-full object-cover shadow-sm" data-alt="Cinematic headshot portrait of a creative film critic wearing retro frames with colorful neon reflections." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxv8Vs2KJPD07y7vy91t-qVK_9xUIFBv98kQr_LRrYIGMdYvaK_qibhwL9dZEjNV0j4QzkzxD8s2BJeX2XGXhOxmnE9Et_EgXoR-iUDVv-F_5jI-6Ml4W831aNLsMkLmqUqy6V2NOka1jpGepPhF7hmEe1WPW3nOzJ6nGLy6cbxEo-IBaoV4OlJeuSLYnGUvWD9UfeSkz0epbk9dgPDk5zoDCIb-Zu6Yh2qx2ZlJ8"/>
+<div class="flex items-center gap-1">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold">Mateo Rossi</span>
+<span class="material-symbols-outlined text-primary text-sm select-none" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+</div>
+</div>
+<span class="px-2 py-0.5 rounded bg-surface-container-highest text-secondary font-label-sm text-label-sm font-medium">
+                Fácil
+              </span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface font-bold group-hover:text-primary transition-colors line-clamp-2">
+              Cine de los 90s: Preguntas Clásicas y Curiosidades
+            </h2>
+<div class="flex items-center gap-space-md text-on-surface-variant font-body-sm text-body-sm pt-1">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-sm text-outline">quiz</span>
+<span>10 preguntas</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-sm text-outline">schedule</span>
+<span>6 min</span>
+</div>
+<div class="flex items-center gap-1 text-tertiary">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-bold text-on-surface">4.9</span>
+<span class="text-outline text-caption">(3.1k)</span>
+</div>
+</div>
+<div class="flex flex-wrap gap-1.5 pt-space-xs">
+<a class="px-2 py-0.5 rounded bg-surface-container text-outline hover:text-on-surface font-caption text-caption transition-colors" href="#">#Cine</a>
+<a class="px-2 py-0.5 rounded bg-surface-container text-outline hover:text-on-surface font-caption text-caption transition-colors" href="#">#PopCulture</a>
+<a class="px-2 py-0.5 rounded bg-surface-container text-outline hover:text-on-surface font-caption text-caption transition-colors" href="#">#Retro</a>
+</div>
+</div>
+<div class="pt-space-lg mt-space-md flex items-center justify-between gap-space-sm">
+<div class="flex -space-x-2 overflow-hidden">
+<span class="inline-block h-6 w-6 rounded-full bg-surface-container-highest text-center text-outline font-caption leading-6 text-xs">🍿</span>
+<span class="inline-block h-6 w-6 rounded-full bg-surface-container text-center text-outline font-caption leading-6 text-xs">+120</span>
+</div>
+<button class="flex-1 max-w-[160px] py-2 px-4 rounded-xl bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md flex items-center justify-center gap-1.5 transition-all shadow-[0_0_16px_-4px_rgba(192,193,255,0.3)]" type="button">
+<span>Ver Quiz</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Quiz Card 5: Algoritmos y Estructuras -->
+<article class="group relative flex flex-col justify-between rounded-2xl bg-surface-container-low hover:bg-surface-container transition-all duration-300 shadow-md hover:shadow-xl hover:-translate-y-1 overflow-hidden">
+<!-- Visual Scrim Media Header -->
+<div class="relative h-48 w-full overflow-hidden bg-surface-container">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="Abstract computational 3D binary data graph nodes illuminated with vibrant amber and ultraviolet pulses against an ultra-dark background, high tech aesthetic." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBapVRyyYfrttm_b02x2BgUfmDK_EP-Tx5WXrr3eZKmRYJmcxGImnAZyDvk059gTBon1RNMpRyP-dnJ-DNNQGP_Oa1xQfBYDGprvqu5c5n5aG05jQN8BIC1loxtimNE318oqR7FuuRW-riuMnnVKtwNdnLzoN_fTBAX_jaw4buSe9z3zsde-QpV3yw-1Enui6_bQLAQJEoT3qYhU87yp-2XRY4-FqXTCY7exlpzra0')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low via-surface-container-low/40 to-transparent"></div>
+<div class="absolute top-3 inset-x-3 flex items-center justify-between">
+<span class="px-2.5 py-1 rounded-lg bg-surface-container-lowest/80 backdrop-blur-md text-tertiary font-label-sm text-label-sm font-bold flex items-center gap-1 shadow-sm">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">bolt</span>
+              +600 XP
+            </span>
+<button aria-label="Guardar en favoritos" class="fav-toggle w-9 h-9 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-outline hover:text-error flex items-center justify-center transition-colors shadow-sm" type="button">
+<span class="material-symbols-outlined text-lg">bookmark</span>
+</button>
+</div>
+<div class="absolute bottom-3 left-3 flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-tertiary-container/90 text-on-tertiary font-caption text-caption shadow-sm backdrop-blur-sm">
+<span class="material-symbols-outlined text-sm">psychology</span>
+<span>Maestro Algorítmico</span>
+</div>
+</div>
+<div class="p-space-lg flex-1 flex flex-col justify-between">
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<img class="w-7 h-7 rounded-full object-cover shadow-sm" data-alt="Close up profile picture of a competitive programmer with subtle indigo LED backlight in a modern tech office." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDz-LsaWIXdUv29EGHrNwN2_KzgXD_441DGax5Ac48XgWkhHcRNZ1mDGF1X9P9A3uXjk53CwAXMWuHCcowD-nAWhEMaCewlKqXB6cCySTvR8uUeK-F9kfRh7GeJ0CVimumnmFmjhJqhGJfAb5tL1ZXgxV9y3H2YIR9tRF4-Wui5R4l2VrtwxB8eqisrx3w56qiePdjQqFgLuu7IHAjHhZES8y5MnYie_xdovzUc8fc"/>
+<div class="flex items-center gap-1">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold">Alba Chen</span>
+<span class="material-symbols-outlined text-primary text-sm select-none" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+</div>
+</div>
+<span class="px-2 py-0.5 rounded bg-error-container text-on-error-container font-label-sm text-label-sm font-medium">
+                Difícil
+              </span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface font-bold group-hover:text-primary transition-colors line-clamp-2">
+              Algoritmos y Estructuras de Datos Avanzadas
+            </h2>
+<div class="flex items-center gap-space-md text-on-surface-variant font-body-sm text-body-sm pt-1">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-sm text-outline">quiz</span>
+<span>25 preguntas</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-sm text-outline">schedule</span>
+<span>20 min</span>
+</div>
+<div class="flex items-center gap-1 text-tertiary">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-bold text-on-surface">5.0</span>
+<span class="text-outline text-caption">(4.1k)</span>
+</div>
+</div>
+<div class="flex flex-wrap gap-1.5 pt-space-xs">
+<a class="px-2 py-0.5 rounded bg-surface-container text-outline hover:text-on-surface font-caption text-caption transition-colors" href="#">#ComputerScience</a>
+<a class="px-2 py-0.5 rounded bg-surface-container text-outline hover:text-on-surface font-caption text-caption transition-colors" href="#">#BigO</a>
+<a class="px-2 py-0.5 rounded bg-surface-container text-outline hover:text-on-surface font-caption text-caption transition-colors" href="#">#Arboles</a>
+</div>
+</div>
+<div class="pt-space-lg mt-space-md flex items-center justify-between gap-space-sm">
+<div class="flex -space-x-2 overflow-hidden">
+<span class="inline-block h-6 w-6 rounded-full bg-surface-container-highest text-center text-outline font-caption leading-6 text-xs">💡</span>
+<span class="inline-block h-6 w-6 rounded-full bg-surface-container text-center text-outline font-caption leading-6 text-xs">+310</span>
+</div>
+<button class="flex-1 max-w-[160px] py-2 px-4 rounded-xl bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md flex items-center justify-center gap-1.5 transition-all shadow-[0_0_16px_-4px_rgba(192,193,255,0.3)]" type="button">
+<span>Ver Quiz</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Quiz Card 6: Biología Marina -->
+<article class="group relative flex flex-col justify-between rounded-2xl bg-surface-container-low hover:bg-surface-container transition-all duration-300 shadow-md hover:shadow-xl hover:-translate-y-1 overflow-hidden">
+<!-- Visual Scrim Media Header -->
+<div class="relative h-48 w-full overflow-hidden bg-surface-container">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="Bioluminescent deep sea marine organisms glowing in ethereal neon cyan and electric violet in dark ocean depths, underwater macro photography." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBc9WeRgcH5W36t9c0xpXxgPo7AOLvPNYYJkS9cvPveYV6N4SfSiGiz-ORdul7heNgRqVWBeNHLXW6aBCTY5pqRPNvJORXZP4uxFAjeQckt6yC3nemm2BioA1yJGXyvrl1PwxynAPtRofjlzwbO4SGU-pbJDY__3DiTT3Pqll8Cl-XouQKQFWe56VozD3Kpi_qSiCRjhludzB8ofPwhmrG23VJgXxGy0OcMZjI-k_g')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low via-surface-container-low/40 to-transparent"></div>
+<div class="absolute top-3 inset-x-3 flex items-center justify-between">
+<span class="px-2.5 py-1 rounded-lg bg-surface-container-lowest/80 backdrop-blur-md text-tertiary font-label-sm text-label-sm font-bold flex items-center gap-1 shadow-sm">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">bolt</span>
+              +380 XP
+            </span>
+<button aria-label="Guardar en favoritos" class="fav-toggle w-9 h-9 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-outline hover:text-error flex items-center justify-center transition-colors shadow-sm" type="button">
+<span class="material-symbols-outlined text-lg">bookmark</span>
+</button>
+</div>
+<div class="absolute bottom-3 left-3 flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-secondary-container/90 text-on-secondary-container font-caption text-caption shadow-sm backdrop-blur-sm">
+<span class="material-symbols-outlined text-sm">water_drop</span>
+<span>Abismo Marino</span>
+</div>
+</div>
+<div class="p-space-lg flex-1 flex flex-col justify-between">
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<img class="w-7 h-7 rounded-full object-cover shadow-sm" data-alt="Avatar portrait of an oceanographer and marine biologist in a diving suit smiling on research vessel." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDEtnrMcZiv3HE7cIJAwGSW4c3EIloLcSk6-7IqPz5XPU9w-ALAIJXQ12lupQKygKnSuShKK_Ox9o2l-ErhJ4noLRa0dWxTIIsiYzeJMFjTkAOHMokT5MEC3vA-gAaOcbvXPPPxQVzefsXlY48q8RRMJ90_6kvC-xvI_oFrAlKPpIukcdybrDt4ugy9q16e7A8HwObfQtin_k5hpUgb01fiyE1iam3N9tcaHc6eBZM"/>
+<div class="flex items-center gap-1">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold">Lucas Noguera</span>
+<span class="material-symbols-outlined text-primary text-sm select-none" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+</div>
+</div>
+<span class="px-2 py-0.5 rounded bg-surface-container-highest text-secondary font-label-sm text-label-sm font-medium">
+                Intermedio
+              </span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface font-bold group-hover:text-primary transition-colors line-clamp-2">
+              Criaturas Abisales: Misterios de la Biología Marina
+            </h2>
+<div class="flex items-center gap-space-md text-on-surface-variant font-body-sm text-body-sm pt-1">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-sm text-outline">quiz</span>
+<span>15 preguntas</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-sm text-outline">schedule</span>
+<span>10 min</span>
+</div>
+<div class="flex items-center gap-1 text-tertiary">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-bold text-on-surface">4.6</span>
+<span class="text-outline text-caption">(810)</span>
+</div>
+</div>
+<div class="flex flex-wrap gap-1.5 pt-space-xs">
+<a class="px-2 py-0.5 rounded bg-surface-container text-outline hover:text-on-surface font-caption text-caption transition-colors" href="#">#Biología</a>
+<a class="px-2 py-0.5 rounded bg-surface-container text-outline hover:text-on-surface font-caption text-caption transition-colors" href="#">#Océanos</a>
+<a class="px-2 py-0.5 rounded bg-surface-container text-outline hover:text-on-surface font-caption text-caption transition-colors" href="#">#Naturaleza</a>
+</div>
+</div>
+<div class="pt-space-lg mt-space-md flex items-center justify-between gap-space-sm">
+<div class="flex -space-x-2 overflow-hidden">
+<span class="inline-block h-6 w-6 rounded-full bg-surface-container-highest text-center text-outline font-caption leading-6 text-xs">🌊</span>
+<span class="inline-block h-6 w-6 rounded-full bg-surface-container text-center text-outline font-caption leading-6 text-xs">+54</span>
+</div>
+<button class="flex-1 max-w-[160px] py-2 px-4 rounded-xl bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md flex items-center justify-center gap-1.5 transition-all shadow-[0_0_16px_-4px_rgba(192,193,255,0.3)]" type="button">
+<span>Ver Quiz</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</div>
+</article>
+</div>
+<!-- Interactive Load More Section / Modern Pagination State -->
+<div class="w-full flex flex-col items-center justify-center pt-space-xl pb-space-lg gap-space-md">
+<div class="flex items-center gap-2 text-outline font-body-sm text-body-sm">
+<span>Has explorado</span>
+<span class="text-on-surface font-bold">6</span>
+<span>de</span>
+<span class="text-on-surface font-bold">128</span>
+<span>quizzes disponibles</span>
+</div>
+<!-- Linear Capsule Progress Meter -->
+<div class="w-full max-w-xs h-2 bg-surface-container-high rounded-full overflow-hidden shadow-inner">
+<div class="h-full bg-primary rounded-full transition-all duration-500" style="width: 5%;"></div>
+</div>
+<!-- Action Button with dynamic loading micro-state -->
+<button class="mt-space-xs group relative px-8 py-3 rounded-2xl bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-label-lg text-label-lg transition-all shadow-md hover:shadow-xl flex items-center gap-space-sm" id="load-more-btn" type="button">
+<span class="material-symbols-outlined text-primary group-hover:rotate-180 transition-transform duration-500" id="load-icon">sync</span>
+<span id="load-text">Cargar más quizzes</span>
+</button>
+</div>
+</div>
+</div>
+<script>
+  // Simple view switcher and bookmark toggle interactions
+  document.addEventListener('DOMContentLoaded', () => {
+    const gridBtn = document.getElementById('view-grid-btn');
+    const listBtn = document.getElementById('view-list-btn');
+    const container = document.getElementById('quiz-grid-container');
+
+    if (gridBtn && listBtn && container) {
+      gridBtn.addEventListener('click', () => {
+        gridBtn.classList.add('bg-surface-container-highest', 'text-primary');
+        gridBtn.classList.remove('text-outline');
+        listBtn.classList.remove('bg-surface-container-highest', 'text-primary');
+        listBtn.classList.add('text-outline');
+        container.className = 'grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-space-lg';
+      });
+
+      listBtn.addEventListener('click', () => {
+        listBtn.classList.add('bg-surface-container-highest', 'text-primary');
+        listBtn.classList.remove('text-outline');
+        gridBtn.classList.remove('bg-surface-container-highest', 'text-primary');
+        gridBtn.classList.add('text-outline');
+        container.className = 'grid grid-cols-1 gap-space-lg';
+      });
+    }
+
+    // Favorite Bookmarks Toggle
+    const favButtons = document.querySelectorAll('.fav-toggle');
+    favButtons.forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        const icon = btn.querySelector('.material-symbols-outlined');
+        if (icon) {
+          if (icon.textContent === 'bookmark') {
+            icon.textContent = 'bookmark_added';
+            btn.classList.add('text-primary');
+            btn.classList.remove('text-outline');
+          } else {
+            icon.textContent = 'bookmark';
+            btn.classList.remove('text-primary');
+            btn.classList.add('text-outline');
+          }
+        }
+      });
+    });
+
+    // Load More Simulation
+    const loadBtn = document.getElementById('load-more-btn');
+    const loadIcon = document.getElementById('load-icon');
+    const loadText = document.getElementById('load-text');
+    if (loadBtn && loadIcon && loadText) {
+      loadBtn.addEventListener('click', () => {
+        loadIcon.classList.add('animate-spin');
+        loadText.textContent = 'Cargando desafíos...';
+        loadBtn.disabled = true;
+        setTimeout(() => {
+          loadIcon.classList.remove('animate-spin');
+          loadText.textContent = 'Cargar más quizzes';
+          loadBtn.disabled = false;
+        }, 1200);
+      });
+    }
+
+    // Filter Pills Switch
+    const pillButtons = document.querySelectorAll('#filter-pills > button');
+    pillButtons.forEach(pill => {
+      pill.addEventListener('click', () => {
+        pillButtons.forEach(p => {
+          p.classList.remove('bg-primary', 'text-on-primary', 'shadow-[0_0_20px_-3px_rgba(192,193,255,0.4)]');
+          p.classList.add('bg-surface-container-high', 'text-on-surface');
+        });
+        pill.classList.add('bg-primary', 'text-on-primary', 'shadow-[0_0_20px_-3px_rgba(192,193,255,0.4)]');
+        pill.classList.remove('bg-surface-container-high', 'text-on-surface');
+      });
+    });
+  });
+</script></main><footer class="w-full bg-surface-container-lowest mt-space-xl py-space-xl"><div class="w-full px-margin flex flex-col md:flex-row items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm"><img alt="QuizPulse Logo" class="h-6 w-auto object-contain opacity-80" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD2y67OihtqdUAdbh4SEo05Jp6jzf4ywOzHpmKn2p4NwHKtCiDym_MBL2PD2CAk0LYrZTTaVFVbrzvW0-q40GglrtUC-agL3PQrER2wlQMzh3KGfyhkfETP7zaYj2tVA1xDD4G1I1Mqm2RLX7D_8bk_QIJwC4ijYTJTOzI5pLmZsmEgqFAFYKQKV7BGNk8uz-Ikr0ckhF7_J40gScT2xR3Rmi959jGwCYpRyLaVES4"/><span class="font-headline-sm text-headline-sm font-bold text-on-surface-variant">Quiz<span class="text-primary">Pulse</span></span></div><p class="font-body-sm text-body-sm text-outline">© 2025 QuizPulse Platform. Desafía tu mente en tiempo real.</p><div class="flex items-center gap-space-lg font-label-sm text-label-sm text-outline"><a class="hover:text-on-surface transition-colors" href="#">Términos de Servicio</a><a class="hover:text-on-surface transition-colors" href="#">Privacidad</a><a class="hover:text-on-surface transition-colors" href="#">Soporte</a></div></div></footer></body></html>
