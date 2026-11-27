@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"inverse-surface":"#dae2fd","inverse-on-surface":"#283044","surface-container-highest":"#2d3449","secondary":"#c3c0ff","surface-container":"#171f33","on-error":"#690005","on-primary-container":"#0d0096","tertiary-fixed-dim":"#ffb95f","secondary-fixed":"#e2dfff","primary-fixed-dim":"#c0c1ff","on-secondary-container":"#b3b1ff","on-tertiary":"#472a00","surface-container-high":"#222a3d","secondary-container":"#3626ce","outline-variant":"#464554","secondary-fixed-dim":"#c3c0ff","tertiary-container":"#ca8100","on-tertiary-fixed":"#2a1700","on-surface-variant":"#c7c4d7","tertiary":"#ffb95f","primary-container":"#8083ff","on-tertiary-fixed-variant":"#653e00","on-secondary-fixed":"#0f0069","on-primary-fixed":"#07006c","surface":"#0b1326","primary":"#c0c1ff","surface-variant":"#2d3449","surface-dim":"#0b1326","outline":"#908fa0","on-background":"#dae2fd","on-tertiary-container":"#3e2400","surface-container-lowest":"#060e20","on-primary-fixed-variant":"#2f2ebe","on-primary":"#1000a9","error-container":"#93000a","primary-fixed":"#e1e0ff","surface-bright":"#31394d","surface-tint":"#c0c1ff","on-secondary":"#1d00a5","surface-container-low":"#131b2e","error":"#ffb4ab","on-surface":"#dae2fd","background":"#0b1326","on-error-container":"#ffdad6","inverse-primary":"#494bd6","on-secondary-fixed-variant":"#3323cc","tertiary-fixed":"#ffddb8"},borderRadius:{DEFAULT:"0.25rem",lg:"0.5rem",xl:"0.75rem",full:"9999px"},spacing:{"gutter":"1.5rem","margin-mobile":"1rem","margin":"2rem","space-md":"1rem","space-xl":"2.5rem","space-sm":"0.5rem","gutter-mobile":"1rem","space-xs":"0.25rem","space-lg":"1.5rem"},fontFamily:{"label-md":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"display-lg":["Plus Jakarta Sans"],"label-lg":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"headline-xl":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"headline-xl-mobile":["Plus Jakarta Sans"],"display-lg-mobile":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"caption":["Plus Jakarta Sans"]},fontSize:{"label-md":["0.875rem",{lineHeight:"1.25rem",fontWeight:"600"}],"body-lg":["1.125rem",{lineHeight:"1.75rem",fontWeight:"400"}],"display-lg":["3.5rem",{lineHeight:"4rem",fontWeight:"800"}],"label-lg":["1rem",{lineHeight:"1.5rem",fontWeight:"600"}],"body-sm":["0.875rem",{lineHeight:"1.25rem",fontWeight:"400"}],"headline-xl":["2.5rem",{lineHeight:"3rem",fontWeight:"800"}],"body-md":["1rem",{lineHeight:"1.5rem",fontWeight:"400"}],"headline-xl-mobile":["1.75rem",{lineHeight:"2.25rem",fontWeight:"700"}],"display-lg-mobile":["2.25rem",{lineHeight:"2.75rem",fontWeight:"800"}],"headline-lg":["2rem",{lineHeight:"2.5rem",fontWeight:"700"}],"headline-sm":["1.25rem",{lineHeight:"1.75rem",fontWeight:"600"}],"headline-md":["1.5rem",{lineHeight:"2rem",fontWeight:"700"}],"label-sm":["0.75rem",{lineHeight:"1rem",fontWeight:"700"}],"caption":["0.75rem",{lineHeight:"1rem",fontWeight:"500"}]}}}}</script></head><body class="bg-surface font-body-md text-body-md text-on-surface min-h-screen selection:bg-primary-container selection:text-on-primary-container"><header class="fixed top-0 w-full z-50 bg-surface-container-lowest/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.4)]"><div class="h-20 w-full px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-lg shrink-0"><a class="flex items-center gap-space-sm group" data-path="inicio" href="#"><img alt="QuizPulse Logo" class="h-8 w-auto object-contain transition-transform group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD2y67OihtqdUAdbh4SEo05Jp6jzf4ywOzHpmKn2p4NwHKtCiDym_MBL2PD2CAk0LYrZTTaVFVbrzvW0-q40GglrtUC-agL3PQrER2wlQMzh3KGfyhkfETP7zaYj2tVA1xDD4G1I1Mqm2RLX7D_8bk_QIJwC4ijYTJTOzI5pLmZsmEgqFAFYKQKV7BGNk8uz-Ikr0ckhF7_J40gScT2xR3Rmi959jGwCYpRyLaVES4"/><span class="font-headline-sm text-headline-sm font-bold tracking-tight text-on-surface">Quiz<span class="text-primary">Pulse</span></span></a><nav class="hidden xl:flex items-center gap-space-xs" data-active-classes="bg-surface-container-high text-on-surface font-label-md text-label-md rounded-lg"><a class="px-3 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="inicio" href="#">Inicio</a><a class="px-3 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="categorias" href="#">Categorías</a><a class="px-3 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="explorar-quizzes" href="#">Explorar Quizzes</a><a class="px-3 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="ranking" href="#">Ranking</a><a class="px-3 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="mis-logros" href="#">Mis Logros</a><a class="px-3 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="admin-dashboard" href="#">Admin Dashboard</a></nav></div><div class="flex-1 max-w-md mx-space-sm hidden md:block"><div class="relative flex items-center"><span class="material-symbols-outlined absolute left-3 text-outline select-none pointer-events-none">search</span><input class="w-full bg-surface-container pl-10 pr-4 py-2 rounded-xl text-on-surface placeholder:text-outline font-body-sm text-body-sm focus:outline-none focus:ring-1 focus:ring-primary shadow-inner" placeholder="Buscar quizzes, temas o creadores..." type="text"/></div></div><div class="flex items-center gap-space-sm shrink-0"><div class="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container-high shadow-[0_0_12px_-2px_rgba(245,158,11,0.2)]"><span class="text-tertiary font-label-md text-label-md select-none">🔥</span><span class="font-label-md text-label-md text-on-surface">7 días</span></div><div class="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container-high shadow-[0_0_12px_-2px_rgba(192,193,255,0.2)]"><span class="text-primary font-label-md text-label-md select-none">⚡</span><span class="font-label-md text-label-md text-primary">2,450 XP</span></div><button aria-label="Notificaciones" class="relative p-2 rounded-full text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined block">notifications</span><span class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-tertiary"></span></button><div class="flex items-center gap-space-xs pl-space-xs cursor-pointer group"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-surface-container-highest group-hover:ring-primary transition-all" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDe-iH6G0TuMGAKeQfl3Gj_gkkRYvwY4RcEuWdJ7blaEhiff00Kl3Wz4CC27F5HdACDuS0ktNewVxieEAOm443WLMLUS1bXl7VInuWwUgZi7YHMoquC2WIS3pQDxycna43oCWitjSlCPG-iCcRzv1ZQM6JeWNUOYCIsREIAkH4SAw1sObCMELBCUewCL38SVVTnpe6soJ8WgpTRPThLkEO33HHuPogPMRlawkCpjcw"/><span class="material-symbols-outlined text-outline group-hover:text-on-surface text-lg transition-transform group-hover:translate-y-0.5">expand_more</span></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-140px)]"><div class="flex flex-col w-full">
+<!-- Glowing Decorative Background Accents -->
+<div class="relative w-full overflow-hidden">
+<div class="absolute -top-32 -left-20 w-96 h-96 rounded-full bg-secondary-container/20 blur-3xl pointer-events-none"></div>
+<div class="absolute top-48 right-0 w-80 h-80 rounded-full bg-tertiary-container/15 blur-3xl pointer-events-none"></div>
+<div class="w-full max-w-7xl mx-auto px-margin-mobile md:px-margin py-space-lg flex flex-col gap-space-lg">
+<!-- Top Context Banner & Score Recap Header -->
+<section class="flex flex-col lg:flex-row lg:items-end justify-between gap-space-md bg-surface-container-low rounded-xl p-space-lg shadow-xl relative overflow-hidden">
+<div class="absolute top-0 left-0 w-2 h-full bg-secondary"></div>
+<div class="flex flex-col gap-space-xs z-10">
+<div class="flex flex-wrap items-center gap-space-xs">
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm uppercase tracking-wider">
+<span class="material-symbols-outlined text-sm">architecture</span>
+              Arquitectura de Software &amp; Patrones
+            </span>
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-surface-container-high text-tertiary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">speed</span>
+              Tiempo: 14m 28s
+            </span>
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-sm">bookmark</span>
+              ID: ARCH-789-PRO
+            </span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-on-surface font-extrabold tracking-tight">
+            Revisión Paso a Paso • <span class="text-secondary-fixed">19 Correctas</span> <span class="text-outline font-normal">/</span> <span class="text-error">1 Incorrecta</span>
+</h1>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-3xl">
+            Análisis de precisión pedagógica. Revisa la fundamentación teórica de cada decisión de diseño, identifica discrepancias conceptuales y consolida tus fortalezas en sistemas distribuidos.
+          </p>
+</div>
+<!-- Metric Highlight Badge -->
+<div class="flex items-center gap-space-md bg-surface-container p-space-sm rounded-xl shrink-0 z-10">
+<div class="w-14 h-14 rounded-lg bg-surface-container-highest flex flex-col items-center justify-center">
+<span class="font-display-lg text-headline-md text-secondary leading-none">95%</span>
+<span class="font-label-sm text-caption text-outline">Precisión</span>
+</div>
+<div class="flex flex-col justify-center">
+<div class="flex items-center gap-1 text-tertiary font-label-md text-label-md">
+<span class="material-symbols-outlined text-base">military_tech</span>
+              Nivel Arquitecto Senior
+            </div>
+<span class="font-caption text-caption text-on-surface-variant">Percentil 98.4 vs pares</span>
+</div>
+</div>
+</section>
+<!-- Filter Tabs & Micro Matrix of 20 Questions -->
+<section class="flex flex-col gap-space-md bg-surface-container-lowest rounded-xl p-space-md md:p-space-lg shadow-md">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm pb-space-xs">
+<!-- Filter Buttons -->
+<div class="flex flex-wrap items-center gap-1.5 p-1 bg-surface-container rounded-lg">
+<button class="px-3 py-1.5 rounded-md font-label-md text-label-md bg-surface-container-highest text-on-surface shadow-sm transition-all" type="button">
+              Todas (20)
+            </button>
+<button class="px-3 py-1.5 rounded-md font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" type="button">
+              Solo Correctas (19)
+            </button>
+<button class="px-3 py-1.5 rounded-md font-label-md text-label-md bg-error-container/40 text-error font-bold flex items-center gap-1 transition-all" type="button">
+<span class="w-2 h-2 rounded-full bg-error"></span>
+              Solo Errores (1)
+            </button>
+<button class="px-3 py-1.5 rounded-md font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" type="button">
+              Marcadas con Duda (2)
+            </button>
+</div>
+<!-- Quick Jump Hint -->
+<div class="flex items-center gap-2 font-caption text-caption text-outline">
+<span class="material-symbols-outlined text-sm">touch_app</span>
+            Pulsa cualquier casilla para saltar al desglose técnico
+          </div>
+</div>
+<!-- 20-Question Grid / Matrix -->
+<div class="grid grid-cols-5 sm:grid-cols-10 lg:grid-cols-20 gap-1.5 w-full">
+<!-- Item 01 -->
+<button class="group flex flex-col items-center justify-center h-12 rounded-lg bg-surface-container-high hover:bg-surface-container-highest transition-all relative overflow-hidden" title="Pregunta 01: Correcta">
+<span class="font-label-sm text-label-sm text-on-surface group-hover:scale-105 transition-transform">01</span>
+<span class="material-symbols-outlined text-sm text-secondary-fixed">check_circle</span>
+<div class="absolute bottom-0 inset-x-0 h-0.5 bg-secondary"></div>
+</button>
+<!-- Item 02 -->
+<button class="group flex flex-col items-center justify-center h-12 rounded-lg bg-surface-container-high hover:bg-surface-container-highest transition-all relative overflow-hidden" title="Pregunta 02: Correcta">
+<span class="font-label-sm text-label-sm text-on-surface group-hover:scale-105 transition-transform">02</span>
+<span class="material-symbols-outlined text-sm text-secondary-fixed">check_circle</span>
+<div class="absolute bottom-0 inset-x-0 h-0.5 bg-secondary"></div>
+</button>
+<!-- Item 03 -->
+<button class="group flex flex-col items-center justify-center h-12 rounded-lg bg-surface-container-high hover:bg-surface-container-highest transition-all relative overflow-hidden" title="Pregunta 03: Correcta">
+<span class="font-label-sm text-label-sm text-on-surface group-hover:scale-105 transition-transform">03</span>
+<span class="material-symbols-outlined text-sm text-secondary-fixed">check_circle</span>
+<div class="absolute bottom-0 inset-x-0 h-0.5 bg-secondary"></div>
+</button>
+<!-- Item 04 -->
+<button class="group flex flex-col items-center justify-center h-12 rounded-lg bg-surface-container-high hover:bg-surface-container-highest transition-all relative overflow-hidden" title="Pregunta 04: Correcta">
+<span class="font-label-sm text-label-sm text-on-surface group-hover:scale-105 transition-transform">04</span>
+<span class="material-symbols-outlined text-sm text-secondary-fixed">check_circle</span>
+<div class="absolute bottom-0 inset-x-0 h-0.5 bg-secondary"></div>
+</button>
+<!-- Item 05 -->
+<button class="group flex flex-col items-center justify-center h-12 rounded-lg bg-surface-container-high hover:bg-surface-container-highest transition-all relative overflow-hidden" title="Pregunta 05: Correcta (Duda)">
+<span class="font-label-sm text-label-sm text-on-surface group-hover:scale-105 transition-transform">05</span>
+<div class="flex items-center gap-0.5">
+<span class="material-symbols-outlined text-sm text-secondary-fixed">check_circle</span>
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span>
+</div>
+<div class="absolute bottom-0 inset-x-0 h-0.5 bg-secondary"></div>
+</button>
+<!-- Item 06 -->
+<button class="group flex flex-col items-center justify-center h-12 rounded-lg bg-surface-container-high hover:bg-surface-container-highest transition-all relative overflow-hidden" title="Pregunta 06: Correcta">
+<span class="font-label-sm text-label-sm text-on-surface group-hover:scale-105 transition-transform">06</span>
+<span class="material-symbols-outlined text-sm text-secondary-fixed">check_circle</span>
+<div class="absolute bottom-0 inset-x-0 h-0.5 bg-secondary"></div>
+</button>
+<!-- Item 07 -->
+<button class="group flex flex-col items-center justify-center h-12 rounded-lg bg-surface-container-high hover:bg-surface-container-highest transition-all relative overflow-hidden" title="Pregunta 07: Correcta">
+<span class="font-label-sm text-label-sm text-on-surface group-hover:scale-105 transition-transform">07</span>
+<span class="material-symbols-outlined text-sm text-secondary-fixed">check_circle</span>
+<div class="absolute bottom-0 inset-x-0 h-0.5 bg-secondary"></div>
+</button>
+<!-- Item 08 -->
+<button class="group flex flex-col items-center justify-center h-12 rounded-lg bg-surface-container-high hover:bg-surface-container-highest transition-all relative overflow-hidden" title="Pregunta 08: Correcta">
+<span class="font-label-sm text-label-sm text-on-surface group-hover:scale-105 transition-transform">08</span>
+<span class="material-symbols-outlined text-sm text-secondary-fixed">check_circle</span>
+<div class="absolute bottom-0 inset-x-0 h-0.5 bg-secondary"></div>
+</button>
+<!-- Item 09 (ACTIVE ERROR FOCUS) -->
+<button class="group flex flex-col items-center justify-center h-12 rounded-lg bg-error-container text-on-error-container shadow-[0_0_16px_rgba(239,68,68,0.45)] transform scale-105 z-10 transition-all" title="Pregunta 09: INCORRECTA (Revisión Activa)">
+<span class="font-label-sm text-label-sm font-extrabold text-on-error-container">09</span>
+<span class="material-symbols-outlined text-sm font-bold text-on-error-container">cancel</span>
+<div class="absolute -top-1 right-1 w-2 h-2 rounded-full bg-error"></div>
+</button>
+<!-- Item 10 -->
+<button class="group flex flex-col items-center justify-center h-12 rounded-lg bg-surface-container-high hover:bg-surface-container-highest transition-all relative overflow-hidden" title="Pregunta 10: Correcta">
+<span class="font-label-sm text-label-sm text-on-surface group-hover:scale-105 transition-transform">10</span>
+<span class="material-symbols-outlined text-sm text-secondary-fixed">check_circle</span>
+<div class="absolute bottom-0 inset-x-0 h-0.5 bg-secondary"></div>
+</button>
+<!-- Item 11 -->
+<button class="group flex flex-col items-center justify-center h-12 rounded-lg bg-surface-container-high hover:bg-surface-container-highest transition-all relative overflow-hidden" title="Pregunta 11: Correcta">
+<span class="font-label-sm text-label-sm text-on-surface group-hover:scale-105 transition-transform">11</span>
+<span class="material-symbols-outlined text-sm text-secondary-fixed">check_circle</span>
+<div class="absolute bottom-0 inset-x-0 h-0.5 bg-secondary"></div>
+</button>
+<!-- Item 12 -->
+<button class="group flex flex-col items-center justify-center h-12 rounded-lg bg-surface-container-high hover:bg-surface-container-highest transition-all relative overflow-hidden" title="Pregunta 12: Correcta (Duda)">
+<span class="font-label-sm text-label-sm text-on-surface group-hover:scale-105 transition-transform">12</span>
+<div class="flex items-center gap-0.5">
+<span class="material-symbols-outlined text-sm text-secondary-fixed">check_circle</span>
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span>
+</div>
+<div class="absolute bottom-0 inset-x-0 h-0.5 bg-secondary"></div>
+</button>
+<!-- Item 13 -->
+<button class="group flex flex-col items-center justify-center h-12 rounded-lg bg-surface-container-high hover:bg-surface-container-highest transition-all relative overflow-hidden" title="Pregunta 13: Correcta">
+<span class="font-label-sm text-label-sm text-on-surface group-hover:scale-105 transition-transform">13</span>
+<span class="material-symbols-outlined text-sm text-secondary-fixed">check_circle</span>
+<div class="absolute bottom-0 inset-x-0 h-0.5 bg-secondary"></div>
+</button>
+<!-- Item 14 -->
+<button class="group flex flex-col items-center justify-center h-12 rounded-lg bg-surface-container-high hover:bg-surface-container-highest transition-all relative overflow-hidden" title="Pregunta 14: Correcta">
+<span class="font-label-sm text-label-sm text-on-surface group-hover:scale-105 transition-transform">14</span>
+<span class="material-symbols-outlined text-sm text-secondary-fixed">check_circle</span>
+<div class="absolute bottom-0 inset-x-0 h-0.5 bg-secondary"></div>
+</button>
+<!-- Item 15 -->
+<button class="group flex flex-col items-center justify-center h-12 rounded-lg bg-surface-container-high hover:bg-surface-container-highest transition-all relative overflow-hidden" title="Pregunta 15: Correcta">
+<span class="font-label-sm text-label-sm text-on-surface group-hover:scale-105 transition-transform">15</span>
+<span class="material-symbols-outlined text-sm text-secondary-fixed">check_circle</span>
+<div class="absolute bottom-0 inset-x-0 h-0.5 bg-secondary"></div>
+</button>
+<!-- Item 16 -->
+<button class="group flex flex-col items-center justify-center h-12 rounded-lg bg-surface-container-high hover:bg-surface-container-highest transition-all relative overflow-hidden" title="Pregunta 16: Correcta">
+<span class="font-label-sm text-label-sm text-on-surface group-hover:scale-105 transition-transform">16</span>
+<span class="material-symbols-outlined text-sm text-secondary-fixed">check_circle</span>
+<div class="absolute bottom-0 inset-x-0 h-0.5 bg-secondary"></div>
+</button>
+<!-- Item 17 -->
+<button class="group flex flex-col items-center justify-center h-12 rounded-lg bg-surface-container-high hover:bg-surface-container-highest transition-all relative overflow-hidden" title="Pregunta 17: Correcta">
+<span class="font-label-sm text-label-sm text-on-surface group-hover:scale-105 transition-transform">17</span>
+<span class="material-symbols-outlined text-sm text-secondary-fixed">check_circle</span>
+<div class="absolute bottom-0 inset-x-0 h-0.5 bg-secondary"></div>
+</button>
+<!-- Item 18 -->
+<button class="group flex flex-col items-center justify-center h-12 rounded-lg bg-surface-container-high hover:bg-surface-container-highest transition-all relative overflow-hidden" title="Pregunta 18: Correcta">
+<span class="font-label-sm text-label-sm text-on-surface group-hover:scale-105 transition-transform">18</span>
+<span class="material-symbols-outlined text-sm text-secondary-fixed">check_circle</span>
+<div class="absolute bottom-0 inset-x-0 h-0.5 bg-secondary"></div>
+</button>
+<!-- Item 19 -->
+<button class="group flex flex-col items-center justify-center h-12 rounded-lg bg-surface-container-high hover:bg-surface-container-highest transition-all relative overflow-hidden" title="Pregunta 19: Correcta">
+<span class="font-label-sm text-label-sm text-on-surface group-hover:scale-105 transition-transform">19</span>
+<span class="material-symbols-outlined text-sm text-secondary-fixed">check_circle</span>
+<div class="absolute bottom-0 inset-x-0 h-0.5 bg-secondary"></div>
+</button>
+<!-- Item 20 -->
+<button class="group flex flex-col items-center justify-center h-12 rounded-lg bg-surface-container-high hover:bg-surface-container-highest transition-all relative overflow-hidden" title="Pregunta 20: Correcta">
+<span class="font-label-sm text-label-sm text-on-surface group-hover:scale-105 transition-transform">20</span>
+<span class="material-symbols-outlined text-sm text-secondary-fixed">check_circle</span>
+<div class="absolute bottom-0 inset-x-0 h-0.5 bg-secondary"></div>
+</button>
+</div>
+</section>
+<!-- Main Detailed Pedagogical Question Card (Question 09 Focus) -->
+<section class="flex flex-col bg-surface-container-low rounded-xl shadow-2xl overflow-hidden relative">
+<!-- Top Status Indicator Bar -->
+<div class="w-full bg-error h-1.5"></div>
+<div class="p-space-md md:p-space-xl flex flex-col gap-space-lg">
+<!-- Header of Question Card -->
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm">
+<div class="flex flex-wrap items-center gap-space-xs">
+<span class="px-3 py-1 rounded-md bg-error-container text-on-error-container font-label-md text-label-md flex items-center gap-1.5">
+<span class="material-symbols-outlined text-sm">error</span>
+                Pregunta 09 de 20
+              </span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-label-sm text-label-sm">
+                Consistencia Distribuida
+              </span>
+<span class="px-2.5 py-1 rounded-md bg-tertiary-container/30 text-tertiary-fixed font-label-sm text-label-sm flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span>
+                Dificultad: Alta
+              </span>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="font-caption text-caption text-outline">Tasa de acierto global de esta pregunta:</span>
+<div class="flex items-center gap-1 px-2 py-0.5 rounded bg-surface-container-highest text-tertiary font-label-sm text-label-sm">
+<span>38.2%</span>
+<span class="material-symbols-outlined text-xs">trending_down</span>
+</div>
+</div>
+</div>
+<!-- Question Prompt with High Legibility & Asymmetrical Design Element -->
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary font-bold">Enunciado del Problema</span>
+<h2 class="font-headline-md text-headline-md text-on-surface font-semibold leading-relaxed">
+              Bajo el <span class="text-secondary font-bold underline decoration-secondary-container decoration-2 underline-offset-4">Teorema CAP</span>, si ocurre una partición de red (<span class="font-bold italic">Network Partition</span>) inevitable en un cluster distribuido, ¿qué garantía debe sacrificarse necesariamente para priorizar Disponibilidad (<span class="italic">Availability</span>)?
+            </h2>
+</div>
+<!-- Answer Options Matrix (Clear Comparison) -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<!-- Option A: User Choice (INCORRECT FALLACY) -->
+<div class="flex flex-col bg-surface-container rounded-xl p-space-md relative overflow-hidden group shadow-md">
+<div class="absolute top-0 right-0 px-3 py-1 bg-error-container text-on-error-container font-label-sm text-label-sm rounded-bl-lg flex items-center gap-1 font-bold">
+<span class="material-symbols-outlined text-xs">close</span>
+                Tu Elección (Incorrecta)
+              </div>
+<div class="flex items-start gap-space-sm mt-3">
+<div class="w-8 h-8 rounded-lg bg-surface-container-highest text-error font-headline-sm text-headline-sm flex items-center justify-center shrink-0">
+                  A
+                </div>
+<div class="flex flex-col gap-1 pr-2">
+<span class="font-label-lg text-label-lg text-error font-semibold">Tolerancia a Particiones (Partition Tolerance)</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                    Asumir que la red es infalible y desconectar los nodos desincronizados para mantener una ilusión de red continua.
+                  </p>
+</div>
+</div>
+<div class="mt-4 pt-3 flex items-center gap-2 text-error font-caption text-caption">
+<span class="material-symbols-outlined text-sm">warning</span>
+<span>Error Conceptual: La partición no es optativa, es una propiedad física de redes no confiables.</span>
+</div>
+</div>
+<!-- Option B: Correct Answer (THE ACCURATE CHOICE) -->
+<div class="flex flex-col bg-surface-container-high rounded-xl p-space-md relative overflow-hidden shadow-lg">
+<div class="absolute top-0 right-0 px-3 py-1 bg-secondary-container text-on-secondary-container font-label-sm text-label-sm rounded-bl-lg flex items-center gap-1 font-bold">
+<span class="material-symbols-outlined text-xs">check</span>
+                Respuesta Correcta
+              </div>
+<div class="flex items-start gap-space-sm mt-3">
+<div class="w-8 h-8 rounded-lg bg-secondary-container text-on-secondary-container font-headline-sm text-headline-sm flex items-center justify-center shrink-0 font-bold">
+                  B
+                </div>
+<div class="flex flex-col gap-1 pr-2">
+<span class="font-label-lg text-label-lg text-secondary-fixed font-bold">Consistencia Fuerte (Linearizability / Strong Consistency)</span>
+<p class="font-body-sm text-body-sm text-on-surface">
+                    Permitir lecturas de datos potencialmente desactualizados para responder sin bloqueo ante clientes durante el corte.
+                  </p>
+</div>
+</div>
+<div class="mt-4 pt-3 flex items-center gap-2 text-secondary font-caption text-caption">
+<span class="material-symbols-outlined text-sm">verified</span>
+<span>Al mantener Disponibilidad (A) bajo Partición (P), se elige el modelo AP (Eventual Consistency).</span>
+</div>
+</div>
+<!-- Option C: Distractor -->
+<div class="flex flex-col bg-surface-container-lowest opacity-75 rounded-xl p-space-md relative overflow-hidden">
+<div class="flex items-start gap-space-sm">
+<div class="w-8 h-8 rounded-lg bg-surface-container text-outline font-headline-sm text-headline-sm flex items-center justify-center shrink-0">
+                  C
+                </div>
+<div class="flex flex-col gap-1">
+<span class="font-label-lg text-label-lg text-on-surface-variant font-medium">Persistencia en Disco (Durability)</span>
+<p class="font-body-sm text-body-sm text-outline">
+                    Convertir todas las operaciones transaccionales exclusivamente a caché volátil en memoria RAM.
+                  </p>
+</div>
+</div>
+</div>
+<!-- Option D: Distractor -->
+<div class="flex flex-col bg-surface-container-lowest opacity-75 rounded-xl p-space-md relative overflow-hidden">
+<div class="flex items-start gap-space-sm">
+<div class="w-8 h-8 rounded-lg bg-surface-container text-outline font-headline-sm text-headline-sm flex items-center justify-center shrink-0">
+                  D
+                </div>
+<div class="flex flex-col gap-1">
+<span class="font-label-lg text-label-lg text-on-surface-variant font-medium">Latencia Sub-milisegundo (Latency SLO)</span>
+<p class="font-body-sm text-body-sm text-outline">
+                    Imponer cuotas arbitrarias de espera síncrona sobre los líderes de partición Raft/Paxos.
+                  </p>
+</div>
+</div>
+</div>
+</div>
+<!-- Deep Pedagogical Explanation Box (Caja de Aprendizaje Profundo) -->
+<div class="flex flex-col bg-surface-container rounded-xl p-space-md md:p-space-lg shadow-xl relative overflow-hidden">
+<div class="flex items-center gap-space-sm mb-space-sm">
+<div class="w-10 h-10 rounded-lg bg-primary-container/20 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-2xl">psychology</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface font-bold">Explicación del Experto • Fundamento Teórico</span>
+<span class="font-caption text-caption text-secondary">Desglose analítico para asimilación permanente</span>
+</div>
+</div>
+<div class="flex flex-col lg:flex-row gap-space-lg items-start">
+<!-- Text Explanation -->
+<div class="flex-1 flex flex-col gap-space-sm font-body-md text-body-md text-on-surface-variant">
+<p>
+                  El teorema formalizado por <strong class="text-on-surface">Eric Brewer</strong> y probado por Seth Gilbert y Nancy Lynch demuestra que en redes asíncronas distribuidas, la latencia de comunicación entre nodos es impredecible y los mensajes pueden demorarse o perderse por completo (esto define una <em class="text-secondary-fixed">partición de red</em>).
+                </p>
+<p>
+                  Puesto que una red física jamás puede garantizar 100% de confiabilidad, la <strong class="text-on-surface">Tolerancia a Particiones (P)</strong> no es opcional en arquitecturas reales; el verdadero compromiso es <span class="text-tertiary font-bold">Consistencia (C) vs. Disponibilidad (A)</span>:
+                </p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm my-space-xs">
+<div class="p-space-sm bg-surface-container-high rounded-lg flex flex-col gap-1">
+<span class="font-label-sm text-label-sm text-on-surface font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-sm text-tertiary">lock</span>
+                      Si eliges Consistencia (CP)
+                    </span>
+<span class="font-caption text-caption text-outline">El sistema rechazará o esperará escrituras/lecturas hasta que la partición sane, perdiendo disponibilidad momentánea.</span>
+</div>
+<div class="p-space-sm bg-surface-container-high rounded-lg flex flex-col gap-1">
+<span class="font-label-sm text-label-sm text-on-surface font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-sm text-secondary">bolt</span>
+                      Si eliges Disponibilidad (AP)
+                    </span>
+<span class="font-caption text-caption text-outline">Ambos lados de la partición continúan aceptando peticiones, sacrificando la consistencia estricta e incurriendo en consistencia eventual.</span>
+</div>
+</div>
+<!-- Academic/Industry Citation -->
+<div class="flex items-center gap-space-sm p-space-sm bg-surface-container-lowest rounded-lg">
+<span class="material-symbols-outlined text-outline shrink-0">menu_book</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface">Referencia Bibliográfica Recomendada:</span>
+<span class="font-caption text-caption text-primary">"Designing Data-Intensive Applications" — Cap. 9: Consistency and Consensus (Martin Kleppmann).</span>
+</div>
+</div>
+</div>
+<!-- Compact Architectural Infographic (Inline SVG under 2KB) -->
+<div class="w-full lg:w-72 bg-surface-container-high rounded-xl p-space-md flex flex-col items-center justify-center shrink-0">
+<span class="font-label-sm text-caption text-outline uppercase tracking-wider mb-2">Triángulo CAP bajo Partición</span>
+<svg class="w-48 h-40" fill="none" viewbox="0 0 200 160" xmlns="http://www.w3.org/2000/svg">
+<!-- Triangle Lines -->
+<polygon class="text-outline-variant" fill="none" points="100,20 25,140 175,140" stroke="currentColor" stroke-dasharray="4 4" stroke-width="2"></polygon>
+<!-- Cut line representing partition -->
+<line class="text-error" stroke="currentColor" stroke-linecap="round" stroke-width="3" x1="90" x2="110" y1="50" y2="150"></line>
+<text class="text-error font-label-sm text-xs font-bold" fill="currentColor" x="115" y="95">Falla Red (P)</text>
+<!-- Node C -->
+<circle class="text-surface-container-lowest" cx="100" cy="20" fill="currentColor" r="16" stroke="currentColor" stroke-width="2"></circle>
+<text class="text-primary font-bold text-xs" fill="currentColor" text-anchor="middle" x="100" y="25">C</text>
+<!-- Node A -->
+<circle class="text-secondary-container" cx="25" cy="140" fill="currentColor" r="16"></circle>
+<text class="text-on-secondary-container font-bold text-xs" fill="currentColor" text-anchor="middle" x="25" y="145">A</text>
+<!-- Node P (Forced) -->
+<circle class="text-surface-container-highest" cx="175" cy="140" fill="currentColor" r="16" stroke="currentColor" stroke-width="2"></circle>
+<text class="text-tertiary font-bold text-xs" fill="currentColor" text-anchor="middle" x="175" y="145">P</text>
+</svg>
+<div class="text-center font-caption text-caption text-on-surface-variant mt-1">
+                  En el plano real, el tradeoff forzoso es <strong class="text-secondary">AP</strong> vs <strong class="text-primary">CP</strong>.
+                </div>
+</div>
+</div>
+</div>
+<!-- Question Action Bar -->
+<div class="flex flex-wrap items-center justify-between gap-space-sm pt-space-xs">
+<button class="px-4 py-2 rounded-lg bg-surface-container text-on-surface hover:bg-surface-container-high font-label-md text-label-md flex items-center gap-2 transition-colors" type="button">
+<span class="material-symbols-outlined text-sm">arrow_back</span>
+              Pregunta 08 (Anterior)
+            </button>
+<div class="flex items-center gap-space-sm">
+<button class="px-4 py-2 rounded-lg bg-surface-container text-tertiary hover:bg-surface-container-high font-label-md text-label-md flex items-center gap-1.5 transition-colors" type="button">
+<span class="material-symbols-outlined text-sm">bookmark_add</span>
+                Guardar en Flashcards
+              </button>
+<button class="px-4 py-2 rounded-lg bg-surface-container text-on-surface hover:bg-surface-container-high font-label-md text-label-md flex items-center gap-2 transition-colors" type="button">
+                Pregunta 10 (Siguiente)
+                <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Accordion List of Other Evaluated Questions (For complete context) -->
+<section class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary">checklist</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Otras Preguntas Respondidas en esta Sesión</h3>
+</div>
+<span class="font-caption text-caption text-outline">Mostrando 3 de 19 acertadas</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<!-- Accordion 01: Circuit Breaker -->
+<div class="flex flex-col bg-surface-container-low rounded-xl overflow-hidden shadow-sm hover:bg-surface-container transition-colors">
+<div class="flex flex-col md:flex-row md:items-center justify-between p-space-md gap-space-sm cursor-pointer">
+<div class="flex items-center gap-space-md">
+<div class="w-8 h-8 rounded-full bg-secondary/20 text-secondary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-lg">check</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm text-outline">Pregunta 01</span>
+<span class="font-label-sm text-label-sm text-secondary-fixed">Respuesta Correcta</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-highest text-caption text-on-surface-variant">Patrones de Resiliencia</span>
+</div>
+<h4 class="font-label-lg text-label-lg text-on-surface font-semibold">
+                    Patrón Circuit Breaker y Estados Open / Half-Open en Fallas en Cascada
+                  </h4>
+</div>
+</div>
+<div class="flex items-center gap-space-md pl-12 md:pl-0">
+<span class="font-caption text-caption text-outline hidden sm:block">100% acierto global en este item</span>
+<span class="material-symbols-outlined text-outline">expand_more</span>
+</div>
+</div>
+</div>
+<!-- Accordion 02: Event Sourcing -->
+<div class="flex flex-col bg-surface-container-low rounded-xl overflow-hidden shadow-sm hover:bg-surface-container transition-colors">
+<div class="flex flex-col md:flex-row md:items-center justify-between p-space-md gap-space-sm cursor-pointer">
+<div class="flex items-center gap-space-md">
+<div class="w-8 h-8 rounded-full bg-secondary/20 text-secondary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-lg">check</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm text-outline">Pregunta 02</span>
+<span class="font-label-sm text-label-sm text-secondary-fixed">Respuesta Correcta</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-highest text-caption text-on-surface-variant">Almacenamiento &amp; CQRS</span>
+</div>
+<h4 class="font-label-lg text-label-lg text-on-surface font-semibold">
+                    Event Sourcing vs. Snapshotting en flujos de alto throughput transaccional
+                  </h4>
+</div>
+</div>
+<div class="flex items-center gap-space-md pl-12 md:pl-0">
+<span class="font-caption text-caption text-outline hidden sm:block">74% acierto global</span>
+<span class="material-symbols-outlined text-outline">expand_more</span>
+</div>
+</div>
+</div>
+<!-- Accordion 03: Caching -->
+<div class="flex flex-col bg-surface-container-low rounded-xl overflow-hidden shadow-sm hover:bg-surface-container transition-colors">
+<div class="flex flex-col md:flex-row md:items-center justify-between p-space-md gap-space-sm cursor-pointer">
+<div class="flex items-center gap-space-md">
+<div class="w-8 h-8 rounded-full bg-secondary/20 text-secondary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-lg">check</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm text-outline">Pregunta 03</span>
+<span class="font-label-sm text-label-sm text-secondary-fixed">Respuesta Correcta</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-highest text-caption text-on-surface-variant">Optimización de Cargas</span>
+</div>
+<h4 class="font-label-lg text-label-lg text-on-surface font-semibold">
+                    Cache-Aside vs. Write-Through en bases de datos relacionales particionadas
+                  </h4>
+</div>
+</div>
+<div class="flex items-center gap-space-md pl-12 md:pl-0">
+<span class="font-caption text-caption text-outline hidden sm:block">91% acierto global</span>
+<span class="material-symbols-outlined text-outline">expand_more</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Pedagogical Next Actions / Footer Toolbar -->
+<section class="flex flex-col sm:flex-row items-center justify-between gap-space-md bg-surface-container p-space-lg rounded-xl shadow-lg mt-space-sm">
+<div class="flex items-center gap-space-sm w-full sm:w-auto">
+<a class="flex items-center justify-center gap-2 px-5 py-2.5 rounded-lg bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-label-md text-label-md transition-colors w-full sm:w-auto" href="#">
+<span class="material-symbols-outlined text-base">arrow_back</span>
+            Volver a Resultados
+          </a>
+<button class="flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg bg-surface-container-high hover:bg-surface-container-highest text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-colors w-full sm:w-auto" type="button">
+<span class="material-symbols-outlined text-base">picture_as_pdf</span>
+            Descargar Informe PDF
+          </button>
+</div>
+<!-- High-Impact Smart Retry Button -->
+<button class="flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-primary text-on-primary font-label-lg text-label-lg font-bold shadow-[0_0_24px_rgba(192,193,255,0.35)] hover:scale-102 active:scale-98 transition-all w-full sm:w-auto" type="button">
+<span class="material-symbols-outlined text-lg">autorenew</span>
+          Practicar Preguntas Fallidas (1 Pregunta)
+        </button>
+</section>
+</div>
+</div>
+</div></main><footer class="w-full bg-surface-container-lowest mt-space-xl py-space-xl"><div class="w-full px-margin flex flex-col md:flex-row items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm"><img alt="QuizPulse Logo" class="h-6 w-auto object-contain opacity-80" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD2y67OihtqdUAdbh4SEo05Jp6jzf4ywOzHpmKn2p4NwHKtCiDym_MBL2PD2CAk0LYrZTTaVFVbrzvW0-q40GglrtUC-agL3PQrER2wlQMzh3KGfyhkfETP7zaYj2tVA1xDD4G1I1Mqm2RLX7D_8bk_QIJwC4ijYTJTOzI5pLmZsmEgqFAFYKQKV7BGNk8uz-Ikr0ckhF7_J40gScT2xR3Rmi959jGwCYpRyLaVES4"/><span class="font-headline-sm text-headline-sm font-bold text-on-surface-variant">Quiz<span class="text-primary">Pulse</span></span></div><p class="font-body-sm text-body-sm text-outline">© 2025 QuizPulse Platform. Desafía tu mente en tiempo real.</p><div class="flex items-center gap-space-lg font-label-sm text-label-sm text-outline"><a class="hover:text-on-surface transition-colors" href="#">Términos de Servicio</a><a class="hover:text-on-surface transition-colors" href="#">Privacidad</a><a class="hover:text-on-surface transition-colors" href="#">Soporte</a></div></div></footer></body></html>
