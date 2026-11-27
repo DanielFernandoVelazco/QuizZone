@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"surface-bright":"#31394d","on-tertiary-fixed-variant":"#653e00","on-error-container":"#ffdad6","secondary-fixed-dim":"#c3c0ff","primary-container":"#8083ff","on-tertiary-fixed":"#2a1700","primary-fixed-dim":"#c0c1ff","on-primary":"#1000a9","on-primary-fixed":"#07006c","on-secondary-container":"#b3b1ff","surface-container-highest":"#2d3449","on-tertiary-container":"#3e2400","on-secondary-fixed-variant":"#3323cc","on-error":"#690005","on-primary-container":"#0d0096","inverse-surface":"#dae2fd","tertiary":"#ffb95f","surface-container":"#171f33","background":"#0b1326","surface-container-lowest":"#060e20","surface-tint":"#c0c1ff","tertiary-fixed":"#ffddb8","on-secondary-fixed":"#0f0069","surface-container-low":"#131b2e","surface-container-high":"#222a3d","surface-variant":"#2d3449","on-background":"#dae2fd","on-primary-fixed-variant":"#2f2ebe","secondary-fixed":"#e2dfff","outline-variant":"#464554","secondary-container":"#3626ce","error":"#ffb4ab","outline":"#908fa0","on-tertiary":"#472a00","inverse-primary":"#494bd6","error-container":"#93000a","tertiary-container":"#ca8100","primary":"#c0c1ff","surface-dim":"#0b1326","on-surface-variant":"#c7c4d7","tertiary-fixed-dim":"#ffb95f","secondary":"#c3c0ff","on-surface":"#dae2fd","on-secondary":"#1d00a5","surface":"#0b1326","primary-fixed":"#e1e0ff","inverse-on-surface":"#283044"},borderRadius:{DEFAULT:"0.25rem",lg:"0.5rem",xl:"0.75rem",full:"9999px"},spacing:{"space-xl":"2.5rem","margin":"2rem","margin-mobile":"1rem","space-sm":"0.5rem","gutter":"1.5rem","gutter-mobile":"1rem","space-xs":"0.25rem","space-md":"1rem","space-lg":"1.5rem"},fontFamily:{"display-lg":["Plus Jakarta Sans"],"label-md":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"display-lg-mobile":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"headline-xl-mobile":["Plus Jakarta Sans"],"label-lg":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"caption":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"headline-xl":["Plus Jakarta Sans"]},fontSize:{"display-lg":["3.5rem",{lineHeight:"4rem",fontWeight:"800"}],"label-md":["0.875rem",{lineHeight:"1.25rem",fontWeight:"600"}],"headline-md":["1.5rem",{lineHeight:"2rem",fontWeight:"700"}],"display-lg-mobile":["2.25rem",{lineHeight:"2.75rem",fontWeight:"800"}],"headline-sm":["1.25rem",{lineHeight:"1.75rem",fontWeight:"600"}],"headline-xl-mobile":["1.75rem",{lineHeight:"2.25rem",fontWeight:"700"}],"label-lg":["1rem",{lineHeight:"1.5rem",fontWeight:"600"}],"body-lg":["1.125rem",{lineHeight:"1.75rem",fontWeight:"400"}],"label-sm":["0.75rem",{lineHeight:"1rem",fontWeight:"700"}],"headline-lg":["2rem",{lineHeight:"2.5rem",fontWeight:"700"}],"body-md":["1rem",{lineHeight:"1.5rem",fontWeight:"400"}],"caption":["0.75rem",{lineHeight:"1rem",fontWeight:"500"}],"body-sm":["0.875rem",{lineHeight:"1.25rem",fontWeight:"400"}],"headline-xl":["2.5rem",{lineHeight:"3rem",fontWeight:"800"}]}}}}</script></head><body class="bg-surface font-body-md text-body-md text-on-surface min-h-screen selection:bg-primary-container selection:text-on-primary-container"><header class="fixed top-0 w-full z-50 bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.5)]"><div class="h-20 w-full px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md shrink-0"><a class="flex items-center gap-space-sm group" data-path="dashboard-administrativo" href="#"><img alt="QuizPulse Logo" class="h-8 w-auto object-contain transition-transform group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD2y67OihtqdUAdbh4SEo05Jp6jzf4ywOzHpmKn2p4NwHKtCiDym_MBL2PD2CAk0LYrZTTaVFVbrzvW0-q40GglrtUC-agL3PQrER2wlQMzh3KGfyhkfETP7zaYj2tVA1xDD4G1I1Mqm2RLX7D_8bk_QIJwC4ijYTJTOzI5pLmZsmEgqFAFYKQKV7BGNk8uz-Ikr0ckhF7_J40gScT2xR3Rmi959jGwCYpRyLaVES4"/><span class="font-headline-sm text-headline-sm font-bold tracking-tight text-on-surface">Quiz<span class="text-primary">Pulse</span></span></a><div class="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-surface-container-high shadow-[0_0_12px_-2px_rgba(192,193,255,0.2)]"><span class="w-1.5 h-1.5 rounded-full bg-tertiary animate-pulse"></span><span class="font-label-sm text-label-sm text-primary tracking-wider uppercase">ADMIN CONSOLE v2.4</span></div></div><nav class="hidden xl:flex items-center gap-space-xs" data-active-classes="bg-surface-container-high text-on-surface font-label-md text-label-md rounded-lg shadow-sm"><a aria-current="page" class="px-3 py-2 transition-colors bg-surface-container-high text-on-surface font-label-md text-label-md rounded-lg shadow-sm" data-path="dashboard-administrativo" href="#">Dashboard Admin</a><a class="px-3 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="gestion-de-quizzes" href="#">Gestión de Quizzes</a><a class="px-3 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="gestion-de-preguntas" href="#">Gestión de Preguntas</a><a class="px-3 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="gestion-de-usuarios" href="#">Gestión de Usuarios</a><a class="px-3 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="estadisticas-y-reportes" href="#">Estadísticas y Reportes</a></nav><div class="flex-1 max-w-xs mx-space-sm hidden lg:block"><div class="relative flex items-center"><span class="material-symbols-outlined absolute left-3 text-outline select-none pointer-events-none text-lg">search</span><input class="w-full bg-surface-container pl-10 pr-4 py-2 rounded-xl text-on-surface placeholder:text-outline font-body-sm text-body-sm focus:outline-none focus:ring-1 focus:ring-primary shadow-inner" placeholder="Buscar quizzes, preguntas, usuarios..." type="text"/></div></div><div class="flex items-center gap-space-sm shrink-0"><div class="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container-high shadow-[0_0_12px_-2px_rgba(245,158,11,0.2)]"><span class="font-label-md text-label-md text-tertiary select-none">🔥</span><span class="font-label-md text-label-md text-on-surface">142 en vivo</span></div><button aria-label="Notificaciones del sistema" class="relative p-2 rounded-full text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined block text-xl">notifications</span><span class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-tertiary shadow-[0_0_8px_rgba(255,185,95,0.6)]"></span></button><a class="flex items-center gap-space-xs pl-space-xs cursor-pointer group" data-path="configuracion" href="#"><img alt="Admin Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-primary/40 group-hover:ring-primary transition-all" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDe-iH6G0TuMGAKeQfl3Gj_gkkRYvwY4RcEuWdJ7blaEhiff00Kl3Wz4CC27F5HdACDuS0ktNewVxieEAOm443WLMLUS1bXl7VInuWwUgZi7YHMoquC2WIS3pQDxycna43oCWitjSlCPG-iCcRzv1ZQM6JeWNUOYCIsREIAkH4SAw1sObCMELBCUewCL38SVVTnpe6soJ8WgpTRPThLkEO33HHuPogPMRlawkCpjcw"/><div class="hidden md:flex flex-col text-left"><span class="font-label-sm text-label-sm text-on-surface font-semibold leading-tight">Admin Root</span><span class="font-caption text-caption text-primary leading-none">Superuser</span></div><span class="material-symbols-outlined text-outline group-hover:text-on-surface text-lg transition-transform group-hover:translate-y-0.5">expand_more</span></a></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-140px)]"><div class="flex flex-col w-full">
+<!-- Subtle decorative ambient backdrops -->
+<div class="relative w-full overflow-hidden px-margin pb-space-xl">
+<div class="absolute -top-32 left-1/4 w-[32rem] h-[32rem] bg-primary/10 rounded-full blur-[120px] pointer-events-none -z-10"></div>
+<div class="absolute top-96 -right-20 w-[28rem] h-[28rem] bg-tertiary/10 rounded-full blur-[140px] pointer-events-none -z-10"></div>
+<!-- 1. Encabezado de la página -->
+<div class="pt-space-lg pb-space-md flex flex-col xl:flex-row xl:items-end justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs max-w-3xl">
+<div class="flex flex-wrap items-center gap-space-sm mb-1">
+<div class="flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container-high shadow-sm">
+<span class="relative flex h-2 w-2">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-tertiary opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2 w-2 bg-tertiary"></span>
+</span>
+<span class="font-label-sm text-label-sm text-on-surface">Servidor Principal: Operativo (LATAM-1)</span>
+<span class="font-caption text-caption text-outline">|</span>
+<span class="font-label-sm text-label-sm text-primary">14ms ping</span>
+</div>
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container-highest text-primary font-label-sm text-label-sm">
+            Modo Supervisor
+          </span>
+</div>
+<h1 class="font-headline-xl text-headline-xl text-on-surface tracking-tight">Panel de Control Administrativo</h1>
+<p class="font-body-md text-body-md text-on-surface-variant">Telemetría global en tiempo real, salud del servidor y actividad de jugadores en curso.</p>
+</div>
+<!-- Controles Superiores: Filtro temporal + CTA -->
+<div class="flex flex-wrap items-center gap-space-sm shrink-0">
+<div class="inline-flex p-1 rounded-xl bg-surface-container shadow-inner">
+<button class="px-3.5 py-1.5 rounded-lg bg-surface-container-high font-label-md text-label-md text-on-surface shadow-sm transition-all" type="button">Hoy</button>
+<button class="px-3.5 py-1.5 rounded-lg font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-all" type="button">Últimos 7 días</button>
+<button class="px-3.5 py-1.5 rounded-lg font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-all" type="button">Mes actual</button>
+<button class="px-3.5 py-1.5 rounded-lg font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-all" type="button">Año</button>
+</div>
+<button class="flex items-center gap-2 px-5 py-2.5 rounded-xl bg-primary text-on-primary font-label-lg text-label-lg shadow-lg shadow-primary/20 hover:scale-[1.02] active:scale-[0.98] transition-transform" type="button">
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'wght' 700;">add</span>
+<span>Crear Nuevo Quiz</span>
+</button>
+</div>
+</div>
+<!-- 2. Fila de KPIs Principales (4 Tarjetas) -->
+<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-gutter mt-space-lg">
+<!-- KPI 1 -->
+<div class="flex flex-col justify-between p-space-md rounded-2xl bg-surface-container-low shadow-md relative overflow-hidden group">
+<div class="flex items-start justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Usuarios Activos Hoy</span>
+<div class="flex items-baseline gap-2 mt-1">
+<span class="font-headline-xl text-headline-xl text-on-surface tracking-tight">14,280</span>
+<span class="font-label-sm text-label-sm text-tertiary flex items-center font-bold">+12.4%</span>
+</div>
+</div>
+<div class="p-2.5 rounded-xl bg-surface-container text-primary">
+<span class="material-symbols-outlined">group</span>
+</div>
+</div>
+<div class="mt-space-md flex items-center justify-between">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span>
+            2,410 en partida ahora
+          </span>
+<div class="w-24 h-7 shrink-0">
+<svg class="w-full h-full text-primary" fill="none" viewbox="0 0 100 30">
+<path d="M0 24 Q 25 15, 50 18 T 100 4" stroke="currentColor" stroke-linecap="round" stroke-width="2.5"></path>
+</svg>
+</div>
+</div>
+</div>
+<!-- KPI 2 -->
+<div class="flex flex-col justify-between p-space-md rounded-2xl bg-surface-container-low shadow-md relative overflow-hidden group">
+<div class="flex items-start justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Quizzes Completados (24h)</span>
+<div class="flex items-baseline gap-2 mt-1">
+<span class="font-headline-xl text-headline-xl text-on-surface tracking-tight">48,920</span>
+<span class="font-label-sm text-label-sm text-tertiary flex items-center font-bold">+8.1%</span>
+</div>
+</div>
+<div class="p-2.5 rounded-xl bg-surface-container text-tertiary">
+<span class="material-symbols-outlined">quiz</span>
+</div>
+</div>
+<div class="mt-space-md flex items-center justify-between">
+<span class="font-caption text-caption text-outline">Media: <span class="text-on-surface font-semibold">7m 14s</span> / test</span>
+<div class="w-24 h-7 shrink-0">
+<svg class="w-full h-full text-tertiary" fill="none" viewbox="0 0 100 30">
+<path d="M0 26 Q 30 22, 60 10 T 100 6" stroke="currentColor" stroke-linecap="round" stroke-width="2.5"></path>
+</svg>
+</div>
+</div>
+</div>
+<!-- KPI 3 -->
+<div class="flex flex-col justify-between p-space-md rounded-2xl bg-surface-container-low shadow-md relative overflow-hidden group">
+<div class="flex items-start justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Tasa de Finalización</span>
+<div class="flex items-baseline gap-2 mt-1">
+<span class="font-headline-xl text-headline-xl text-on-surface tracking-tight">88.6%</span>
+<span class="font-label-sm text-label-sm text-primary flex items-center font-bold">+2.3%</span>
+</div>
+</div>
+<div class="p-2.5 rounded-xl bg-surface-container text-secondary">
+<span class="material-symbols-outlined">verified</span>
+</div>
+</div>
+<div class="mt-space-md flex items-center justify-between">
+<span class="font-caption text-caption text-outline">Rebote global: <span class="text-on-surface font-semibold">11.4%</span></span>
+<div class="w-24 h-7 shrink-0">
+<svg class="w-full h-full text-secondary" fill="none" viewbox="0 0 100 30">
+<path d="M0 18 Q 30 25, 65 14 T 100 8" stroke="currentColor" stroke-linecap="round" stroke-width="2.5"></path>
+</svg>
+</div>
+</div>
+</div>
+<!-- KPI 4 -->
+<div class="flex flex-col justify-between p-space-md rounded-2xl bg-surface-container-low shadow-md relative overflow-hidden group">
+<div class="flex items-start justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Nuevos Registros</span>
+<div class="flex items-baseline gap-2 mt-1">
+<span class="font-headline-xl text-headline-xl text-on-surface tracking-tight">1,840</span>
+<span class="font-label-sm text-label-sm text-tertiary flex items-center font-bold">+15.2%</span>
+</div>
+</div>
+<div class="p-2.5 rounded-xl bg-surface-container text-tertiary-fixed">
+<span class="material-symbols-outlined">person_add</span>
+</div>
+</div>
+<div class="mt-space-md flex items-center justify-between">
+<span class="inline-flex items-center gap-1 font-caption text-caption text-primary">
+<span class="material-symbols-outlined text-xs">workspace_premium</span>
+            340 Pro / Pase Batalla
+          </span>
+<div class="w-24 h-7 shrink-0">
+<svg class="w-full h-full text-tertiary-fixed" fill="none" viewbox="0 0 100 30">
+<path d="M0 28 Q 20 20, 50 12 T 100 2" stroke="currentColor" stroke-linecap="round" stroke-width="2.5"></path>
+</svg>
+</div>
+</div>
+</div>
+</div>
+<!-- 3. Sección Central de Analítica y Actividad -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter mt-space-xl">
+<!-- Gráfico de Tendencia de Tráfico y Partidas (8 cols) -->
+<div class="lg:col-span-8 flex flex-col p-space-lg rounded-3xl bg-surface-container-low shadow-lg">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm mb-space-lg">
+<div>
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest font-bold">Actividad en Vivo</span>
+<h2 class="font-headline-md text-headline-md text-on-surface mt-0.5">Tendencia de Tráfico y Partidas</h2>
+</div>
+<!-- Legend -->
+<div class="flex flex-wrap items-center gap-space-sm font-caption text-caption">
+<div class="flex items-center gap-1.5">
+<span class="w-2.5 h-2.5 rounded-full bg-primary shadow-sm"></span>
+<span class="text-on-surface">Partidas 1v1</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="w-2.5 h-2.5 rounded-full bg-tertiary shadow-sm"></span>
+<span class="text-on-surface">Quizzes Solitario</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary shadow-sm"></span>
+<span class="text-on-surface">Torneos Blitz</span>
+</div>
+</div>
+</div>
+<!-- SVG Interactive Analytics Graph -->
+<div class="relative w-full h-64 sm:h-72 mt-2">
+<!-- Graph Gridlines -->
+<div class="absolute inset-0 flex flex-col justify-between pointer-events-none opacity-20">
+<div class="w-full h-px bg-outline"></div>
+<div class="w-full h-px bg-outline"></div>
+<div class="w-full h-px bg-outline"></div>
+<div class="w-full h-px bg-outline"></div>
+</div>
+<svg class="w-full h-full overflow-visible" preserveaspectratio="none" viewbox="0 0 900 260">
+<defs>
+<lineargradient id="primaryArea" x1="0" x2="0" y1="0" y2="1">
+<stop offset="0%" stop-color="#c0c1ff" stop-opacity="0.35"></stop>
+<stop offset="100%" stop-color="#c0c1ff" stop-opacity="0.0"></stop>
+</lineargradient>
+<lineargradient id="tertiaryArea" x1="0" x2="0" y1="0" y2="1">
+<stop offset="0%" stop-color="#ffb95f" stop-opacity="0.25"></stop>
+<stop offset="100%" stop-color="#ffb95f" stop-opacity="0.0"></stop>
+</lineargradient>
+</defs>
+<!-- Line 2: Quizzes Solitario (Area + Stroke) -->
+<path d="M 0 190 Q 150 140, 300 160 T 600 110 T 900 70 L 900 260 L 0 260 Z" fill="url(#tertiaryArea)"></path>
+<path d="M 0 190 Q 150 140, 300 160 T 600 110 T 900 70" fill="none" stroke="#ffb95f" stroke-linecap="round" stroke-width="3"></path>
+<!-- Line 1: Partidas 1v1 (Area + Stroke) -->
+<path d="M 0 220 Q 180 180, 350 110 T 700 80 T 900 30 L 900 260 L 0 260 Z" fill="url(#primaryArea)"></path>
+<path d="M 0 220 Q 180 180, 350 110 T 700 80 T 900 30" fill="none" stroke="#c0c1ff" stroke-linecap="round" stroke-width="3.5"></path>
+<!-- Line 3: Torneos Blitz (Dashed Accent) -->
+<path d="M 0 240 Q 250 210, 480 190 T 720 140 T 900 100" fill="none" stroke="#c3c0ff" stroke-dasharray="4 4" stroke-width="2"></path>
+<!-- Active Data Node Callout -->
+<circle cx="700" cy="80" fill="#0b1326" r="5" stroke="#c0c1ff" stroke-width="3"></circle>
+</svg>
+<!-- Interactive Hover Marker Box -->
+<div class="absolute top-8 left-[72%] -translate-x-1/2 p-2 rounded-xl bg-surface-container-high shadow-xl hidden sm:flex flex-col pointer-events-none">
+<span class="font-caption text-caption text-outline">19:00 hrs (Pico)</span>
+<span class="font-label-sm text-label-sm text-primary font-bold">1,820 partidas 1v1</span>
+<span class="font-caption text-caption text-tertiary">910 blitz live</span>
+</div>
+</div>
+<div class="flex items-center justify-between text-outline font-caption text-caption pt-space-sm mt-space-sm">
+<span>00:00</span>
+<span>04:00</span>
+<span>08:00</span>
+<span>12:00</span>
+<span>16:00</span>
+<span>20:00</span>
+<span>23:59</span>
+</div>
+</div>
+<!-- Panel Lateral: Salud de Infraestructura y Concurrencia (4 cols) -->
+<div class="lg:col-span-4 flex flex-col justify-between p-space-lg rounded-3xl bg-surface-container-low shadow-lg">
+<div>
+<div class="flex items-center justify-between mb-space-md">
+<div>
+<span class="font-label-sm text-label-sm text-tertiary uppercase tracking-wider font-bold">Telemetría Core</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Salud del Sistema</h2>
+</div>
+<div class="w-3 h-3 rounded-full bg-primary animate-pulse"></div>
+</div>
+<!-- Gauges & Progress bars -->
+<div class="flex flex-col gap-space-md mt-space-sm">
+<!-- Metric 1 -->
+<div class="p-space-sm rounded-2xl bg-surface-container">
+<div class="flex items-center justify-between text-on-surface">
+<span class="font-label-md text-label-md flex items-center gap-1.5">
+<span class="material-symbols-outlined text-base text-primary">memory</span>
+                  Carga CPU Cluster
+                </span>
+<span class="font-label-md text-label-md font-bold text-on-surface">24%</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container-highest mt-2 overflow-hidden">
+<div class="h-full bg-primary rounded-full" style="width: 24%;"></div>
+</div>
+<span class="font-caption text-caption text-outline mt-1 block">8 nodos activos / Balanceo óptimo</span>
+</div>
+<!-- Metric 2 -->
+<div class="p-space-sm rounded-2xl bg-surface-container">
+<div class="flex items-center justify-between text-on-surface">
+<span class="font-label-md text-label-md flex items-center gap-1.5">
+<span class="material-symbols-outlined text-base text-tertiary">storage</span>
+                  Memoria Redis Sesiones
+                </span>
+<span class="font-label-md text-label-md font-bold text-on-surface">42%</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container-highest mt-2 overflow-hidden">
+<div class="h-full bg-tertiary rounded-full" style="width: 42%;"></div>
+</div>
+<span class="font-caption text-caption text-outline mt-1 block">6.7 GB de 16 GB asignados</span>
+</div>
+<!-- Metric 3 -->
+<div class="p-space-sm rounded-2xl bg-surface-container">
+<div class="flex items-center justify-between text-on-surface">
+<span class="font-label-md text-label-md flex items-center gap-1.5">
+<span class="material-symbols-outlined text-base text-secondary">wifi_tethering</span>
+                  Latencia WebSocket
+                </span>
+<span class="font-label-md text-label-md font-bold text-primary">18ms</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container-highest mt-2 overflow-hidden">
+<div class="h-full bg-secondary rounded-full" style="width: 18%;"></div>
+</div>
+<span class="font-caption text-caption text-outline mt-1 block">Ping p99: 31ms a nivel continental</span>
+</div>
+</div>
+</div>
+<!-- KPI Pill footer -->
+<div class="mt-space-md p-space-sm rounded-2xl bg-surface-container-high flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary">bolt</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface">Acierto Caché Edge</span>
+<span class="font-caption text-caption text-outline">Fastly CDN Sync</span>
+</div>
+</div>
+<span class="font-headline-sm text-headline-sm text-tertiary font-bold">99.1%</span>
+</div>
+</div>
+</div>
+<!-- 4. Fila Inferior de Dos Columnas -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter mt-space-xl">
+<!-- Columna Izquierda: Quizzes Más Populares de la Semana (7 cols) -->
+<div class="lg:col-span-7 flex flex-col p-space-lg rounded-3xl bg-surface-container-low shadow-lg">
+<div class="flex items-center justify-between mb-space-md">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary">trophy</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Quizzes Más Populares de la Semana</h2>
+</div>
+<a class="font-label-sm text-label-sm text-primary hover:underline" href="#">Ver catálogo completo →</a>
+</div>
+<!-- Table / List -->
+<div class="flex flex-col gap-space-xs mt-space-xs overflow-x-auto">
+<!-- Quiz Item 1 -->
+<div class="flex items-center justify-between p-3 rounded-2xl bg-surface-container hover:bg-surface-container-high transition-colors gap-space-sm">
+<div class="flex items-center gap-3 min-w-0">
+<div class="w-8 h-8 rounded-xl bg-tertiary/20 text-tertiary flex items-center justify-center font-bold text-label-md shrink-0">
+                #1
+              </div>
+<div class="w-11 h-11 rounded-xl overflow-hidden shrink-0">
+<img class="w-full h-full object-cover" data-alt="Cyberpunk futuristic glowing server towers in violet neon atmosphere conceptual trivia technology aesthetic photo" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDGrP0rBiRGlBvc_J0WZjhHgx2TzorVef4hFUK1qZhgEvwJlxeEYP0rBSSEe5eURDXbgPUWsRixhiiQLmO6VNjtQXd5XwiXiXouTbr1XkvDkQjE960gClo4OHJL-TulSthTq-aNyEjAV1UwzAEZiF3U-ACerJ2ZG_O0CLOghnR2RdaHgmJPy7RodalqWyQxhXLV5M1iH0LhbRBeIX_UbgrzAEgVB1KDSIn7QgrCPyI"/>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-md text-label-md text-on-surface font-semibold truncate">Arquitectura Cloud &amp; Microservicios</span>
+<span class="font-caption text-caption text-outline">Tecnología · 15 Preguntas</span>
+</div>
+</div>
+<div class="flex items-center gap-4 shrink-0">
+<div class="text-right hidden sm:block">
+<div class="font-label-md text-label-md text-on-surface font-bold">12,450</div>
+<div class="font-caption text-caption text-outline">89% Aprobación</div>
+</div>
+<div class="flex items-center gap-1">
+<button aria-label="Editar quiz" class="p-1.5 rounded-lg text-outline hover:text-on-surface hover:bg-surface-container-highest transition-colors" type="button">
+<span class="material-symbols-outlined text-lg">edit</span>
+</button>
+<button aria-label="Pausar quiz" class="p-1.5 rounded-lg text-outline hover:text-error hover:bg-surface-container-highest transition-colors" type="button">
+<span class="material-symbols-outlined text-lg">pause_circle</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Quiz Item 2 -->
+<div class="flex items-center justify-between p-3 rounded-2xl bg-surface-container hover:bg-surface-container-high transition-colors gap-space-sm">
+<div class="flex items-center gap-3 min-w-0">
+<div class="w-8 h-8 rounded-xl bg-surface-container-highest text-on-surface-variant flex items-center justify-center font-bold text-label-md shrink-0">
+                #2
+              </div>
+<div class="w-11 h-11 rounded-xl overflow-hidden shrink-0">
+<img class="w-full h-full object-cover" data-alt="Gamer studio setup with mechanical keyboard and vibrant glowing cyan and purple backlights modern gaming style" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAiM8zK-lGmPip6RHHN0PpTJzzGJiFn9DoEYp2j0uKqkHa3BEW-B740lkSsTZ5te4FvLtWG2LQXVyW7UZHgB8tZQ4GLajiid8532FbzNHrrhWAt24XBi-8UNVy9sv4e0umgjRqHpkZwOGw9PvJqPzi0kCo9HKwRnLhkLSmaKU_qi0i15BJV8MBdKZFlsVD5dmADmo3i8mkWMvJd6dAi09XMO5NZq6yO8BTYOQXSnwo"/>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-md text-label-md text-on-surface font-semibold truncate">Cultura Pop &amp; Videojuegos 2024</span>
+<span class="font-caption text-caption text-outline">Entretenimiento · 20 Preguntas</span>
+</div>
+</div>
+<div class="flex items-center gap-4 shrink-0">
+<div class="text-right hidden sm:block">
+<div class="font-label-md text-label-md text-on-surface font-bold">9,830</div>
+<div class="font-caption text-caption text-outline">94% Aprobación</div>
+</div>
+<div class="flex items-center gap-1">
+<button aria-label="Editar quiz" class="p-1.5 rounded-lg text-outline hover:text-on-surface hover:bg-surface-container-highest transition-colors" type="button">
+<span class="material-symbols-outlined text-lg">edit</span>
+</button>
+<button aria-label="Pausar quiz" class="p-1.5 rounded-lg text-outline hover:text-error hover:bg-surface-container-highest transition-colors" type="button">
+<span class="material-symbols-outlined text-lg">pause_circle</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Quiz Item 3 -->
+<div class="flex items-center justify-between p-3 rounded-2xl bg-surface-container hover:bg-surface-container-high transition-colors gap-space-sm">
+<div class="flex items-center gap-3 min-w-0">
+<div class="w-8 h-8 rounded-xl bg-surface-container-highest text-on-surface-variant flex items-center justify-center font-bold text-label-md shrink-0">
+                #3
+              </div>
+<div class="w-11 h-11 rounded-xl overflow-hidden shrink-0">
+<img class="w-full h-full object-cover" data-alt="Glowing astronomical deep space nebula starry cosmic backdrop with deep indigo and amber hues" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAySM8oQdLQpPZOUBVpYMG6lxI2heDEJa6vthn3S0i94xfSrW-6a7hyo0iqT9MndQee08ziS6uuYhDlVu6zM5ryGL1PbdtvfROLHUGmW-Z7dz8NyvJ5mT2bRdDIJ3Fl-Mg4OTTSa6fZWfbBiB_i_kGbV0dsZvV5MdTgFhbvhIFTWJODswizWWBD5E0cXL9Nj-3bxSUxtsDTsFJV2j9QK7MgG2jYAHfFNDNF8wfhtv0"/>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-md text-label-md text-on-surface font-semibold truncate">Astronomía y Cosmos Extremo</span>
+<span class="font-caption text-caption text-outline">Ciencia · 12 Preguntas</span>
+</div>
+</div>
+<div class="flex items-center gap-4 shrink-0">
+<div class="text-right hidden sm:block">
+<div class="font-label-md text-label-md text-on-surface font-bold">8,190</div>
+<div class="font-caption text-caption text-outline">78% Aprobación</div>
+</div>
+<div class="flex items-center gap-1">
+<button aria-label="Editar quiz" class="p-1.5 rounded-lg text-outline hover:text-on-surface hover:bg-surface-container-highest transition-colors" type="button">
+<span class="material-symbols-outlined text-lg">edit</span>
+</button>
+<button aria-label="Pausar quiz" class="p-1.5 rounded-lg text-outline hover:text-error hover:bg-surface-container-highest transition-colors" type="button">
+<span class="material-symbols-outlined text-lg">pause_circle</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Quiz Item 4 -->
+<div class="flex items-center justify-between p-3 rounded-2xl bg-surface-container hover:bg-surface-container-high transition-colors gap-space-sm">
+<div class="flex items-center gap-3 min-w-0">
+<div class="w-8 h-8 rounded-xl bg-surface-container-highest text-on-surface-variant flex items-center justify-center font-bold text-label-md shrink-0">
+                #4
+              </div>
+<div class="w-11 h-11 rounded-xl overflow-hidden shrink-0">
+<img class="w-full h-full object-cover" data-alt="Abstract colorful code lines on a glass panel dark room software engineering modern backdrop" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDDH2wRozp4asexx7DwKxdAnzTyql1T9r960ZQY7I-DfTBmL5zr9ZTcY3C-9lnJTYyHsO7qMltNUmC7LZ42ghCrSzj15p8JXZYrLy8SSmGtDUpCcnC-my21L46NYy20mdGHV-my5fr63QtMcOi2qb3u6GqnS-I0hFAk0rMz7e6JoP_MjpDkkwN8aFFHBrV81IsVEG2J1N18FMNfCvmIMmg2AVDGQ7DSGAheAqpp2ks"/>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-md text-label-md text-on-surface font-semibold truncate">Fundamentos de Algoritmos &amp; Big-O</span>
+<span class="font-caption text-caption text-outline">Ingeniería · 10 Preguntas</span>
+</div>
+</div>
+<div class="flex items-center gap-4 shrink-0">
+<div class="text-right hidden sm:block">
+<div class="font-label-md text-label-md text-on-surface font-bold">6,420</div>
+<div class="font-caption text-caption text-outline">65% Aprobación</div>
+</div>
+<div class="flex items-center gap-1">
+<button aria-label="Editar quiz" class="p-1.5 rounded-lg text-outline hover:text-on-surface hover:bg-surface-container-highest transition-colors" type="button">
+<span class="material-symbols-outlined text-lg">edit</span>
+</button>
+<button aria-label="Pausar quiz" class="p-1.5 rounded-lg text-outline hover:text-error hover:bg-surface-container-highest transition-colors" type="button">
+<span class="material-symbols-outlined text-lg">pause_circle</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Quiz Item 5 -->
+<div class="flex items-center justify-between p-3 rounded-2xl bg-surface-container hover:bg-surface-container-high transition-colors gap-space-sm">
+<div class="flex items-center gap-3 min-w-0">
+<div class="w-8 h-8 rounded-xl bg-surface-container-highest text-on-surface-variant flex items-center justify-center font-bold text-label-md shrink-0">
+                #5
+              </div>
+<div class="w-11 h-11 rounded-xl overflow-hidden shrink-0">
+<img class="w-full h-full object-cover" data-alt="Vintage map with magnifying glass and brass compass high resolution dark antique exploration theme" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA8Uirs4PXg4u4AFIyNKBIGkqYpy3jjFpHahfe3xl6l6o8KvnKSZlsKm4j32aypARKmiFxoXRwIqXzVmgQLttdAUdd9Hd8aZ8rcDXNb7x2xwWpvNA_9IM_EpTarsTYZFHAnFhcEVzyIRDL10xJefz3Oxmcpw2cfmSrRS7vc7g_avR94l239xlitEmoIkarr91Myk_Z3vfU3nkttNMzECXT01mGPh-OmzQTj82jIdso"/>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-md text-label-md text-on-surface font-semibold truncate">Geografía Global y Capitales Ocultas</span>
+<span class="font-caption text-caption text-outline">Mundo · 18 Preguntas</span>
+</div>
+</div>
+<div class="flex items-center gap-4 shrink-0">
+<div class="text-right hidden sm:block">
+<div class="font-label-md text-label-md text-on-surface font-bold">5,910</div>
+<div class="font-caption text-caption text-outline">91% Aprobación</div>
+</div>
+<div class="flex items-center gap-1">
+<button aria-label="Editar quiz" class="p-1.5 rounded-lg text-outline hover:text-on-surface hover:bg-surface-container-highest transition-colors" type="button">
+<span class="material-symbols-outlined text-lg">edit</span>
+</button>
+<button aria-label="Pausar quiz" class="p-1.5 rounded-lg text-outline hover:text-error hover:bg-surface-container-highest transition-colors" type="button">
+<span class="material-symbols-outlined text-lg">pause_circle</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Columna Derecha: Actividad Reciente del Sistema / Feed de Auditoría (5 cols) -->
+<div class="lg:col-span-5 flex flex-col p-space-lg rounded-3xl bg-surface-container-low shadow-lg">
+<div class="flex items-center justify-between mb-space-md">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">history_toggle_off</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Feed de Auditoría</h2>
+</div>
+<span class="font-caption text-caption text-outline">Auto-sync 5s</span>
+</div>
+<!-- Timeline Events -->
+<div class="flex flex-col gap-space-sm relative">
+<!-- Event 1 -->
+<div class="flex items-start gap-space-sm p-3 rounded-2xl bg-surface-container/60 hover:bg-surface-container transition-colors">
+<div class="w-8 h-8 rounded-full bg-tertiary/20 text-tertiary flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-base">military_tech</span>
+</div>
+<div class="flex flex-col flex-1 min-w-0">
+<span class="font-label-md text-label-md text-on-surface font-medium leading-snug">
+                Usuario <strong class="text-tertiary">@saradev</strong> desbloqueó la insignia mítica <span class="text-on-surface font-bold">‘Gran Maestro Blitz’</span>
+</span>
+<div class="flex items-center gap-2 mt-1">
+<span class="font-caption text-caption text-outline">Hace 2m</span>
+<span class="text-outline">·</span>
+<span class="font-caption text-caption text-primary">Partida #92031</span>
+</div>
+</div>
+</div>
+<!-- Event 2 -->
+<div class="flex items-start gap-space-sm p-3 rounded-2xl bg-surface-container/60 hover:bg-surface-container transition-colors">
+<div class="w-8 h-8 rounded-full bg-primary/20 text-primary flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-base">publish</span>
+</div>
+<div class="flex flex-col flex-1 min-w-0">
+<span class="font-label-md text-label-md text-on-surface font-medium leading-snug">
+                Quiz <strong class="text-on-surface font-bold">#104 (TypeScript Avanzado)</strong> publicado por <span class="text-primary">Admin Root</span>
+</span>
+<div class="flex items-center gap-2 mt-1">
+<span class="font-caption text-caption text-outline">Hace 14m</span>
+<span class="text-outline">·</span>
+<span class="font-caption text-caption text-on-surface-variant">Producción</span>
+</div>
+</div>
+</div>
+<!-- Event 3 -->
+<div class="flex items-start gap-space-sm p-3 rounded-2xl bg-surface-container/60 hover:bg-surface-container transition-colors">
+<div class="w-8 h-8 rounded-full bg-surface-container-high text-primary flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-base">check_circle</span>
+</div>
+<div class="flex flex-col flex-1 min-w-0">
+<span class="font-label-md text-label-md text-on-surface font-medium leading-snug">
+                Alerta de latencia resuelta en nodo <span class="text-on-surface font-bold">US-East-2</span>
+</span>
+<div class="flex items-center gap-2 mt-1">
+<span class="font-caption text-caption text-outline">Hace 41m</span>
+<span class="text-outline">·</span>
+<span class="font-caption text-caption text-outline">Cluster Auto-Heal</span>
+</div>
+</div>
+</div>
+<!-- Event 4 -->
+<div class="flex items-start gap-space-sm p-3 rounded-2xl bg-surface-container/60 hover:bg-surface-container transition-colors">
+<div class="w-8 h-8 rounded-full bg-error-container/40 text-error flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-base">flag</span>
+</div>
+<div class="flex flex-col flex-1 min-w-0">
+<span class="font-label-md text-label-md text-on-surface font-medium leading-snug">
+                Nuevo reporte de reactivo marcado en <strong class="text-on-surface">Pregunta #442</strong> (Ambigüedad sintáctica)
+              </span>
+<div class="flex items-center gap-2 mt-1">
+<span class="font-caption text-caption text-outline">Hace 1h 10m</span>
+<span class="text-outline">·</span>
+<span class="font-caption text-caption text-error">Pendiente de revisión</span>
+</div>
+</div>
+</div>
+</div>
+<button class="w-full mt-space-md py-2.5 rounded-xl bg-surface-container-high hover:bg-surface-container text-on-surface font-label-md text-label-md text-center transition-colors" type="button">
+          Explorar historial de registros de auditoría
+        </button>
+</div>
+</div>
+</div>
+</div></main><footer class="w-full bg-surface-container-lowest mt-space-xl py-space-xl"><div class="w-full px-margin flex flex-col md:flex-row items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm"><img alt="QuizPulse Logo" class="h-6 w-auto object-contain opacity-80" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD2y67OihtqdUAdbh4SEo05Jp6jzf4ywOzHpmKn2p4NwHKtCiDym_MBL2PD2CAk0LYrZTTaVFVbrzvW0-q40GglrtUC-agL3PQrER2wlQMzh3KGfyhkfETP7zaYj2tVA1xDD4G1I1Mqm2RLX7D_8bk_QIJwC4ijYTJTOzI5pLmZsmEgqFAFYKQKV7BGNk8uz-Ikr0ckhF7_J40gScT2xR3Rmi959jGwCYpRyLaVES4"/><span class="font-headline-sm text-headline-sm font-bold text-on-surface-variant">Quiz<span class="text-primary">Pulse</span> <span class="font-label-sm text-label-sm text-outline ml-1 font-normal">Console</span></span></div><p class="font-body-sm text-body-sm text-outline">© 2025 QuizPulse Platform Admin Operations. Desafía tu mente en tiempo real.</p><div class="flex items-center gap-space-lg font-label-sm text-label-sm text-outline"><a class="hover:text-on-surface transition-colors" href="#">Términos de Servicio</a><a class="hover:text-on-surface transition-colors" href="#">Privacidad</a><a class="hover:text-on-surface transition-colors" href="#">Soporte Operativo</a></div></div></footer></body></html>
