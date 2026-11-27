@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"inverse-surface":"#dae2fd","inverse-on-surface":"#283044","surface-container-highest":"#2d3449","secondary":"#c3c0ff","surface-container":"#171f33","on-error":"#690005","on-primary-container":"#0d0096","tertiary-fixed-dim":"#ffb95f","secondary-fixed":"#e2dfff","primary-fixed-dim":"#c0c1ff","on-secondary-container":"#b3b1ff","on-tertiary":"#472a00","surface-container-high":"#222a3d","secondary-container":"#3626ce","outline-variant":"#464554","secondary-fixed-dim":"#c3c0ff","tertiary-container":"#ca8100","on-tertiary-fixed":"#2a1700","on-surface-variant":"#c7c4d7","tertiary":"#ffb95f","primary-container":"#8083ff","on-tertiary-fixed-variant":"#653e00","on-secondary-fixed":"#0f0069","on-primary-fixed":"#07006c","surface":"#0b1326","primary":"#c0c1ff","surface-variant":"#2d3449","surface-dim":"#0b1326","outline":"#908fa0","on-background":"#dae2fd","on-tertiary-container":"#3e2400","surface-container-lowest":"#060e20","on-primary-fixed-variant":"#2f2ebe","on-primary":"#1000a9","error-container":"#93000a","primary-fixed":"#e1e0ff","surface-bright":"#31394d","surface-tint":"#c0c1ff","on-secondary":"#1d00a5","surface-container-low":"#131b2e","error":"#ffb4ab","on-surface":"#dae2fd","background":"#0b1326","on-error-container":"#ffdad6","inverse-primary":"#494bd6","on-secondary-fixed-variant":"#3323cc","tertiary-fixed":"#ffddb8"},borderRadius:{DEFAULT:"0.25rem",lg:"0.5rem",xl:"0.75rem",full:"9999px"},spacing:{"gutter":"1.5rem","margin-mobile":"1rem","margin":"2rem","space-md":"1rem","space-xl":"2.5rem","space-sm":"0.5rem","gutter-mobile":"1rem","space-xs":"0.25rem","space-lg":"1.5rem"},fontFamily:{"label-md":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"display-lg":["Plus Jakarta Sans"],"label-lg":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"headline-xl":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"headline-xl-mobile":["Plus Jakarta Sans"],"display-lg-mobile":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"caption":["Plus Jakarta Sans"]},fontSize:{"label-md":["0.875rem",{lineHeight:"1.25rem",fontWeight:"600"}],"body-lg":["1.125rem",{lineHeight:"1.75rem",fontWeight:"400"}],"display-lg":["3.5rem",{lineHeight:"4rem",fontWeight:"800"}],"label-lg":["1rem",{lineHeight:"1.5rem",fontWeight:"600"}],"body-sm":["0.875rem",{lineHeight:"1.25rem",fontWeight:"400"}],"headline-xl":["2.5rem",{lineHeight:"3rem",fontWeight:"800"}],"body-md":["1rem",{lineHeight:"1.5rem",fontWeight:"400"}],"headline-xl-mobile":["1.75rem",{lineHeight:"2.25rem",fontWeight:"700"}],"display-lg-mobile":["2.25rem",{lineHeight:"2.75rem",fontWeight:"800"}],"headline-lg":["2rem",{lineHeight:"2.5rem",fontWeight:"700"}],"headline-sm":["1.25rem",{lineHeight:"1.75rem",fontWeight:"600"}],"headline-md":["1.5rem",{lineHeight:"2rem",fontWeight:"700"}],"label-sm":["0.75rem",{lineHeight:"1rem",fontWeight:"700"}],"caption":["0.75rem",{lineHeight:"1rem",fontWeight:"500"}]}}}}</script></head><body class="bg-surface font-body-md text-body-md text-on-surface min-h-screen selection:bg-primary-container selection:text-on-primary-container"><header class="fixed top-0 w-full z-50 bg-surface-container-lowest/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.4)]"><div class="h-20 w-full px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-lg shrink-0"><a class="flex items-center gap-space-sm group" data-path="inicio" href="#"><img alt="QuizPulse Logo" class="h-8 w-auto object-contain transition-transform group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD2y67OihtqdUAdbh4SEo05Jp6jzf4ywOzHpmKn2p4NwHKtCiDym_MBL2PD2CAk0LYrZTTaVFVbrzvW0-q40GglrtUC-agL3PQrER2wlQMzh3KGfyhkfETP7zaYj2tVA1xDD4G1I1Mqm2RLX7D_8bk_QIJwC4ijYTJTOzI5pLmZsmEgqFAFYKQKV7BGNk8uz-Ikr0ckhF7_J40gScT2xR3Rmi959jGwCYpRyLaVES4"/><span class="font-headline-sm text-headline-sm font-bold tracking-tight text-on-surface">Quiz<span class="text-primary">Pulse</span></span></a><nav class="hidden xl:flex items-center gap-space-xs" data-active-classes="bg-surface-container-high text-on-surface font-label-md text-label-md rounded-lg"><a class="px-3 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="inicio" href="#">Inicio</a><a class="px-3 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="categorias" href="#">Categorías</a><a class="px-3 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="explorar-quizzes" href="#">Explorar Quizzes</a><a class="px-3 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="ranking" href="#">Ranking</a><a class="px-3 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="mis-logros" href="#">Mis Logros</a><a class="px-3 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="admin-dashboard" href="#">Admin Dashboard</a></nav></div><div class="flex-1 max-w-md mx-space-sm hidden md:block"><div class="relative flex items-center"><span class="material-symbols-outlined absolute left-3 text-outline select-none pointer-events-none">search</span><input class="w-full bg-surface-container pl-10 pr-4 py-2 rounded-xl text-on-surface placeholder:text-outline font-body-sm text-body-sm focus:outline-none focus:ring-1 focus:ring-primary shadow-inner" placeholder="Buscar quizzes, temas o creadores..." type="text"/></div></div><div class="flex items-center gap-space-sm shrink-0"><div class="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container-high shadow-[0_0_12px_-2px_rgba(245,158,11,0.2)]"><span class="text-tertiary font-label-md text-label-md select-none">🔥</span><span class="font-label-md text-label-md text-on-surface">7 días</span></div><div class="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container-high shadow-[0_0_12px_-2px_rgba(192,193,255,0.2)]"><span class="text-primary font-label-md text-label-md select-none">⚡</span><span class="font-label-md text-label-md text-primary">2,450 XP</span></div><button aria-label="Notificaciones" class="relative p-2 rounded-full text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined block">notifications</span><span class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-tertiary"></span></button><div class="flex items-center gap-space-xs pl-space-xs cursor-pointer group"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-surface-container-highest group-hover:ring-primary transition-all" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDe-iH6G0TuMGAKeQfl3Gj_gkkRYvwY4RcEuWdJ7blaEhiff00Kl3Wz4CC27F5HdACDuS0ktNewVxieEAOm443WLMLUS1bXl7VInuWwUgZi7YHMoquC2WIS3pQDxycna43oCWitjSlCPG-iCcRzv1ZQM6JeWNUOYCIsREIAkH4SAw1sObCMELBCUewCL38SVVTnpe6soJ8WgpTRPThLkEO33HHuPogPMRlawkCpjcw"/><span class="material-symbols-outlined text-outline group-hover:text-on-surface text-lg transition-transform group-hover:translate-y-0.5">expand_more</span></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-140px)]"><div class="flex flex-col w-full relative overflow-hidden">
+<!-- Glowing ambient light backdrops -->
+<div class="absolute -top-40 left-1/2 -translate-x-1/2 w-[850px] h-[550px] bg-primary/10 rounded-full blur-[140px] pointer-events-none -z-10"></div>
+<div class="absolute top-96 right-10 w-[500px] h-[400px] bg-tertiary/10 rounded-full blur-[120px] pointer-events-none -z-10"></div>
+<div class="absolute top-1/2 left-0 w-[450px] h-[450px] bg-secondary-container/20 rounded-full blur-[130px] pointer-events-none -z-10"></div>
+<!-- Hero Victory Header -->
+<section class="w-full px-margin pt-space-lg pb-space-xl flex flex-col items-center text-center relative">
+<!-- Breadcrumb / Mode pill -->
+<div class="inline-flex items-center gap-space-xs px-4 py-1.5 rounded-full bg-surface-container-high shadow-sm mb-space-md">
+<span class="material-symbols-outlined text-tertiary text-sm" style="font-variation-settings: 'FILL' 1;">military_tech</span>
+<span class="font-label-sm text-label-sm text-tertiary uppercase tracking-wider">Desafío Élite Superado</span>
+<span class="w-1.5 h-1.5 rounded-full bg-outline"></span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Arquitectura de Software &amp; Patrones</span>
+</div>
+<!-- Triumphant Title -->
+<h1 class="font-headline-xl text-headline-xl md:font-display-lg md:text-display-lg text-on-surface tracking-tight max-w-4xl">
+      ¡Victoria Técnica Absoluta!
+    </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mt-space-xs">
+      Has demostrado criterio técnico de nivel <span class="text-primary font-bold">Staff Engineer</span> resolviendo escenarios críticos de latencia, consenso y desacoplamiento.
+    </p>
+<!-- Main Trophy & Rank Crest Section -->
+<div class="w-full max-w-3xl mt-space-lg p-space-lg rounded-xl bg-surface-container relative shadow-xl flex flex-col md:flex-row items-center justify-between gap-space-lg overflow-hidden">
+<!-- Background subtle decorative grid -->
+<div class="absolute inset-0 bg-gradient-to-r from-primary-container/10 via-transparent to-tertiary/10 pointer-events-none"></div>
+<!-- Trophy Badge Graphic -->
+<div class="relative flex items-center justify-center shrink-0">
+<div class="relative w-40 h-40 rounded-full bg-surface-container-highest flex items-center justify-center shadow-[0_0_40px_-5px_rgba(255,185,95,0.4)]">
+<div class="w-32 h-32 rounded-full bg-surface-container-low flex flex-col items-center justify-center text-center">
+<span class="material-symbols-outlined text-tertiary text-5xl" style="font-variation-settings: 'FILL' 1;">emoji_events</span>
+<span class="font-headline-sm text-headline-sm text-tertiary font-extrabold mt-1">RANGO S+</span>
+</div>
+<!-- Orbiting micro-badge -->
+<div class="absolute -bottom-2 px-3 py-1 rounded-full bg-tertiary text-on-tertiary font-label-sm text-label-sm shadow-md flex items-center gap-1">
+<span class="material-symbols-outlined text-xs">verified</span>
+<span>TOP 1%</span>
+</div>
+</div>
+</div>
+<!-- Hero Score Breakdown -->
+<div class="flex-1 flex flex-col text-center md:text-left z-10">
+<div class="inline-flex items-center justify-center md:justify-start gap-2">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">Insignia Otorgada</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm">Temporada 2025</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-extrabold mt-1">
+          Maestro de Microservicios
+        </h2>
+<!-- Score & Precision Pillars -->
+<div class="grid grid-cols-2 gap-space-md mt-space-md pt-space-md bg-surface-container-low/70 p-space-md rounded-lg">
+<div>
+<span class="font-caption text-caption text-outline uppercase tracking-wider block">Puntaje Total</span>
+<div class="flex items-baseline justify-center md:justify-start gap-1.5 mt-0.5">
+<span class="font-headline-xl text-headline-xl text-primary font-extrabold tracking-tight">18,450</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">pts</span>
+</div>
+</div>
+<div>
+<span class="font-caption text-caption text-outline uppercase tracking-wider block">Precisión Global</span>
+<div class="flex items-baseline justify-center md:justify-start gap-1.5 mt-0.5">
+<span class="font-headline-xl text-headline-xl text-tertiary font-extrabold tracking-tight">95%</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">(19/20)</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Key Metrics Bento Grid -->
+<section class="w-full px-margin py-space-md max-w-6xl mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Metric 1: XP & Level Up -->
+<div class="p-space-md rounded-xl bg-surface-container flex flex-col justify-between shadow-md relative overflow-hidden group hover:bg-surface-container-high transition-all">
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-md text-label-md text-on-surface-variant">Experiencia</span>
+<span class="p-2 rounded-lg bg-primary/10 text-primary material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">bolt</span>
+</div>
+<div>
+<div class="flex items-baseline gap-2">
+<span class="font-headline-md text-headline-md text-on-surface font-extrabold">+650 XP</span>
+<span class="px-2 py-0.5 rounded-full bg-primary-container text-on-primary-container font-label-sm text-label-sm">¡Level UP!</span>
+</div>
+<p class="font-body-sm text-body-sm text-outline mt-1">Nivel 14 → <strong class="text-primary">Nivel 15</strong></p>
+<!-- Level Progress Bar -->
+<div class="w-full h-2 rounded-full bg-surface-container-highest mt-3 overflow-hidden">
+<div class="h-full bg-primary rounded-full transition-all duration-1000 ease-out" style="width: 78%;"></div>
+</div>
+<div class="flex justify-between items-center mt-1">
+<span class="font-caption text-caption text-outline">3,100 / 4,000 XP</span>
+<span class="font-caption text-caption text-primary">Siguiente: Nivel 16</span>
+</div>
+</div>
+</div>
+<!-- Metric 2: Speed / Timing -->
+<div class="p-space-md rounded-xl bg-surface-container flex flex-col justify-between shadow-md group hover:bg-surface-container-high transition-all">
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-md text-label-md text-on-surface-variant">Tiempo Registrado</span>
+<span class="p-2 rounded-lg bg-surface-container-highest text-secondary material-symbols-outlined text-lg">timer</span>
+</div>
+<div>
+<span class="font-headline-md text-headline-md text-on-surface font-extrabold">6m 24s</span>
+<div class="flex items-center gap-1.5 mt-1 text-tertiary">
+<span class="material-symbols-outlined text-sm">speed</span>
+<span class="font-label-sm text-label-sm">Top 3% más veloz</span>
+</div>
+<p class="font-caption text-caption text-outline mt-2">Promedio de respuesta: <span class="text-on-surface">19.2 seg/pregunta</span></p>
+</div>
+</div>
+<!-- Metric 3: Best Streak -->
+<div class="p-space-md rounded-xl bg-surface-container flex flex-col justify-between shadow-md group hover:bg-surface-container-high transition-all">
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-md text-label-md text-on-surface-variant">Racha Imparable</span>
+<span class="p-2 rounded-lg bg-tertiary-container/30 text-tertiary material-symbols-outlined text-lg">local_fire_department</span>
+</div>
+<div>
+<div class="flex items-baseline gap-2">
+<span class="font-headline-md text-headline-md text-on-surface font-extrabold">12 Aciertos</span>
+<span class="font-label-sm text-label-sm text-tertiary font-bold">x3.0 Combo</span>
+</div>
+<div class="flex items-center gap-1 mt-2">
+<div class="h-1.5 flex-1 rounded-full bg-tertiary"></div>
+<div class="h-1.5 flex-1 rounded-full bg-tertiary"></div>
+<div class="h-1.5 flex-1 rounded-full bg-tertiary"></div>
+<div class="h-1.5 flex-1 rounded-full bg-surface-container-highest"></div>
+</div>
+<p class="font-caption text-caption text-outline mt-2">Multiplicador máximo sostenido</p>
+</div>
+</div>
+<!-- Metric 4: Currency Won -->
+<div class="p-space-md rounded-xl bg-surface-container flex flex-col justify-between shadow-md group hover:bg-surface-container-high transition-all">
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-md text-label-md text-on-surface-variant">Monedas Pulse</span>
+<span class="p-2 rounded-lg bg-secondary/10 text-secondary material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">monetization_on</span>
+</div>
+<div>
+<span class="font-headline-md text-headline-md text-on-surface font-extrabold">+85 Pulse Coins</span>
+<div class="flex items-center gap-1.5 mt-1 text-secondary">
+<span class="material-symbols-outlined text-sm">stars</span>
+<span class="font-label-sm text-label-sm">Balance: 1,420 🪙</span>
+</div>
+<p class="font-caption text-caption text-outline mt-2">Disponibles para la Tienda y Avatares</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Split Grid: Competencies Breakdown & Unlocked Rewards -->
+<section class="w-full px-margin py-space-lg max-w-6xl mx-auto">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-start">
+<!-- Left Column: Detailed Topic Mastery (7 cols) -->
+<div class="lg:col-span-7 bg-surface-container p-space-lg rounded-xl shadow-lg flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Desglose por Competencia</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Evaluación de aptitudes del marco Senior/Staff</p>
+</div>
+<span class="px-3 py-1 rounded-full bg-surface-container-high font-label-sm text-label-sm text-primary">
+            4 Categorías
+          </span>
+</div>
+<div class="flex flex-col gap-space-md mt-space-xs">
+<!-- Competency 1 -->
+<div class="p-space-md rounded-lg bg-surface-container-low flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary-container"></span>
+<span class="font-label-md text-label-md text-on-surface font-semibold">Microservicios &amp; Sagas Distribuidas</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm text-on-surface font-bold">5/5</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-highest text-primary font-label-sm text-label-sm">100%</span>
+</div>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container-highest overflow-hidden">
+<div class="h-full bg-primary rounded-full" style="width: 100%;"></div>
+</div>
+<p class="font-caption text-caption text-outline">Dominio total en rollback compensatorio y orquestación temporal.</p>
+</div>
+<!-- Competency 2 -->
+<div class="p-space-md rounded-lg bg-surface-container-low flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary-container"></span>
+<span class="font-label-md text-label-md text-on-surface font-semibold">Patrones GoF &amp; Estructurales</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm text-on-surface font-bold">5/5</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-highest text-primary font-label-sm text-label-sm">100%</span>
+</div>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container-highest overflow-hidden">
+<div class="h-full bg-primary rounded-full" style="width: 100%;"></div>
+</div>
+<p class="font-caption text-caption text-outline">Precisión exacta en Adapter, Strategy, Decorator y Event-Driven Pub/Sub.</p>
+</div>
+<!-- Competency 3 (Missed 1) -->
+<div class="p-space-md rounded-lg bg-surface-container-low flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-tertiary"></span>
+<span class="font-label-md text-label-md text-on-surface font-semibold">Consistencia de Datos &amp; Teorema CAP</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm text-on-surface font-bold">4/5</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-highest text-tertiary font-label-sm text-label-sm">80%</span>
+</div>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container-highest overflow-hidden">
+<div class="h-full bg-tertiary rounded-full" style="width: 80%;"></div>
+</div>
+<div class="flex items-center justify-between">
+<p class="font-caption text-caption text-outline">Fallo leve en particionado de red frente a replicación multi-líder.</p>
+<button class="font-label-sm text-label-sm text-tertiary hover:underline flex items-center gap-0.5">
+                Ver error <span class="material-symbols-outlined text-xs">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Competency 4 -->
+<div class="p-space-md rounded-lg bg-surface-container-low flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary-container"></span>
+<span class="font-label-md text-label-md text-on-surface font-semibold">Resiliencia, Circuit Breaker &amp; Rate Limiting</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm text-on-surface font-bold">5/5</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-highest text-primary font-label-sm text-label-sm">100%</span>
+</div>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container-highest overflow-hidden">
+<div class="h-full bg-primary rounded-full" style="width: 100%;"></div>
+</div>
+<p class="font-caption text-caption text-outline">Identificación ejemplar de algoritmos Leaky Bucket y Token Bucket.</p>
+</div>
+</div>
+</div>
+<!-- Right Column: Rewards Unlocked & Leaderboard Surge (5 cols) -->
+<div class="lg:col-span-5 flex flex-col gap-space-md">
+<!-- Unlocked Badge Card -->
+<div class="p-space-lg rounded-xl bg-surface-container shadow-lg flex flex-col relative overflow-hidden">
+<div class="flex items-center gap-space-sm mb-space-sm">
+<span class="material-symbols-outlined text-tertiary text-2xl">workspace_premium</span>
+<div>
+<span class="font-caption text-caption text-tertiary font-bold tracking-wider uppercase">Coleccionable Desbloqueado</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-bold">Insignia "Arquitecto Resiliente"</h4>
+</div>
+</div>
+<div class="flex items-center gap-space-md my-space-xs p-space-md bg-surface-container-low rounded-lg">
+<div class="w-16 h-16 rounded-full bg-surface-container-high flex items-center justify-center shrink-0 shadow-[0_0_20px_-2px_rgba(192,193,255,0.3)]">
+<span class="material-symbols-outlined text-primary text-3xl">hub</span>
+</div>
+<div>
+<div class="flex items-center gap-2">
+<span class="font-label-md text-label-md text-on-surface font-bold">Grado Mítico</span>
+<span class="font-caption text-caption px-2 py-0.5 rounded-full bg-surface-container text-outline">Edición 2025</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1 leading-snug">
+                Otorgada únicamente al responder con +90% de acierto en menos de 7 minutos en la categoría de Sistemas Distribuidos.
+              </p>
+</div>
+</div>
+<span class="font-caption text-caption text-outline text-right">Agregada a tu vitrina de logros</span>
+</div>
+<!-- Leaderboard Surge Card -->
+<div class="p-space-lg rounded-xl bg-surface-container shadow-lg flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-bold">Subida de Ranking Global</h4>
+<span class="flex items-center gap-1 font-label-md text-label-md text-tertiary font-bold">
+<span class="material-symbols-outlined text-sm">trending_up</span>
+              +42 Puestos
+            </span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Tu desempeño te catapulta directamente al <strong class="text-on-surface">Top 20</strong> del tablero internacional.
+          </p>
+<!-- Micro Leaderboard Excerpt -->
+<div class="flex flex-col gap-2 mt-space-xs">
+<div class="flex items-center justify-between p-2 rounded-lg bg-surface-container-low text-on-surface-variant font-body-sm text-body-sm">
+<div class="flex items-center gap-3">
+<span class="font-label-sm text-label-sm text-outline w-6 text-center">#16</span>
+<span class="w-6 h-6 rounded-full bg-surface-container-highest flex items-center justify-center font-caption text-caption text-on-surface">MC</span>
+<span class="truncate">M. Chen (K8s Lead)</span>
+</div>
+<span class="font-label-sm text-label-sm text-outline">18,620 pts</span>
+</div>
+<div class="flex items-center justify-between p-2 rounded-lg bg-surface-container-low text-on-surface-variant font-body-sm text-body-sm">
+<div class="flex items-center gap-3">
+<span class="font-label-sm text-label-sm text-outline w-6 text-center">#17</span>
+<span class="w-6 h-6 rounded-full bg-surface-container-highest flex items-center justify-center font-caption text-caption text-on-surface">DR</span>
+<span class="truncate">David R. (Cloud Arch)</span>
+</div>
+<span class="font-label-sm text-label-sm text-outline">18,510 pts</span>
+</div>
+<!-- Current User Row (Highlighted) -->
+<div class="flex items-center justify-between p-2.5 rounded-lg bg-primary/10 shadow-[0_0_15px_-3px_rgba(192,193,255,0.3)] text-on-surface">
+<div class="flex items-center gap-3">
+<span class="font-label-md text-label-md text-primary font-bold w-6 text-center">#18</span>
+<img class="w-7 h-7 rounded-full object-cover shadow-sm" data-alt="Close up realistic avatar portrait of a software engineer with glasses in dramatic neon rim lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBPvluM3TIjWeFV17j9J4F1cYNrXg18gDhaMkrWCKZy0h_pY-oje5IKaBUG5ipGqnfz1mkn8YdnN5ZP9a0zJSqpJQk6AJzB4QnAwZQTK5EDlvvvapQQsMaJQAUA-JLEfG2c0h0XzBMpFjZX_eJ7Vk0S3bqn7bDjWK1t4fngGn-d-xxy6GTp3crrtsRP7GviVdKpZkl9E1zQuf22fuDvxpZFHxZV6daNKDUjLEA9ugQ"/>
+<div class="flex items-center gap-1.5">
+<span class="font-label-md text-label-md text-primary font-bold">Tú (Alex Dev)</span>
+<span class="material-symbols-outlined text-primary text-xs" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+</div>
+<span class="font-label-md text-label-md text-primary font-extrabold">18,450 pts</span>
+</div>
+<div class="flex items-center justify-between p-2 rounded-lg bg-surface-container-low text-on-surface-variant font-body-sm text-body-sm opacity-60">
+<div class="flex items-center gap-3">
+<span class="font-label-sm text-label-sm text-outline w-6 text-center">#19</span>
+<span class="w-6 h-6 rounded-full bg-surface-container-highest flex items-center justify-center font-caption text-caption text-on-surface">SV</span>
+<span class="truncate">Sofia Vega</span>
+</div>
+<span class="font-label-sm text-label-sm text-outline">18,340 pts</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Action Bar & Post-Game Navigation -->
+<section class="w-full px-margin py-space-xl max-w-6xl mx-auto flex flex-col items-center">
+<div class="w-full bg-surface-container p-space-lg rounded-xl shadow-xl flex flex-col md:flex-row items-center justify-between gap-space-md">
+<!-- Primary Action Buttons -->
+<div class="flex flex-wrap items-center gap-space-sm w-full md:w-auto">
+<!-- Review Detailed Answers (Primary Call to Action) -->
+<button class="flex-1 sm:flex-none flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-primary text-on-primary font-label-lg text-label-lg shadow-[0_0_20px_-3px_rgba(192,193,255,0.4)] hover:brightness-110 active:scale-95 transition-all" type="button">
+<span class="material-symbols-outlined text-xl">fact_check</span>
+<span>Revisar Respuestas Detalladas</span>
+</button>
+<!-- Play Again / Replay Button -->
+<button class="flex-1 sm:flex-none flex items-center justify-center gap-2 px-5 py-3.5 rounded-xl bg-surface-container-high text-on-surface hover:bg-surface-container-highest font-label-lg text-label-lg active:scale-95 transition-all" type="button">
+<span class="material-symbols-outlined text-xl">replay</span>
+<span>Jugar Otra Vez</span>
+</button>
+</div>
+<!-- Secondary Share & Browse Controls -->
+<div class="flex items-center justify-between sm:justify-end gap-space-sm w-full md:w-auto">
+<!-- Share Credential / Certificate -->
+<button class="flex items-center gap-2 px-4 py-3 rounded-lg bg-surface-container-low text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high font-label-md text-label-md transition-all" type="button">
+<span class="material-symbols-outlined text-lg">share</span>
+<span>Compartir Logro</span>
+</button>
+<!-- Back to Quiz Catalog -->
+<button class="flex items-center gap-2 px-4 py-3 rounded-lg bg-surface-container-low text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high font-label-md text-label-md transition-all" type="button">
+<span class="material-symbols-outlined text-lg">dashboard</span>
+<span>Explorar Quizzes</span>
+</button>
+</div>
+</div>
+<!-- Micro UX Note -->
+<div class="mt-space-md flex items-center gap-2 text-outline font-caption text-caption">
+<span class="material-symbols-outlined text-sm">schedule</span>
+<span>Tus puntos y estadísticas ya han sido sincronizados con tu perfil de desarrollador.</span>
+</div>
+</section>
+</div></main><footer class="w-full bg-surface-container-lowest mt-space-xl py-space-xl"><div class="w-full px-margin flex flex-col md:flex-row items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm"><img alt="QuizPulse Logo" class="h-6 w-auto object-contain opacity-80" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD2y67OihtqdUAdbh4SEo05Jp6jzf4ywOzHpmKn2p4NwHKtCiDym_MBL2PD2CAk0LYrZTTaVFVbrzvW0-q40GglrtUC-agL3PQrER2wlQMzh3KGfyhkfETP7zaYj2tVA1xDD4G1I1Mqm2RLX7D_8bk_QIJwC4ijYTJTOzI5pLmZsmEgqFAFYKQKV7BGNk8uz-Ikr0ckhF7_J40gScT2xR3Rmi959jGwCYpRyLaVES4"/><span class="font-headline-sm text-headline-sm font-bold text-on-surface-variant">Quiz<span class="text-primary">Pulse</span></span></div><p class="font-body-sm text-body-sm text-outline">© 2025 QuizPulse Platform. Desafía tu mente en tiempo real.</p><div class="flex items-center gap-space-lg font-label-sm text-label-sm text-outline"><a class="hover:text-on-surface transition-colors" href="#">Términos de Servicio</a><a class="hover:text-on-surface transition-colors" href="#">Privacidad</a><a class="hover:text-on-surface transition-colors" href="#">Soporte</a></div></div></footer></body></html>
