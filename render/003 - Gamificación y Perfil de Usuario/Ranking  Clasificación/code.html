@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"surface-bright":"#31394d","on-tertiary-fixed-variant":"#653e00","on-error-container":"#ffdad6","secondary-fixed-dim":"#c3c0ff","primary-container":"#8083ff","on-tertiary-fixed":"#2a1700","primary-fixed-dim":"#c0c1ff","on-primary":"#1000a9","on-primary-fixed":"#07006c","on-secondary-container":"#b3b1ff","surface-container-highest":"#2d3449","on-tertiary-container":"#3e2400","on-secondary-fixed-variant":"#3323cc","on-error":"#690005","on-primary-container":"#0d0096","inverse-surface":"#dae2fd","tertiary":"#ffb95f","surface-container":"#171f33","background":"#0b1326","surface-container-lowest":"#060e20","surface-tint":"#c0c1ff","tertiary-fixed":"#ffddb8","on-secondary-fixed":"#0f0069","surface-container-low":"#131b2e","surface-container-high":"#222a3d","surface-variant":"#2d3449","on-background":"#dae2fd","on-primary-fixed-variant":"#2f2ebe","secondary-fixed":"#e2dfff","outline-variant":"#464554","secondary-container":"#3626ce","error":"#ffb4ab","outline":"#908fa0","on-tertiary":"#472a00","inverse-primary":"#494bd6","error-container":"#93000a","tertiary-container":"#ca8100","primary":"#c0c1ff","surface-dim":"#0b1326","on-surface-variant":"#c7c4d7","tertiary-fixed-dim":"#ffb95f","secondary":"#c3c0ff","on-surface":"#dae2fd","on-secondary":"#1d00a5","surface":"#0b1326","primary-fixed":"#e1e0ff","inverse-on-surface":"#283044"},borderRadius:{DEFAULT:"0.25rem",lg:"0.5rem",xl:"0.75rem",full:"9999px"},spacing:{"space-xl":"2.5rem","margin":"2rem","margin-mobile":"1rem","space-sm":"0.5rem","gutter":"1.5rem","gutter-mobile":"1rem","space-xs":"0.25rem","space-md":"1rem","space-lg":"1.5rem"},fontFamily:{"display-lg":["Plus Jakarta Sans"],"label-md":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"display-lg-mobile":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"headline-xl-mobile":["Plus Jakarta Sans"],"label-lg":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"caption":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"headline-xl":["Plus Jakarta Sans"]},fontSize:{"display-lg":["3.5rem",{lineHeight:"4rem",fontWeight:"800"}],"label-md":["0.875rem",{lineHeight:"1.25rem",fontWeight:"600"}],"headline-md":["1.5rem",{lineHeight:"2rem",fontWeight:"700"}],"display-lg-mobile":["2.25rem",{lineHeight:"2.75rem",fontWeight:"800"}],"headline-sm":["1.25rem",{lineHeight:"1.75rem",fontWeight:"600"}],"headline-xl-mobile":["1.75rem",{lineHeight:"2.25rem",fontWeight:"700"}],"label-lg":["1rem",{lineHeight:"1.5rem",fontWeight:"600"}],"body-lg":["1.125rem",{lineHeight:"1.75rem",fontWeight:"400"}],"label-sm":["0.75rem",{lineHeight:"1rem",fontWeight:"700"}],"headline-lg":["2rem",{lineHeight:"2.5rem",fontWeight:"700"}],"body-md":["1rem",{lineHeight:"1.5rem",fontWeight:"400"}],"caption":["0.75rem",{lineHeight:"1rem",fontWeight:"500"}],"body-sm":["0.875rem",{lineHeight:"1.25rem",fontWeight:"400"}],"headline-xl":["2.5rem",{lineHeight:"3rem",fontWeight:"800"}]}}}}</script></head><body class="bg-surface font-body-md text-body-md text-on-surface min-h-screen selection:bg-primary-container selection:text-on-primary-container"><header class="fixed top-0 w-full z-50 bg-surface-container-lowest/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.4)]"><div class="h-20 w-full px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-lg shrink-0"><a class="flex items-center gap-space-sm group" data-path="inicio" href="#"><img alt="QuizPulse Logo" class="h-8 w-auto object-contain transition-transform group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD2y67OihtqdUAdbh4SEo05Jp6jzf4ywOzHpmKn2p4NwHKtCiDym_MBL2PD2CAk0LYrZTTaVFVbrzvW0-q40GglrtUC-agL3PQrER2wlQMzh3KGfyhkfETP7zaYj2tVA1xDD4G1I1Mqm2RLX7D_8bk_QIJwC4ijYTJTOzI5pLmZsmEgqFAFYKQKV7BGNk8uz-Ikr0ckhF7_J40gScT2xR3Rmi959jGwCYpRyLaVES4"/><span class="font-headline-sm text-headline-sm font-bold tracking-tight text-on-surface">Quiz<span class="text-primary">Pulse</span></span></a><nav class="hidden 2xl:flex items-center gap-space-xs" data-active-classes="bg-surface-container-high text-on-surface font-label-md text-label-md rounded-lg"><a class="px-3 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="inicio" href="#">Inicio</a><a class="px-3 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="categorias" href="#">Categorías</a><a class="px-3 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="explorar-quizzes" href="#">Explorar Quizzes</a><a aria-current="page" class="px-3 py-2 transition-colors bg-surface-container-high text-on-surface font-label-md text-label-md rounded-lg" data-path="ranking" href="#">Ranking</a><a class="px-3 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="mis-logros" href="#">Mis Logros</a><a class="px-3 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="perfil" href="#">Perfil</a><a class="px-3 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="configuracion" href="#">Configuración</a><a class="px-3 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="admin-dashboard" href="#">Admin Dashboard</a></nav></div><div class="flex-1 max-w-sm mx-space-sm hidden lg:block"><div class="relative flex items-center"><span class="material-symbols-outlined absolute left-3 text-outline select-none pointer-events-none">search</span><input class="w-full bg-surface-container pl-10 pr-4 py-2 rounded-xl text-on-surface placeholder:text-outline font-body-sm text-body-sm focus:outline-none focus:ring-1 focus:ring-primary shadow-inner" placeholder="Buscar quizzes, temas..." type="text"/></div></div><div class="flex items-center gap-space-sm shrink-0"><div class="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container-high shadow-[0_0_12px_-2px_rgba(245,158,11,0.2)]"><span class="text-tertiary font-label-md text-label-md select-none">🔥</span><span class="font-label-md text-label-md text-on-surface">7 días</span></div><div class="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container-high shadow-[0_0_12px_-2px_rgba(192,193,255,0.2)]"><span class="text-primary font-label-md text-label-md select-none">⚡</span><span class="font-label-md text-label-md text-primary">2,450 XP</span></div><button aria-label="Notificaciones" class="relative p-2 rounded-full text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined block">notifications</span><span class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-tertiary"></span></button><a class="flex items-center gap-space-xs pl-space-xs cursor-pointer group" data-path="perfil" href="#"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-surface-container-highest group-hover:ring-primary transition-all" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDe-iH6G0TuMGAKeQfl3Gj_gkkRYvwY4RcEuWdJ7blaEhiff00Kl3Wz4CC27F5HdACDuS0ktNewVxieEAOm443WLMLUS1bXl7VInuWwUgZi7YHMoquC2WIS3pQDxycna43oCWitjSlCPG-iCcRzv1ZQM6JeWNUOYCIsREIAkH4SAw1sObCMELBCUewCL38SVVTnpe6soJ8WgpTRPThLkEO33HHuPogPMRlawkCpjcw"/><span class="material-symbols-outlined text-outline group-hover:text-on-surface text-lg transition-transform group-hover:translate-y-0.5">expand_more</span></a></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-140px)]"><div class="flex flex-col w-full">
+<!-- Dynamic Glow Backdrop -->
+<div class="relative w-full overflow-hidden">
+<div class="absolute -top-40 left-1/2 -translate-x-1/2 w-[700px] h-[350px] bg-primary-container/15 blur-[120px] rounded-full pointer-events-none"></div>
+<div class="absolute top-20 right-10 w-96 h-96 bg-tertiary/10 blur-[100px] rounded-full pointer-events-none"></div>
+<div class="w-full px-margin py-space-xl flex flex-col gap-space-xl max-w-7xl mx-auto">
+<!-- Header Section: Competencia & Temporada -->
+<section class="flex flex-col lg:flex-row lg:items-end justify-between gap-space-lg">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-sm">
+<span class="px-3 py-1 rounded-full bg-primary-container/20 text-primary font-label-sm text-label-sm uppercase tracking-wider flex items-center gap-1.5 shadow-[0_0_16px_rgba(128,131,255,0.35)]">
+<span class="w-2 h-2 rounded-full bg-primary animate-ping"></span>
+              Temporada 4: Liga Titán
+            </span>
+<span class="text-outline font-label-sm text-label-sm hidden sm:inline">•</span>
+<span class="text-on-surface-variant font-label-sm text-label-sm hidden sm:inline">Cierre de clasificación inminente</span>
+</div>
+<h1 class="font-display-lg text-display-lg text-on-surface tracking-tight mt-1">
+            Tabla de Clasificación <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">Global</span>
+</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
+            Compite con los intelectos más rápidos del planeta. Cada segundo cuenta, cada racha multiplica tu gloria en el ranking oficial de QuizPulse.
+          </p>
+</div>
+<!-- Temporizador Countdown Card -->
+<div class="flex items-center gap-space-md p-space-md rounded-2xl bg-surface-container-high/90 shadow-xl backdrop-blur-md self-start lg:self-auto shrink-0">
+<div class="p-3 rounded-xl bg-tertiary-container/30 text-tertiary flex items-center justify-center">
+<span class="material-symbols-outlined text-3xl" style="font-variation-settings: 'FILL' 1;">timer</span>
+</div>
+<div class="flex flex-col">
+<span class="font-caption text-caption uppercase text-on-surface-variant tracking-wider">Cierre de Temporada</span>
+<div class="flex items-center gap-1.5 font-headline-md text-headline-md font-bold text-tertiary">
+<span id="countdown-days">03</span><span class="text-xs text-outline">d</span>
+<span>:</span>
+<span id="countdown-hours">14</span><span class="text-xs text-outline">h</span>
+<span>:</span>
+<span id="countdown-mins">22</span><span class="text-xs text-outline">m</span>
+<span>:</span>
+<span class="text-tertiary-fixed font-mono" id="countdown-secs">48</span><span class="text-xs text-outline">s</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Controles de Filtros y Alcance -->
+<section class="flex flex-col md:flex-row items-stretch md:items-center justify-between gap-space-md p-2 rounded-2xl bg-surface-container-low shadow-sm">
+<!-- Pestañas de Tiempo -->
+<div class="flex items-center gap-1 p-1 bg-surface-container rounded-xl overflow-x-auto">
+<button class="px-5 py-2.5 rounded-lg font-label-md text-label-md transition-all duration-200 bg-primary-container text-on-primary font-bold shadow-[0_0_16px_rgba(128,131,255,0.4)] whitespace-nowrap">
+            Semanal
+          </button>
+<button class="px-5 py-2.5 rounded-lg font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all duration-200 whitespace-nowrap">
+            Mensual
+          </button>
+<button class="px-5 py-2.5 rounded-lg font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all duration-200 whitespace-nowrap">
+            Histórico Global
+          </button>
+</div>
+<!-- Filtros de Comunidad / Ligas -->
+<div class="flex items-center gap-space-xs overflow-x-auto pb-1 md:pb-0">
+<div class="flex items-center gap-1">
+<button class="px-3.5 py-2 rounded-lg bg-surface-container-high text-on-surface font-label-sm text-label-sm flex items-center gap-1.5 hover:bg-surface-bright transition-colors whitespace-nowrap">
+<span class="material-symbols-outlined text-base text-primary">public</span>
+              Global
+            </button>
+<button class="px-3.5 py-2 rounded-lg bg-surface-container text-on-surface-variant font-label-sm text-label-sm flex items-center gap-1.5 hover:bg-surface-bright hover:text-on-surface transition-colors whitespace-nowrap">
+<span class="material-symbols-outlined text-base">group</span>
+              Entre Amigos
+            </button>
+<button class="px-3.5 py-2 rounded-lg bg-surface-container text-on-surface-variant font-label-sm text-label-sm flex items-center gap-1.5 hover:bg-surface-bright hover:text-on-surface transition-colors whitespace-nowrap">
+<span class="material-symbols-outlined text-base text-secondary">diamond</span>
+              Liga Diamante
+            </button>
+<button class="px-3.5 py-2 rounded-lg bg-surface-container text-on-surface-variant font-label-sm text-label-sm flex items-center gap-1.5 hover:bg-surface-bright hover:text-on-surface transition-colors whitespace-nowrap">
+<span class="material-symbols-outlined text-base">flag</span>
+              España
+            </button>
+</div>
+</div>
+</section>
+<!-- Podio Épico Top 3 -->
+<section class="w-full pt-8 pb-4">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg items-end">
+<!-- PUESTO 2: Plata -->
+<div class="order-2 md:order-1 flex flex-col items-center group">
+<div class="w-full p-space-lg rounded-3xl bg-surface-container-high relative flex flex-col items-center text-center shadow-lg transition-transform duration-300 group-hover:-translate-y-1.5">
+<!-- Crest Badge -->
+<div class="absolute -top-6 px-4 py-1 rounded-full bg-slate-300 text-slate-900 font-label-md text-label-md flex items-center gap-1 shadow-[0_0_16px_rgba(203,213,225,0.4)]">
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">military_tech</span>
+                2º Puesto
+              </div>
+<!-- Avatar Wrapper -->
+<div class="relative mt-2 mb-4">
+<div class="w-24 h-24 rounded-full p-1 bg-gradient-to-b from-slate-200 to-slate-500 shadow-md">
+<img class="w-full h-full rounded-full object-cover" data-alt="Portrait photo of David K Chen, a smart Asian software architect with focused gaze and stylish glasses in an electric cyberpunk ambient light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQTL-UTqKWB1Poojx3wRkxuntTKQb47Rzr-cJwB8IwDgyeplk2O8zV5PJs0-9BvrYT9504t6olio2_cntWxcPm-D-JRyxkyPPDoEKs6-x3qFyYdIrAkWNENqLQ0RyV9LoYkag1doGDfNJh2ISGf5aTlu2PynqVuea8FC0ulUvB8apftODsIKYFtmmxDEBzfYgLIqqeswplCTk9Y8mmm56IYH6xsecf82tl04Wv0Lo"/>
+</div>
+<div class="absolute -bottom-2 -right-1 w-8 h-8 rounded-full bg-surface-container-lowest flex items-center justify-center text-slate-300 font-headline-sm text-headline-sm shadow-md">
+                  🥈
+                </div>
+</div>
+<span class="font-caption text-caption text-secondary font-semibold uppercase tracking-wider">Staff Architect</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mt-0.5">David K. Chen</h3>
+<p class="font-label-sm text-label-sm text-on-surface-variant">@david_tech • Nvl 78</p>
+<!-- Stats Pill -->
+<div class="w-full mt-5 pt-4 grid grid-cols-2 gap-2 bg-surface-container-low/70 rounded-xl p-3">
+<div class="flex flex-col items-center">
+<span class="font-caption text-caption text-outline">Precisión</span>
+<span class="font-label-lg text-label-lg font-bold text-on-surface">96.1%</span>
+</div>
+<div class="flex flex-col items-center">
+<span class="font-caption text-caption text-outline">Racha</span>
+<span class="font-label-lg text-label-lg font-bold text-tertiary">🔥 19</span>
+</div>
+</div>
+<div class="w-full mt-4 flex items-center justify-between px-2">
+<span class="font-label-sm text-label-sm text-outline">Puntaje Total</span>
+<span class="font-headline-sm text-headline-sm font-extrabold text-primary-fixed">22,410 XP</span>
+</div>
+</div>
+<!-- Base Podium Stand -->
+<div class="hidden md:flex w-full h-12 bg-surface-container-low rounded-b-2xl items-center justify-center text-slate-400 font-display-lg text-headline-md opacity-30 select-none">
+              II
+            </div>
+</div>
+<!-- PUESTO 1: Oro (Epic Glow & Scale) -->
+<div class="order-1 md:order-2 flex flex-col items-center group -mt-6">
+<div class="w-full p-space-xl rounded-3xl bg-gradient-to-b from-surface-container-highest via-surface-container-high to-surface-container relative flex flex-col items-center text-center shadow-[0_0_35px_-4px_rgba(255,185,95,0.35)] transition-transform duration-300 group-hover:-translate-y-2">
+<!-- Corona Superior -->
+<div class="absolute -top-9 px-5 py-1.5 rounded-full bg-gradient-to-r from-amber-400 to-tertiary text-on-tertiary-fixed font-label-md text-label-md font-extrabold flex items-center gap-1.5 shadow-[0_0_24px_rgba(245,158,11,0.6)]">
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">workspace_premium</span>
+                1º Gran Campeona
+              </div>
+<!-- Avatar Master -->
+<div class="relative mt-3 mb-4">
+<div class="w-32 h-32 rounded-full p-1.5 bg-gradient-to-tr from-amber-400 via-yellow-200 to-amber-500 shadow-[0_0_25px_rgba(245,158,11,0.5)]">
+<img class="w-full h-full rounded-full object-cover" data-alt="Portrait of Sofia Vortex Mendoza, a young Latina competitive trivia prodigy smiling confidently with futuristic neon ambient violet and golden highlights" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDqF9aB6YkyuI6a757Lmff3uzFtHmln5SKHlqlz_vj9z4C3NLK0d_XMH54G6QgPwrGofLytIF59H1UPceGRIRR-7yw9YH0AqJLi_pdlih-Ocbl9L_xtu5UpcUCy7xRcyN6o3ibVyBC4u5qI1VzuBQCw7Lp1eleeBhvkL285d2n0JOGrHkRvTa3R1MyqQe_BAuz2w80-YYlDI8u2ZP41upwlMiFL68VXFdZg3jRSE-s"/>
+</div>
+<div class="absolute -bottom-2 right-1 w-10 h-10 rounded-full bg-surface-container-lowest flex items-center justify-center text-2xl shadow-xl animate-bounce">
+                  👑
+                </div>
+</div>
+<span class="px-3 py-0.5 rounded-full bg-tertiary/20 text-tertiary font-label-sm text-label-sm font-bold uppercase tracking-wider mb-1">
+                Gran Maestra
+              </span>
+<h3 class="font-headline-md text-headline-md text-on-surface font-black">Sofia 'Vortex' Mendoza</h3>
+<p class="font-label-md text-label-md text-primary font-medium">@vortex_sofia • Nvl 94</p>
+<!-- Indicador En Vivo -->
+<div class="inline-flex items-center gap-2 px-3 py-1 mt-3 rounded-full bg-emerald-500/10 text-emerald-400 text-xs font-semibold">
+<span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                En racha rápida ahora
+              </div>
+<!-- Detailed Stats Block -->
+<div class="w-full mt-5 grid grid-cols-3 gap-2 bg-surface-container-lowest/80 rounded-2xl p-3 shadow-inner">
+<div class="flex flex-col items-center">
+<span class="font-caption text-caption text-outline">Precisión</span>
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface">98.4%</span>
+</div>
+<div class="flex flex-col items-center">
+<span class="font-caption text-caption text-outline">Racha Max</span>
+<span class="font-headline-sm text-headline-sm font-bold text-tertiary">🔥 29</span>
+</div>
+<div class="flex flex-col items-center">
+<span class="font-caption text-caption text-outline">Quizzes</span>
+<span class="font-headline-sm text-headline-sm font-bold text-primary">312</span>
+</div>
+</div>
+<!-- Puntos Totales Oro -->
+<div class="w-full mt-4 flex items-center justify-between p-3 rounded-xl bg-tertiary-container/20">
+<span class="font-label-md text-label-md text-tertiary font-bold uppercase">Puntaje Legendario</span>
+<span class="font-headline-lg text-headline-lg font-black text-tertiary">24,850 XP</span>
+</div>
+</div>
+<!-- Base Podium Stand 1 -->
+<div class="hidden md:flex w-full h-20 bg-surface-container-high rounded-b-2xl items-center justify-center text-amber-400 font-display-lg text-display-lg opacity-40 select-none">
+              I
+            </div>
+</div>
+<!-- PUESTO 3: Bronce -->
+<div class="order-3 md:order-3 flex flex-col items-center group">
+<div class="w-full p-space-lg rounded-3xl bg-surface-container-high relative flex flex-col items-center text-center shadow-lg transition-transform duration-300 group-hover:-translate-y-1.5">
+<!-- Crest Badge -->
+<div class="absolute -top-6 px-4 py-1 rounded-full bg-amber-800 text-amber-100 font-label-md text-label-md flex items-center gap-1 shadow-[0_0_16px_rgba(180,83,9,0.3)]">
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">military_tech</span>
+                3º Puesto
+              </div>
+<!-- Avatar Wrapper -->
+<div class="relative mt-2 mb-4">
+<div class="w-24 h-24 rounded-full p-1 bg-gradient-to-b from-amber-600 to-amber-900 shadow-md">
+<img class="w-full h-full rounded-full object-cover" data-alt="Close up portrait of Elena Navarro, a Hispanic young woman with athletic energetic expression, sleek hair, dynamic soft purple ambient studio lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBA5LQuFlx53ATpSCrCi_8OhDDkAXseSAAG3iS3SIJZcbAl5jpnC_-6GqPyLKZOUK6HQHlMDR2_ILvhgGESYRB6_Sau_SgCheh7VpSJDlNcRI5vfi8A8vFd_5bW4iB9oVTQ1VvqURFT9b4chfLF8xILLJlD3e47938RGakRcpEK3eVHmgKGdfbSsCWQTP7RA4CRseIEAefK_-eLShswgZgdxKrSyWVvQCWC605YPpg"/>
+</div>
+<div class="absolute -bottom-2 -right-1 w-8 h-8 rounded-full bg-surface-container-lowest flex items-center justify-center text-amber-600 font-headline-sm text-headline-sm shadow-md">
+                  🥉
+                </div>
+</div>
+<span class="font-caption text-caption text-secondary font-semibold uppercase tracking-wider">Optimizadora Elite</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mt-0.5">Elena Navarro</h3>
+<p class="font-label-sm text-label-sm text-on-surface-variant">@elena_pulse • Nvl 69</p>
+<!-- Stats Pill -->
+<div class="w-full mt-5 pt-4 grid grid-cols-2 gap-2 bg-surface-container-low/70 rounded-xl p-3">
+<div class="flex flex-col items-center">
+<span class="font-caption text-caption text-outline">Precisión</span>
+<span class="font-label-lg text-label-lg font-bold text-on-surface">94.7%</span>
+</div>
+<div class="flex flex-col items-center">
+<span class="font-caption text-caption text-outline">Racha</span>
+<span class="font-label-lg text-label-lg font-bold text-tertiary">🔥 14</span>
+</div>
+</div>
+<div class="w-full mt-4 flex items-center justify-between px-2">
+<span class="font-label-sm text-label-sm text-outline">Puntaje Total</span>
+<span class="font-headline-sm text-headline-sm font-extrabold text-primary-fixed">20,950 XP</span>
+</div>
+</div>
+<!-- Base Podium Stand -->
+<div class="hidden md:flex w-full h-8 bg-surface-container-low rounded-b-2xl items-center justify-center text-amber-700 font-display-lg text-headline-md opacity-30 select-none">
+              III
+            </div>
+</div>
+</div>
+</section>
+<!-- Banner Flotante / Sticky de 'Tu Posición Actual' -->
+<section class="sticky top-24 z-30 w-full transition-all">
+<div class="p-4 sm:p-5 rounded-2xl bg-gradient-to-r from-surface-container-highest via-surface-container-high to-surface-container-highest shadow-[0_8px_32px_rgba(0,0,0,0.6)] backdrop-blur-xl flex flex-col md:flex-row items-center justify-between gap-4">
+<div class="flex items-center gap-space-md w-full md:w-auto">
+<!-- Posición con Glow -->
+<div class="flex flex-col items-center justify-center w-14 h-14 rounded-2xl bg-primary-container text-on-primary font-headline-md text-headline-md font-black shrink-0 shadow-[0_0_20px_rgba(128,131,255,0.6)]">
+              #18
+            </div>
+<!-- Avatar y Data de Usuario -->
+<div class="flex items-center gap-3 min-w-0">
+<div class="relative shrink-0">
+<img class="w-12 h-12 rounded-full object-cover" data-alt="Avatar portrait of Alex Dev, friendly male designer developer with dark hair, warm confident expression against electric violet studio backdrop" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCNBlYlUYaJly1HZL0UKKALDIBUh0Gv98QaI02QQlTIIofg2zOUTS7kUGO0JU8rJwl8peUB8WvLLhABmF6CYeLy6VHppQ0d_B-t83OLv4t3-_wHgGTnxaggluKS7e9tfaTLrq4DuTYB4Vvm9KD_c-9GULRwyH8ybtw0LU7LepIab3qEoKDYCKB_xX2YkH9Jlczo3ulKGmvqUy2lq7lQ7rKXB4OdBsTUD3HSL4wxFYM"/>
+<span class="absolute -bottom-1 -right-1 w-4 h-4 rounded-full bg-emerald-500 ring-2 ring-surface-container-highest"></span>
+</div>
+<div class="flex flex-col truncate">
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold truncate">Tú (Alex Dev)</span>
+<span class="px-2 py-0.5 rounded-full bg-secondary-container/40 text-secondary-fixed font-label-sm text-label-sm uppercase">Liga Platino I</span>
+</div>
+<span class="font-body-sm text-body-sm text-emerald-400 flex items-center gap-1 font-semibold">
+<span class="material-symbols-outlined text-sm">trending_up</span>
+                  +42 puestos ganados esta semana
+                </span>
+</div>
+</div>
+</div>
+<!-- Métricas y Progreso a Top 15 -->
+<div class="flex flex-wrap items-center justify-between md:justify-end gap-space-lg w-full md:w-auto">
+<div class="flex flex-col items-start md:items-end">
+<span class="font-caption text-caption text-outline">Distancia a Top 15</span>
+<span class="font-label-md text-label-md text-tertiary font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-sm">bolt</span>
+                A sólo 490 XP
+              </span>
+</div>
+<div class="flex flex-col items-start md:items-end">
+<span class="font-caption text-caption text-outline">Tus Puntos XP</span>
+<span class="font-headline-md text-headline-md font-black text-primary">18,450 XP</span>
+</div>
+<button class="px-5 py-2.5 rounded-xl bg-primary text-on-primary font-label-md text-label-md font-bold hover:scale-105 active:scale-95 transition-all shadow-[0_0_20px_rgba(192,193,255,0.4)] whitespace-nowrap">
+              Jugar Quiz Ahora
+            </button>
+</div>
+</div>
+</section>
+<!-- Layout Dual: Tabla Principal + Widgets Secundarios -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg">
+<!-- Tabla de Clasificación Detallada (Puestos 4 al 12) -->
+<main class="lg:col-span-8 flex flex-col gap-space-md">
+<div class="flex items-center justify-between px-2">
+<h2 class="font-headline-md text-headline-md text-on-surface font-bold flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">leaderboard</span>
+              Corredores Principales
+            </h2>
+<span class="font-caption text-caption text-outline">Actualizado en vivo</span>
+</div>
+<!-- Card Contenedor de la Tabla -->
+<div class="rounded-3xl bg-surface-container-low overflow-hidden shadow-lg">
+<div class="overflow-x-auto">
+<table class="w-full text-left border-collapse">
+<thead>
+<tr class="bg-surface-container font-label-sm text-label-sm uppercase text-outline tracking-wider">
+<th class="py-4 px-4 sm:px-6">Puesto</th>
+<th class="py-4 px-4">Jugador</th>
+<th class="py-4 px-4 hidden sm:table-cell">Liga</th>
+<th class="py-4 px-4 text-center hidden md:table-cell">Quizzes</th>
+<th class="py-4 px-4 text-center">Precisión</th>
+<th class="py-4 px-4 text-center hidden sm:table-cell">Racha</th>
+<th class="py-4 px-4 sm:px-6 text-right">Puntaje</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-surface-container-highest/30 font-body-sm text-body-sm">
+<!-- Puesto 4 -->
+<tr class="hover:bg-surface-container/60 transition-colors group">
+<td class="py-4 px-4 sm:px-6">
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface w-6">04</span>
+<span class="material-symbols-outlined text-emerald-400 text-base" title="Subió 2 puestos">arrow_upward</span>
+</div>
+</td>
+<td class="py-4 px-4">
+<div class="flex items-center gap-3">
+<div class="relative shrink-0">
+<img class="w-10 h-10 rounded-full object-cover" data-alt="Avatar portrait of Marcus Thorne, smiling British trivia expert in cozy dark turtleneck" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB37bV4j-KJ6yUqpEvB_wlvqRoVGTqjuGVA-VT5phvZ9xEzl_9HefEqvTLdx5cWSnX0UrvNB_OLwrS1qZFoYp0OZcREHEkHNajM6_BTDhVOOpMGoLUQ8iyNCn39brirCfI4ZyYXC88pwWOZ5IWN7rQzgacDkgvcaIE1P0HgltTGhiiP4U4hUrTYRvanSnobpbU393iiBjM1nHsLLllh6kFQfVCGpTY8zeV0W4ZCzSg"/>
+<span class="absolute bottom-0 right-0 w-2.5 h-2.5 rounded-full bg-emerald-400 ring-2 ring-surface-container-low"></span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-1.5">
+<span class="font-label-md text-label-md text-on-surface font-semibold group-hover:text-primary transition-colors">Marcus Thorne</span>
+<span class="material-symbols-outlined text-xs text-primary" title="Verificado">verified</span>
+</div>
+<span class="font-caption text-caption text-on-surface-variant">Archimago del Código</span>
+</div>
+</div>
+</td>
+<td class="py-4 px-4 hidden sm:table-cell">
+<span class="px-2.5 py-1 rounded-full bg-tertiary-container/30 text-tertiary font-label-sm text-label-sm font-semibold">Titán</span>
+</td>
+<td class="py-4 px-4 text-center hidden md:table-cell font-medium text-on-surface-variant">248</td>
+<td class="py-4 px-4 text-center">
+<div class="inline-flex items-center gap-1 font-semibold text-on-surface">
+<span>93.8%</span>
+</div>
+</td>
+<td class="py-4 px-4 text-center hidden sm:table-cell font-bold text-tertiary">🔥 12</td>
+<td class="py-4 px-4 sm:px-6 text-right font-headline-sm text-headline-sm font-extrabold text-on-surface">
+                      20,410 <span class="font-caption text-caption text-outline font-normal">XP</span>
+</td>
+</tr>
+<!-- Puesto 5 -->
+<tr class="hover:bg-surface-container/60 transition-colors group">
+<td class="py-4 px-4 sm:px-6">
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface w-6">05</span>
+<span class="material-symbols-outlined text-emerald-400 text-base">arrow_upward</span>
+</div>
+</td>
+<td class="py-4 px-4">
+<div class="flex items-center gap-3">
+<div class="relative shrink-0">
+<img class="w-10 h-10 rounded-full object-cover" data-alt="Avatar portrait of Priya Patel, enthusiastic woman with curly hair against purple neon background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBCI3VGiUv9hHHRyEF0BMUsurg8S5sYHyTzgszxpcfHKUpUGzw5w8jw6Q1FrndW2xr4-v0DjoZ7xOTuNz4zF--204PwYngE6a91D7acOh_8zkN1mUVsS3w_gMQJ348-6M8kvoiXPYZ1-QTNUIhAji2bLvRyCsPyr9atCsZeji624jFHVv6IRPaAmkrYGsKvm0y-HLZsDbHDcmqHc1juePrMOnBtMYRpznVkle_hMek"/>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-semibold group-hover:text-primary transition-colors">Priya Patel</span>
+<span class="font-caption text-caption text-on-surface-variant">Estratega Cuántica</span>
+</div>
+</div>
+</td>
+<td class="py-4 px-4 hidden sm:table-cell">
+<span class="px-2.5 py-1 rounded-full bg-secondary-container/40 text-secondary font-label-sm text-label-sm font-semibold">Diamante III</span>
+</td>
+<td class="py-4 px-4 text-center hidden md:table-cell font-medium text-on-surface-variant">215</td>
+<td class="py-4 px-4 text-center">
+<span class="font-semibold text-on-surface">92.4%</span>
+</td>
+<td class="py-4 px-4 text-center hidden sm:table-cell font-bold text-tertiary">🔥 8</td>
+<td class="py-4 px-4 sm:px-6 text-right font-headline-sm text-headline-sm font-extrabold text-on-surface">
+                      19,980 <span class="font-caption text-caption text-outline font-normal">XP</span>
+</td>
+</tr>
+<!-- Puesto 6 -->
+<tr class="hover:bg-surface-container/60 transition-colors group">
+<td class="py-4 px-4 sm:px-6">
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface w-6">06</span>
+<span class="material-symbols-outlined text-error text-base" title="Bajó 1 puesto">arrow_downward</span>
+</div>
+</td>
+<td class="py-4 px-4">
+<div class="flex items-center gap-3">
+<div class="relative shrink-0">
+<img class="w-10 h-10 rounded-full object-cover" data-alt="Avatar portrait of Lukas Weber, German tech enthusiast with headset smiling slightly" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAj-baTVqR8lGyQD-fQkU35gzc2PBzR_dDOEjvweFPdSXOfGh1Nxoy9JHZeBRq_WHpbVed_ir3q-uFWuHXSUSHTJhz4z89iFaQeZj7zFXcCNaqXSjoBzK4ynN3svJ_xNrCSBLNtzNbywPPjaHykjujSEA_FZKiD_x0hPW7-Lr_GouHJE5evBQHIXCxJXyepUj1FR_fd2GJD2IhJqU-JVdyyyT9x3cXPIr1TJ_7a-B4"/>
+<span class="absolute bottom-0 right-0 w-2.5 h-2.5 rounded-full bg-emerald-400 ring-2 ring-surface-container-low"></span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-semibold group-hover:text-primary transition-colors">Lukas Weber</span>
+<span class="font-caption text-caption text-on-surface-variant">Analista de Algoritmos</span>
+</div>
+</div>
+</td>
+<td class="py-4 px-4 hidden sm:table-cell">
+<span class="px-2.5 py-1 rounded-full bg-secondary-container/40 text-secondary font-label-sm text-label-sm font-semibold">Diamante III</span>
+</td>
+<td class="py-4 px-4 text-center hidden md:table-cell font-medium text-on-surface-variant">192</td>
+<td class="py-4 px-4 text-center">
+<span class="font-semibold text-on-surface">91.9%</span>
+</td>
+<td class="py-4 px-4 text-center hidden sm:table-cell font-bold text-tertiary">🔥 15</td>
+<td class="py-4 px-4 sm:px-6 text-right font-headline-sm text-headline-sm font-extrabold text-on-surface">
+                      19,650 <span class="font-caption text-caption text-outline font-normal">XP</span>
+</td>
+</tr>
+<!-- Puesto 7 -->
+<tr class="hover:bg-surface-container/60 transition-colors group">
+<td class="py-4 px-4 sm:px-6">
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface w-6">07</span>
+<span class="material-symbols-outlined text-outline text-base">remove</span>
+</div>
+</td>
+<td class="py-4 px-4">
+<div class="flex items-center gap-3">
+<div class="relative shrink-0">
+<img class="w-10 h-10 rounded-full object-cover" data-alt="Avatar portrait of Camila Duarte, modern Latina game designer with vivid hair highlights and friendly expression" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBPpjJltSbZYNF3HhZ0xNx7mj0gnj5Jdx-D-up5yw_coDCVYU3wxIHBvQmL-4SfKEfIPWTfP-kyOhuEzp6ixKnjqUDBVlqn8FC8RcPiLbKf4XNSlmCff5hQannhDI86MzcAfq3U1UeYF9LiZWztUo-1WMMgQXkfNCZPU_0vlwIjdubH98VqaEoERazX6tXC-nzZXreP-ZBPKhmeymDmuR6nx8i5Rs-UJlOZApaw-ck"/>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-semibold group-hover:text-primary transition-colors">Camila Duarte</span>
+<span class="font-caption text-caption text-on-surface-variant">Velocista Mental</span>
+</div>
+</div>
+</td>
+<td class="py-4 px-4 hidden sm:table-cell">
+<span class="px-2.5 py-1 rounded-full bg-secondary-container/40 text-secondary font-label-sm text-label-sm font-semibold">Diamante II</span>
+</td>
+<td class="py-4 px-4 text-center hidden md:table-cell font-medium text-on-surface-variant">204</td>
+<td class="py-4 px-4 text-center">
+<span class="font-semibold text-on-surface">90.5%</span>
+</td>
+<td class="py-4 px-4 text-center hidden sm:table-cell font-bold text-tertiary">🔥 6</td>
+<td class="py-4 px-4 sm:px-6 text-right font-headline-sm text-headline-sm font-extrabold text-on-surface">
+                      19,320 <span class="font-caption text-caption text-outline font-normal">XP</span>
+</td>
+</tr>
+<!-- Puesto 8 -->
+<tr class="hover:bg-surface-container/60 transition-colors group">
+<td class="py-4 px-4 sm:px-6">
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface w-6">08</span>
+<span class="material-symbols-outlined text-emerald-400 text-base">arrow_upward</span>
+</div>
+</td>
+<td class="py-4 px-4">
+<div class="flex items-center gap-3">
+<div class="relative shrink-0">
+<img class="w-10 h-10 rounded-full object-cover" data-alt="Avatar portrait of Kenji Sato, Tokyo-based engineer with sharp glasses and cool modern look" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBmoH6XLdcAaqq0gWY5499RjsDGmm9LY6Q47IjI03HniiYRGsfH-ARYqyRgDxFuKeeA4pF4L7k4wlyUXCbhjAPd_B9c17zIjMbCHpJ67jynP9jMs_1sVaW4BPXQvieyb_DF86a5-OeIWsC9gnCdG5v4Vgw8T9eGbwmFNwgxB6Mgqc54tRpm4IVGNQOiBQM4lZ7YQNhOU2AEiMykcdhN2KhBoOSqlU1SKBhnZ5ozLuw"/>
+<span class="absolute bottom-0 right-0 w-2.5 h-2.5 rounded-full bg-emerald-400 ring-2 ring-surface-container-low"></span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-semibold group-hover:text-primary transition-colors">Kenji Sato</span>
+<span class="font-caption text-caption text-on-surface-variant">Sensei de la Trivia</span>
+</div>
+</div>
+</td>
+<td class="py-4 px-4 hidden sm:table-cell">
+<span class="px-2.5 py-1 rounded-full bg-secondary-container/40 text-secondary font-label-sm text-label-sm font-semibold">Diamante II</span>
+</td>
+<td class="py-4 px-4 text-center hidden md:table-cell font-medium text-on-surface-variant">188</td>
+<td class="py-4 px-4 text-center">
+<span class="font-semibold text-on-surface">89.8%</span>
+</td>
+<td class="py-4 px-4 text-center hidden sm:table-cell font-bold text-tertiary">🔥 11</td>
+<td class="py-4 px-4 sm:px-6 text-right font-headline-sm text-headline-sm font-extrabold text-on-surface">
+                      19,110 <span class="font-caption text-caption text-outline font-normal">XP</span>
+</td>
+</tr>
+<!-- Puesto 9 -->
+<tr class="hover:bg-surface-container/60 transition-colors group">
+<td class="py-4 px-4 sm:px-6">
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface w-6">09</span>
+<span class="material-symbols-outlined text-error text-base">arrow_downward</span>
+</div>
+</td>
+<td class="py-4 px-4">
+<div class="flex items-center gap-3">
+<div class="relative shrink-0">
+<img class="w-10 h-10 rounded-full object-cover" data-alt="Avatar portrait of Amara Okafor, confident woman with high bun in vibrant indigo lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC-MfDlHjVS5sqLwA9_U3Rtl2t1KXPLyTQFKlWPcnnIgBwsxQhWdMcxSgtjjKjVuNb4l2aiuoiTvgDy3yYVQvqDc10B4Y9XidQ0IZRdymzX2goQyoRqA1X_6SV1ZmzZjACdePusGHgbtK7rH0OtIQKTk9QOPS9lzUUxAWPdEzy-o6TsPMzzzU2T2oUOgeeFaxINpSKo7GwhqDzYow1pl4pmubnE6DkeAh3SBLT2pCM"/>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-semibold group-hover:text-primary transition-colors">Amara Okafor</span>
+<span class="font-caption text-caption text-on-surface-variant">Cazadora de Anomalías</span>
+</div>
+</div>
+</td>
+<td class="py-4 px-4 hidden sm:table-cell">
+<span class="px-2.5 py-1 rounded-full bg-secondary-container/40 text-secondary font-label-sm text-label-sm font-semibold">Diamante I</span>
+</td>
+<td class="py-4 px-4 text-center hidden md:table-cell font-medium text-on-surface-variant">174</td>
+<td class="py-4 px-4 text-center">
+<span class="font-semibold text-on-surface">91.0%</span>
+</td>
+<td class="py-4 px-4 text-center hidden sm:table-cell font-bold text-tertiary">🔥 5</td>
+<td class="py-4 px-4 sm:px-6 text-right font-headline-sm text-headline-sm font-extrabold text-on-surface">
+                      18,940 <span class="font-caption text-caption text-outline font-normal">XP</span>
+</td>
+</tr>
+<!-- Puesto 10 -->
+<tr class="hover:bg-surface-container/60 transition-colors group">
+<td class="py-4 px-4 sm:px-6">
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-headline-sm font-bold text-tertiary w-6">10</span>
+<span class="material-symbols-outlined text-emerald-400 text-base">arrow_upward</span>
+</div>
+</td>
+<td class="py-4 px-4">
+<div class="flex items-center gap-3">
+<div class="relative shrink-0">
+<img class="w-10 h-10 rounded-full object-cover" data-alt="Avatar portrait of Gabriel Rossi, Italian developer with sharp beard smiling under soft studio lights" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCdwIduzc0yIrYaYUdcsJZiziUk8OFZYAw_YyeNh_tIqmKMvvmrkR3AWRrumYjSyb-bTZ60FShnIN4ZyTISUDuCRym_KIG5iraLAhPvF9thyyQpWW_cV5em05JvVfgyWDoI6RjHSZLFpDZIyguDahiDqfgsdKTF2IqOyfCQ05dgroJw8VtWND6Dl5U_nHJNYd87OUqP99aik3FyduPKxAjLs6tEFjRCY7gUrdbXwlk"/>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-semibold group-hover:text-primary transition-colors">Gabriel Rossi</span>
+<span class="font-caption text-caption text-on-surface-variant">Mente Sintética</span>
+</div>
+</div>
+</td>
+<td class="py-4 px-4 hidden sm:table-cell">
+<span class="px-2.5 py-1 rounded-full bg-secondary-container/40 text-secondary font-label-sm text-label-sm font-semibold">Diamante I</span>
+</td>
+<td class="py-4 px-4 text-center hidden md:table-cell font-medium text-on-surface-variant">169</td>
+<td class="py-4 px-4 text-center">
+<span class="font-semibold text-on-surface">88.9%</span>
+</td>
+<td class="py-4 px-4 text-center hidden sm:table-cell font-bold text-tertiary">🔥 9</td>
+<td class="py-4 px-4 sm:px-6 text-right font-headline-sm text-headline-sm font-extrabold text-on-surface">
+                      18,820 <span class="font-caption text-caption text-outline font-normal">XP</span>
+</td>
+</tr>
+<!-- Puesto 11 -->
+<tr class="hover:bg-surface-container/60 transition-colors group">
+<td class="py-4 px-4 sm:px-6">
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface w-6">11</span>
+<span class="material-symbols-outlined text-error text-base">arrow_downward</span>
+</div>
+</td>
+<td class="py-4 px-4">
+<div class="flex items-center gap-3">
+<div class="relative shrink-0">
+<img class="w-10 h-10 rounded-full object-cover" data-alt="Avatar portrait of Zoe Lindqvist, Scandinavian designer with silver glasses in futuristic studio" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBCtBhdWlNa2vXgjmfT5LrxFn8eTd1t7TptZnicrYceB36Se35njkRUcphr45W3wcLkC7rTApbAdHsz7__M6aY-HTorBphe22rK0GAHukKM3Q7FrZeVMT1lSrW_fob31cz7TSaoALhsbyOibSY7PBT9aGUWoLRx4pMXIwnSmzIAFx2rZul5N8WKqbC0FhCR7zEhTkNJkTNolJxWvVjRcjJFuLXBjPFXlAMZM_RyE7Q"/>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-semibold group-hover:text-primary transition-colors">Zoe Lindqvist</span>
+<span class="font-caption text-caption text-on-surface-variant">Compiladora Veloz</span>
+</div>
+</div>
+</td>
+<td class="py-4 px-4 hidden sm:table-cell">
+<span class="px-2.5 py-1 rounded-full bg-surface-container-highest text-on-surface-variant font-label-sm text-label-sm font-semibold">Platino III</span>
+</td>
+<td class="py-4 px-4 text-center hidden md:table-cell font-medium text-on-surface-variant">162</td>
+<td class="py-4 px-4 text-center">
+<span class="font-semibold text-on-surface">87.5%</span>
+</td>
+<td class="py-4 px-4 text-center hidden sm:table-cell font-bold text-tertiary">🔥 7</td>
+<td class="py-4 px-4 sm:px-6 text-right font-headline-sm text-headline-sm font-extrabold text-on-surface">
+                      18,690 <span class="font-caption text-caption text-outline font-normal">XP</span>
+</td>
+</tr>
+<!-- Puesto 12 -->
+<tr class="hover:bg-surface-container/60 transition-colors group">
+<td class="py-4 px-4 sm:px-6">
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface w-6">12</span>
+<span class="material-symbols-outlined text-emerald-400 text-base">arrow_upward</span>
+</div>
+</td>
+<td class="py-4 px-4">
+<div class="flex items-center gap-3">
+<div class="relative shrink-0">
+<img class="w-10 h-10 rounded-full object-cover" data-alt="Avatar of Mateo Benitez, charismatic young quiz streamer laughing under blue atmospheric LEDs" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCJ4Dt3VCyRpHTaZdwkbxNQbIjX7Kimng5UR5K8HWHEkPpVMiISe2jSA6-xOT15gKCXhaAW429LwZ_jFI1o7omhJbdn4a0jzX7x12vsSzYB98Txs2lM0cc60KCJXzmrurfwax4A_spCCu5m2XtyHufgqmkszKz_7JZPbtGIWcSi1pTGqVYu5hpKshRYxeTOQMFaqdrDHP5Ojxi9jPoPDZlPDmGSGFlb2_OCFIpEXjA"/>
+<span class="absolute bottom-0 right-0 w-2.5 h-2.5 rounded-full bg-emerald-400 ring-2 ring-surface-container-low"></span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-semibold group-hover:text-primary transition-colors">Mateo Benítez</span>
+<span class="font-caption text-caption text-on-surface-variant">Reflejo Binario</span>
+</div>
+</div>
+</td>
+<td class="py-4 px-4 hidden sm:table-cell">
+<span class="px-2.5 py-1 rounded-full bg-surface-container-highest text-on-surface-variant font-label-sm text-label-sm font-semibold">Platino III</span>
+</td>
+<td class="py-4 px-4 text-center hidden md:table-cell font-medium text-on-surface-variant">158</td>
+<td class="py-4 px-4 text-center">
+<span class="font-semibold text-on-surface">88.1%</span>
+</td>
+<td class="py-4 px-4 text-center hidden sm:table-cell font-bold text-tertiary">🔥 4</td>
+<td class="py-4 px-4 sm:px-6 text-right font-headline-sm text-headline-sm font-extrabold text-on-surface">
+                      18,540 <span class="font-caption text-caption text-outline font-normal">XP</span>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Footer de Tabla con Paginación Compacta -->
+<div class="p-4 bg-surface-container flex items-center justify-between">
+<span class="font-caption text-caption text-outline">Mostrando corredores 4 al 12 de 12,450 clasificados</span>
+<div class="flex items-center gap-2">
+<button class="p-1.5 rounded-lg bg-surface-container-high text-on-surface-variant hover:text-on-surface transition-colors disabled:opacity-40" disabled="">
+<span class="material-symbols-outlined text-base">chevron_left</span>
+</button>
+<span class="font-label-sm text-label-sm text-on-surface px-2">Página 1 de 50</span>
+<button class="p-1.5 rounded-lg bg-surface-container-high text-on-surface-variant hover:text-on-surface transition-colors">
+<span class="material-symbols-outlined text-base">chevron_right</span>
+</button>
+</div>
+</div>
+</div>
+</main>
+<!-- Sidebar / Tarjetas Secundarias -->
+<aside class="lg:col-span-4 flex flex-col gap-space-lg">
+<!-- Tarjeta 1: Recompensas de Temporada -->
+<div class="p-space-lg rounded-3xl bg-surface-container-high relative overflow-hidden shadow-xl flex flex-col gap-space-md">
+<!-- Glow Interior -->
+<div class="absolute -top-12 -right-12 w-36 h-36 bg-tertiary/20 blur-3xl rounded-full pointer-events-none"></div>
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary text-2xl" style="font-variation-settings: 'FILL' 1;">military_tech</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Botín de Temporada</h3>
+</div>
+<span class="px-2.5 py-0.5 rounded-full bg-tertiary-container/30 text-tertiary font-label-sm text-label-sm font-bold">Top 10</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Los jugadores que finalicen en el Top 10 desbloquearán automáticamente las siguientes recompensas exclusivas:
+            </p>
+<!-- Lista de Premios -->
+<div class="flex flex-col gap-space-sm">
+<div class="p-3 rounded-2xl bg-surface-container-lowest/80 flex items-center gap-3">
+<div class="w-10 h-10 rounded-xl bg-tertiary-container/40 text-tertiary flex items-center justify-center font-bold text-lg shrink-0">
+                  🪙
+                </div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-bold">+500 Pulse Coins</span>
+<span class="font-caption text-caption text-outline">Para canjear en la tienda de avatares</span>
+</div>
+</div>
+<div class="p-3 rounded-2xl bg-surface-container-lowest/80 flex items-center gap-3">
+<div class="w-10 h-10 rounded-xl bg-primary-container/30 text-primary flex items-center justify-center font-bold text-lg shrink-0">
+                  🛡️
+                </div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-bold">Insignia 'Titán Supremo'</span>
+<span class="font-caption text-caption text-outline">Marco animado permanente en perfil</span>
+</div>
+</div>
+<div class="p-3 rounded-2xl bg-surface-container-lowest/80 flex items-center gap-3">
+<div class="w-10 h-10 rounded-xl bg-secondary-container/30 text-secondary flex items-center justify-center font-bold text-lg shrink-0">
+                  ⚡
+                </div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-bold">Pase de Batalla VIP T5</span>
+<span class="font-caption text-caption text-outline">Acceso prioritario a torneos en vivo</span>
+</div>
+</div>
+</div>
+<!-- Gráfico SVG de Progreso de Ligas -->
+<div class="mt-2 p-4 rounded-2xl bg-surface-container flex flex-col gap-2">
+<div class="flex justify-between items-center text-xs">
+<span class="text-on-surface-variant font-medium">Umbral Mínimo Top 10</span>
+<span class="text-tertiary font-bold">18,820 XP</span>
+</div>
+<!-- Custom Linear Progress Meter -->
+<div class="w-full h-3 bg-surface-container-lowest rounded-full overflow-hidden p-0.5">
+<div class="h-full bg-gradient-to-r from-primary via-secondary to-tertiary rounded-full transition-all duration-1000" style="width: 98%;"></div>
+</div>
+<div class="flex justify-between text-caption text-outline">
+<span>Tu puntaje: 18,450 XP</span>
+<span class="text-primary font-semibold">98% alcanzado</span>
+</div>
+</div>
+</div>
+<!-- Tarjeta 2: Desafío de Amigos & Código Rival -->
+<div class="p-space-lg rounded-3xl bg-gradient-to-b from-surface-container-high to-surface-container shadow-xl flex flex-col gap-space-md">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-2xl" style="font-variation-settings: 'FILL' 1;">swords</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Desafío de Amigos</h3>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Crea salas 1v1 o invita a tu escuadrón con tu código exclusivo para duplicar las rachas de XP.
+            </p>
+<!-- Input Código de Rivalidad -->
+<div class="flex flex-col gap-1.5">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Tu Código de Rival</span>
+<div class="flex items-center gap-2 p-1.5 bg-surface-container-lowest rounded-xl">
+<input class="bg-transparent px-3 py-1 font-mono font-bold text-primary text-body-md w-full focus:outline-none select-all" readonly="" type="text" value="PULSE-ALEX-904"/>
+<button class="px-4 py-2 rounded-lg bg-surface-container-high hover:bg-surface-bright text-on-surface font-label-sm text-label-sm flex items-center gap-1 transition-all shrink-0" id="btn-copy-code">
+<span class="material-symbols-outlined text-sm">content_copy</span>
+<span id="copy-label">Copiar</span>
+</button>
+</div>
+</div>
+<!-- Botón de Compartir Invitación -->
+<button class="w-full py-3 rounded-xl bg-secondary-container text-on-secondary font-label-md text-label-md font-bold flex items-center justify-center gap-2 hover:bg-opacity-90 transition-all shadow-[0_0_20px_rgba(54,38,206,0.3)]">
+<span class="material-symbols-outlined text-base">share</span>
+              Compartir Desafío Rápido
+            </button>
+<!-- Lista Mini de Amigos Conectados -->
+<div class="flex flex-col gap-2 pt-2 border-t border-surface-container-highest/40">
+<span class="font-caption text-caption text-outline">Amigos activos en este momento:</span>
+<div class="flex items-center -space-x-2 overflow-hidden py-1">
+<img class="inline-block h-8 w-8 rounded-full ring-2 ring-surface-container" data-alt="Small friendly gamer avatar 1" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAbUc7EJgOdWQcMx-c_JlsLrx_QTUF5kTgpaFoFjKYS14yT-2BiFuk5ujMAtOcJiOvNIC3AcH7Aw7UvlpxwkIADrqixDp_Tps0QXnHDcN-kgDLNAwVBI1voI3kNIuKCwiXAvyzAw-h_d7Mp8RjmPcAyqwerRp--BnP8lSD7zjads_UngRAbvVa10qwoJ_WVFgQiyivUzSPaMujcJtR0yYl1ol7JJCkDqmGjONNGgvY"/>
+<img class="inline-block h-8 w-8 rounded-full ring-2 ring-surface-container" data-alt="Small friendly gamer avatar 2" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBofq_P_LpiAVH6unjBpzCzy5Jt3VowOHpZiUBwbOee3IbWgAV2LxMIO7rwU0s1RHLRnmanSCG-7DUnpc3Se9LnFvyHDyY7B5XqZREPVgEUwGuF6_R23FDaki1SXOjEl0Tt1pF-fqfr1U6jUt8tAJOUKX6r967o2m6m7jQZ-txGft__zfFFmI6o6uvPVPRSwSNf6mQ1_2xwMmj8LncsUkQQAG6M8Y_bry-bv-KkvCo"/>
+<img class="inline-block h-8 w-8 rounded-full ring-2 ring-surface-container" data-alt="Small friendly gamer avatar 3" src="https://lh3.googleusercontent.com/aida-public/AB6AXuADi2JpCqshPWP78z6hzLcnzIRAFQKLACuU5ZH-xmCr-U76UmV_kpqOaM9boGHQUhHQIRZdNny2JHT5bYe7A3ebWjaSXaGtlhQF9NZVHNC1lWxWgwaCPZZZcQBbl_nFCQ4TWdktAgC6PJ6WS8hai-zQyrObF4oHATvpAk_GIVzHE6ZFoDCNtiJKjUYR-Zfghr9C_JGHU8KORxEzSBn0NONKeudcrrn_bNkJAutZonI"/>
+<div class="h-8 w-8 rounded-full bg-surface-container-highest flex items-center justify-center text-xs font-bold text-on-surface ring-2 ring-surface-container">
+                  +9
+                </div>
+</div>
+</div>
+</div>
+<!-- Mini Sparkline Widget: Tendencia Semanal de XP -->
+<div class="p-space-md rounded-2xl bg-surface-container-low flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-outline">Rendimiento Semanal</span>
+<span class="text-xs text-emerald-400 font-bold flex items-center">
+<span class="material-symbols-outlined text-xs">arrow_upward</span> +24%
+              </span>
+</div>
+<!-- Inline SVG Sparkline -->
+<svg class="w-full h-12 text-primary" fill="none" viewbox="0 0 200 40">
+<path d="M0 35 L30 28 L60 32 L90 18 L120 22 L150 10 L180 8 L200 2" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path>
+<path d="M0 35 L30 28 L60 32 L90 18 L120 22 L150 10 L180 8 L200 2 V 40 H 0 Z" fill="currentColor" fill-opacity="0.08"></path>
+</svg>
+<div class="flex justify-between text-caption text-outline">
+<span>Lun</span>
+<span>Mié</span>
+<span>Vie</span>
+<span class="text-on-surface font-semibold">Hoy</span>
+</div>
+</div>
+</aside>
+</div>
+</div>
+</div>
+</div>
+<script>
+  // Countdown simulation
+  (function() {
+    let seconds = 48;
+    const secsEl = document.getElementById('countdown-secs');
+    if (secsEl) {
+      setInterval(() => {
+        seconds = seconds > 0 ? seconds - 1 : 59;
+        secsEl.textContent = seconds < 10 ? '0' + seconds : seconds;
+      }, 1000);
+    }
+
+    // Copiar código botón feedback
+    const copyBtn = document.getElementById('btn-copy-code');
+    const copyLabel = document.getElementById('copy-label');
+    if (copyBtn && copyLabel) {
+      copyBtn.addEventListener('click', () => {
+        copyLabel.textContent = '¡Copiado!';
+        setTimeout(() => {
+          copyLabel.textContent = 'Copiar';
+        }, 2000);
+      });
+    }
+  })();
+</script></main><footer class="w-full bg-surface-container-lowest mt-space-xl py-space-xl"><div class="w-full px-margin flex flex-col md:flex-row items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm"><img alt="QuizPulse Logo" class="h-6 w-auto object-contain opacity-80" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD2y67OihtqdUAdbh4SEo05Jp6jzf4ywOzHpmKn2p4NwHKtCiDym_MBL2PD2CAk0LYrZTTaVFVbrzvW0-q40GglrtUC-agL3PQrER2wlQMzh3KGfyhkfETP7zaYj2tVA1xDD4G1I1Mqm2RLX7D_8bk_QIJwC4ijYTJTOzI5pLmZsmEgqFAFYKQKV7BGNk8uz-Ikr0ckhF7_J40gScT2xR3Rmi959jGwCYpRyLaVES4"/><span class="font-headline-sm text-headline-sm font-bold text-on-surface-variant">Quiz<span class="text-primary">Pulse</span></span></div><p class="font-body-sm text-body-sm text-outline">© 2025 QuizPulse Platform. Desafía tu mente en tiempo real.</p><div class="flex items-center gap-space-lg font-label-sm text-label-sm text-outline"><a class="hover:text-on-surface transition-colors" href="#">Términos de Servicio</a><a class="hover:text-on-surface transition-colors" href="#">Privacidad</a><a class="hover:text-on-surface transition-colors" href="#">Soporte</a></div></div></footer></body></html>
