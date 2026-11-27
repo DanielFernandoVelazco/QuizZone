@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_gameplay" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"inverse-surface":"#dae2fd","inverse-on-surface":"#283044","surface-container-highest":"#2d3449","secondary":"#c3c0ff","surface-container":"#171f33","on-error":"#690005","on-primary-container":"#0d0096","tertiary-fixed-dim":"#ffb95f","secondary-fixed":"#e2dfff","primary-fixed-dim":"#c0c1ff","on-secondary-container":"#b3b1ff","on-tertiary":"#472a00","surface-container-high":"#222a3d","secondary-container":"#3626ce","outline-variant":"#464554","secondary-fixed-dim":"#c3c0ff","tertiary-container":"#ca8100","on-tertiary-fixed":"#2a1700","on-surface-variant":"#c7c4d7","tertiary":"#ffb95f","primary-container":"#8083ff","on-tertiary-fixed-variant":"#653e00","on-secondary-fixed":"#0f0069","on-primary-fixed":"#07006c","surface":"#0b1326","primary":"#c0c1ff","surface-variant":"#2d3449","surface-dim":"#0b1326","outline":"#908fa0","on-background":"#dae2fd","on-tertiary-container":"#3e2400","surface-container-lowest":"#060e20","on-primary-fixed-variant":"#2f2ebe","on-primary":"#1000a9","error-container":"#93000a","primary-fixed":"#e1e0ff","surface-bright":"#31394d","surface-tint":"#c0c1ff","on-secondary":"#1d00a5","surface-container-low":"#131b2e","error":"#ffb4ab","on-surface":"#dae2fd","background":"#0b1326","on-error-container":"#ffdad6","inverse-primary":"#494bd6","on-secondary-fixed-variant":"#3323cc","tertiary-fixed":"#ffddb8"},borderRadius:{DEFAULT:"0.25rem",lg:"0.5rem",xl:"0.75rem",full:"9999px"},spacing:{"gutter":"1.5rem","margin-mobile":"1rem","margin":"2rem","space-md":"1rem","space-xl":"2.5rem","space-sm":"0.5rem","gutter-mobile":"1rem","space-xs":"0.25rem","space-lg":"1.5rem"},fontFamily:{"label-md":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"display-lg":["Plus Jakarta Sans"],"label-lg":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"headline-xl":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"headline-xl-mobile":["Plus Jakarta Sans"],"display-lg-mobile":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"caption":["Plus Jakarta Sans"]},fontSize:{"label-md":["0.875rem",{lineHeight:"1.25rem",fontWeight:"600"}],"body-lg":["1.125rem",{lineHeight:"1.75rem",fontWeight:"400"}],"display-lg":["3.5rem",{lineHeight:"4rem",fontWeight:"800"}],"label-lg":["1rem",{lineHeight:"1.5rem",fontWeight:"600"}],"body-sm":["0.875rem",{lineHeight:"1.25rem",fontWeight:"400"}],"headline-xl":["2.5rem",{lineHeight:"3rem",fontWeight:"800"}],"body-md":["1rem",{lineHeight:"1.5rem",fontWeight:"400"}],"headline-xl-mobile":["1.75rem",{lineHeight:"2.25rem",fontWeight:"700"}],"display-lg-mobile":["2.25rem",{lineHeight:"2.75rem",fontWeight:"800"}],"headline-lg":["2rem",{lineHeight:"2.5rem",fontWeight:"700"}],"headline-sm":["1.25rem",{lineHeight:"1.75rem",fontWeight:"600"}],"headline-md":["1.5rem",{lineHeight:"2rem",fontWeight:"700"}],"label-sm":["0.75rem",{lineHeight:"1rem",fontWeight:"700"}],"caption":["0.75rem",{lineHeight:"1rem",fontWeight:"500"}]}}}}</script></head><body class="bg-surface font-body-md text-body-md text-on-surface min-h-screen selection:bg-primary-container selection:text-on-primary-container"><header class="fixed top-0 w-full z-50 bg-surface-container-lowest/90 backdrop-blur-xl border-b border-surface-container-high/60 shadow-[0_4px_20px_rgba(0,0,0,0.5)]"><div class="h-16 w-full px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md"><a class="flex items-center gap-space-xs group" data-path="inicio" href="#"><img alt="QuizPulse Logo" class="h-7 w-auto object-contain transition-transform group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD2y67OihtqdUAdbh4SEo05Jp6jzf4ywOzHpmKn2p4NwHKtCiDym_MBL2PD2CAk0LYrZTTaVFVbrzvW0-q40GglrtUC-agL3PQrER2wlQMzh3KGfyhkfETP7zaYj2tVA1xDD4G1I1Mqm2RLX7D_8bk_QIJwC4ijYTJTOzI5pLmZsmEgqFAFYKQKV7BGNk8uz-Ikr0ckhF7_J40gScT2xR3Rmi959jGwCYpRyLaVES4"/><span class="font-headline-sm text-headline-sm font-bold tracking-tight text-on-surface">Quiz<span class="text-primary">Pulse</span></span></a><span class="hidden sm:inline-block px-2.5 py-0.5 rounded-full bg-primary-container/20 text-primary font-label-sm text-label-sm border border-primary/30 uppercase tracking-wider">Live Battle</span></div><div class="flex items-center gap-space-sm"><div class="flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-high border border-outline-variant/30 shadow-[0_0_12px_-2px_rgba(245,158,11,0.25)]"><span class="text-tertiary font-label-md text-label-md select-none">🔥</span><span class="font-label-md text-label-md text-on-surface">7 días</span></div><div class="flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-high border border-outline-variant/30 shadow-[0_0_12px_-2px_rgba(192,193,255,0.25)]"><span class="text-primary font-label-md text-label-md select-none">⚡</span><span class="font-label-md text-label-md text-primary font-bold">2,450 XP</span></div><div class="flex items-center gap-2 pl-space-xs"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-primary/40" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDe-iH6G0TuMGAKeQfl3Gj_gkkRYvwY4RcEuWdJ7blaEhiff00Kl3Wz4CC27F5HdACDuS0ktNewVxieEAOm443WLMLUS1bXl7VInuWwUgZi7YHMoquC2WIS3pQDxycna43oCWitjSlCPG-iCcRzv1ZQM6JeWNUOYCIsREIAkH4SAw1sObCMELBCUewCL38SVVTnpe6soJ8WgpTRPThLkEO33HHuPogPMRlawkCpjcw"/><a class="p-1.5 rounded-lg text-outline hover:text-error hover:bg-surface-container transition-colors" href="#" title="Salir del Quiz"><span class="material-symbols-outlined block text-xl">close</span></a></div></div></div></header><main class="w-full pt-16 bg-surface min-h-[calc(100vh-64px)]"><div class="flex flex-col w-full relative overflow-hidden select-none">
+<!-- Dynamic Ambient Glow Spots -->
+<div class="absolute top-10 left-1/2 -translate-x-1/2 w-[640px] h-[320px] bg-gradient-to-b from-error/15 via-tertiary/10 to-transparent blur-3xl pointer-events-none rounded-full"></div>
+<div class="absolute -top-24 right-10 w-96 h-96 bg-primary-container/10 blur-[100px] pointer-events-none"></div>
+<!-- Combat Arena Main Container -->
+<div class="w-full max-w-7xl mx-auto px-margin-mobile md:px-margin py-6 flex flex-col gap-6">
+<!-- Top Combat Status Bar -->
+<div class="w-full bg-surface-container-low rounded-xl p-4 md:p-6 shadow-xl flex flex-wrap items-center justify-between gap-4 relative overflow-hidden">
+<!-- Fast Warning Scanline -->
+<div class="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-error via-tertiary to-error animate-pulse"></div>
+<!-- Mode & Progress -->
+<div class="flex items-center gap-3">
+<div class="flex items-center gap-2 px-3 py-1.5 rounded-full bg-error-container/30 text-error shadow-sm">
+<span class="w-2.5 h-2.5 rounded-full bg-error animate-ping"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider font-bold">MODO CONTRARRELOJ ACTIVO</span>
+</div>
+<div class="hidden sm:flex items-center gap-2 px-3 py-1.5 rounded-full bg-surface-container-high text-on-surface-variant font-label-md text-label-md">
+<span class="material-symbols-outlined text-base text-primary">layers</span>
+<span>Pregunta <strong class="text-on-surface font-bold">14</strong> de 20</span>
+</div>
+</div>
+<!-- Center Urgency Indicator (Visible in header on small displays) -->
+<div class="flex items-center gap-3 bg-surface-container-highest px-4 py-1.5 rounded-full">
+<span class="font-label-sm text-label-sm text-tertiary uppercase tracking-wider">Multiplicador</span>
+<div class="flex items-center gap-1 font-headline-sm text-headline-sm font-extrabold text-tertiary">
+<span class="animate-bounce">⚡</span>
+<span>x3.0</span>
+</div>
+<span class="text-caption font-caption text-on-surface-variant hidden md:inline-block bg-surface-container px-2 py-0.5 rounded-full">+150 XP Blitz</span>
+</div>
+<!-- Lives Remaining and Tactical Audio -->
+<div class="flex items-center gap-4">
+<!-- Hearts -->
+<div class="flex items-center gap-1.5 bg-surface-container px-3 py-1.5 rounded-full shadow-inner">
+<span class="material-symbols-outlined text-error text-xl" style="font-variation-settings: 'FILL' 1;">favorite</span>
+<span class="material-symbols-outlined text-error text-xl" style="font-variation-settings: 'FILL' 1;">favorite</span>
+<span class="material-symbols-outlined text-outline-variant text-xl opacity-40">favorite</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant ml-1 font-semibold">2/3</span>
+</div>
+<!-- Audio FX Active Pill -->
+<div class="hidden lg:flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-surface-container text-primary font-caption text-caption">
+<span class="material-symbols-outlined text-sm animate-pulse">volume_up</span>
+<span class="tracking-wide uppercase">FX Blitz ON</span>
+</div>
+</div>
+</div>
+<!-- Main Battlefield Grid: Timer/Question on Left, Speed Stats & Multipliers on Right -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+<!-- Primary Quiz Combat Card (Col 8) -->
+<div class="lg:col-span-8 flex flex-col gap-5">
+<!-- Central High Stakes HUD Card -->
+<div class="w-full bg-surface-container rounded-xl p-5 md:p-8 shadow-xl relative overflow-hidden flex flex-col gap-6">
+<!-- Background Schematic Diagram (K8s Architecture) -->
+<div class="absolute -right-8 -bottom-8 w-72 h-72 opacity-10 pointer-events-none text-primary">
+<svg class="w-full h-full stroke-current stroke-2" fill="none" viewbox="0 0 200 200">
+<polygon points="100,20 170,60 170,140 100,180 30,140 30,60" stroke-dasharray="4 4"></polygon>
+<circle cx="100" cy="100" r="36"></circle>
+<circle cx="65" cy="80" r="16"></circle>
+<circle cx="135" cy="80" r="16"></circle>
+<circle cx="100" cy="140" r="16"></circle>
+<line x1="100" x2="65" y1="100" y2="80"></line>
+<line x1="100" x2="135" y1="100" y2="80"></line>
+<line x1="100" x2="100" y1="100" y2="140"></line>
+</svg>
+</div>
+<!-- Timer Bar and Giant Radial Clock Section -->
+<div class="flex flex-col sm:flex-row items-center gap-6 justify-between bg-surface-container-high rounded-xl p-4 md:p-5 relative shadow-inner">
+<!-- Radial Ring Countdown -->
+<div class="flex items-center gap-4">
+<div class="relative w-24 h-24 flex items-center justify-center shrink-0">
+<!-- SVG Circular Progress -->
+<svg class="w-full h-full -rotate-90" viewbox="0 0 100 100">
+<!-- Background Track -->
+<circle class="text-surface-variant fill-none" cx="50" cy="50" r="42" stroke="currentColor" stroke-width="8"></circle>
+<!-- Progress Dash (8s out of 30s remaining => ~26%) -->
+<circle class="text-error fill-none transition-all duration-500 shadow-lg" cx="50" cy="50" r="42" stroke="currentColor" stroke-linecap="round" stroke-width="8" style="stroke-dasharray: 263.89; stroke-dashoffset: 195;"></circle>
+</svg>
+<!-- Core Numeric Display -->
+<div class="absolute inset-0 flex flex-col items-center justify-center text-center">
+<span class="font-headline-lg text-headline-lg font-black text-error leading-none tracking-tighter" id="countdown-val">08</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase -mt-0.5">seg</span>
+</div>
+</div>
+<!-- Time Status Text -->
+<div class="flex flex-col">
+<div class="flex items-center gap-1.5 text-error">
+<span class="material-symbols-outlined text-lg animate-bounce">warning</span>
+<span class="font-label-lg text-label-lg font-bold">¡TIEMPO AGOTÁNDOSE!</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Responde en menos de 5s para conservar la bonificación x3.0.</p>
+</div>
+</div>
+<!-- Fast Reaction Gauge Indicator -->
+<div class="flex flex-col items-end gap-1.5 w-full sm:w-auto">
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm text-outline">Límite: 30s</span>
+<span class="px-2.5 py-0.5 rounded-full bg-error/20 text-error font-label-sm text-label-sm font-bold">Zona Crítica</span>
+</div>
+<!-- High-intensity Horizontal Bar -->
+<div class="w-full sm:w-44 h-3 bg-surface-container-lowest rounded-full overflow-hidden p-0.5 shadow-inner">
+<div class="h-full bg-gradient-to-r from-error to-tertiary rounded-full w-[27%] transition-all duration-300"></div>
+</div>
+</div>
+</div>
+<!-- Question Body & Architectural Diagram Thumbnail -->
+<div class="flex flex-col gap-4">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-primary font-bold tracking-widest uppercase flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+                Arquitectura de Software / Kubernetes Core
+              </span>
+<span class="font-caption text-caption text-on-surface-variant bg-surface-container-high px-2 py-0.5 rounded">Dificultad: Senior Blitz</span>
+</div>
+<h2 class="font-headline-md text-headline-md md:font-headline-lg md:text-headline-lg text-on-surface font-extrabold tracking-tight leading-snug">
+              ¿Qué componente en Kubernetes es el responsable exclusivo de asignar Pods no programados a nodos específicos según recursos disponibles?
+            </h2>
+<!-- Micro Cluster Diagram Illustration Box -->
+<div class="w-full bg-surface-container-lowest/80 rounded-lg p-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+<div class="flex items-center gap-3">
+<div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-2xl">hub</span>
+</div>
+<div>
+<span class="font-label-md text-label-md text-on-surface font-semibold block">Topología: Control Plane vs. Worker Nodes</span>
+<span class="font-caption text-caption text-on-surface-variant">Filtrado por afinidad, taints, tolerations y memory thresholds.</span>
+</div>
+</div>
+<div class="flex items-center gap-2 self-end sm:self-center">
+<span class="px-2 py-1 rounded bg-surface-container-high font-label-sm text-label-sm text-secondary">Pod Queue: #Pending</span>
+<span class="material-symbols-outlined text-outline text-sm">arrow_forward</span>
+<span class="px-2 py-1 rounded bg-secondary-container/40 text-secondary font-label-sm text-label-sm">Node-Worker-04</span>
+</div>
+</div>
+</div>
+<!-- Answer Options Grid (2x2 Matrix with Instant Click Glows) -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-3.5 pt-2" id="answers-container">
+<!-- Option A (Actively Selected with Electric Violet / Primary Pulse Glow) -->
+<button class="w-full text-left p-4 rounded-xl bg-surface-container-highest shadow-[0_0_24px_-4px_rgba(192,193,255,0.45)] transition-all duration-200 transform scale-[1.01] flex items-center justify-between group relative overflow-hidden">
+<div class="absolute inset-0 bg-primary/10 pointer-events-none"></div>
+<div class="flex items-center gap-3.5 z-10">
+<div class="w-10 h-10 rounded-lg bg-primary text-on-primary flex items-center justify-center font-headline-sm text-headline-sm font-black shadow-md">
+                  A
+                </div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg font-bold text-on-surface group-hover:text-primary transition-colors">kube-scheduler</span>
+<span class="font-caption text-caption text-on-surface-variant">Evaluación de Predicados y Prioridades</span>
+</div>
+</div>
+<div class="w-6 h-6 rounded-full bg-primary flex items-center justify-center text-on-primary z-10 shadow-sm">
+<span class="material-symbols-outlined text-base font-bold">check</span>
+</div>
+</button>
+<!-- Option B -->
+<button class="w-full text-left p-4 rounded-xl bg-surface-container-high hover:bg-surface-container-highest transition-all duration-150 flex items-center justify-between group shadow-md hover:scale-[1.008]">
+<div class="flex items-center gap-3.5">
+<div class="w-10 h-10 rounded-lg bg-surface-container-lowest text-on-surface-variant group-hover:text-on-surface flex items-center justify-center font-headline-sm text-headline-sm font-bold">
+                  B
+                </div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg font-bold text-on-surface">kube-controller-manager</span>
+<span class="font-caption text-caption text-on-surface-variant">Bucle de reconciliación de estados</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-outline opacity-0 group-hover:opacity-100 transition-opacity">Opción B</span>
+</button>
+<!-- Option C -->
+<button class="w-full text-left p-4 rounded-xl bg-surface-container-high hover:bg-surface-container-highest transition-all duration-150 flex items-center justify-between group shadow-md hover:scale-[1.008]">
+<div class="flex items-center gap-3.5">
+<div class="w-10 h-10 rounded-lg bg-surface-container-lowest text-on-surface-variant group-hover:text-on-surface flex items-center justify-center font-headline-sm text-headline-sm font-bold">
+                  C
+                </div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg font-bold text-on-surface">etcd cluster node</span>
+<span class="font-caption text-caption text-on-surface-variant">Almacén consistente clave-valor Raft</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-outline opacity-0 group-hover:opacity-100 transition-opacity">Opción C</span>
+</button>
+<!-- Option D -->
+<button class="w-full text-left p-4 rounded-xl bg-surface-container-high hover:bg-surface-container-highest transition-all duration-150 flex items-center justify-between group shadow-md hover:scale-[1.008]">
+<div class="flex items-center gap-3.5">
+<div class="w-10 h-10 rounded-lg bg-surface-container-lowest text-on-surface-variant group-hover:text-on-surface flex items-center justify-center font-headline-sm text-headline-sm font-bold">
+                  D
+                </div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg font-bold text-on-surface">kube-proxy</span>
+<span class="font-caption text-caption text-on-surface-variant">Enrutamiento de red iptables/IPVS</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-outline opacity-0 group-hover:opacity-100 transition-opacity">Opción D</span>
+</button>
+</div>
+<!-- Bottom Action Bar / Quick Confirmation -->
+<div class="flex items-center justify-between pt-2 border-t border-surface-container-highest/60">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary text-lg">bolt</span>
+<span class="font-caption text-caption text-on-surface-variant">Confirmación instantánea activada. Presiona ENTER o el botón.</span>
+</div>
+<button class="px-6 py-3 rounded-xl bg-primary text-on-primary font-label-lg text-label-lg font-extrabold flex items-center gap-2 shadow-[0_0_20px_-3px_rgba(192,193,255,0.45)] hover:brightness-110 active:scale-95 transition-all" id="submit-btn">
+<span>Enviar Respuesta</span>
+<span class="material-symbols-outlined text-lg font-bold">keyboard_return</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Right Column: Speedrun Bonus Metrics, Live Leaderboard Pressure & Multiplier Stream (Col 4) -->
+<div class="lg:col-span-4 flex flex-col gap-5">
+<!-- Speedrun Reaction Stat Panel -->
+<div class="w-full bg-surface-container rounded-xl p-5 shadow-xl flex flex-col gap-4">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-label-md font-bold text-on-surface flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary">speed</span>
+              Telemetría Blitz
+            </span>
+<span class="px-2 py-0.5 rounded-full bg-tertiary-container/30 text-tertiary font-label-sm text-label-sm font-semibold">Tier Maestro</span>
+</div>
+<div class="bg-surface-container-high rounded-xl p-4 flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<span class="font-caption text-caption text-on-surface-variant">Reacción Promedio:</span>
+<span class="font-label-lg text-label-lg font-bold text-primary font-mono">3.2 seg</span>
+</div>
+<!-- Velocity Spark Bar -->
+<div class="w-full bg-surface-container-lowest h-2 rounded-full overflow-hidden">
+<div class="bg-primary h-full rounded-full w-[82%]"></div>
+</div>
+<div class="flex items-center justify-between text-caption font-caption text-outline">
+<span>Objetivo: &lt; 4.0s</span>
+<span class="text-tertiary">Top 3% Global</span>
+</div>
+</div>
+<!-- Speedrun Bonus Active Perks -->
+<div class="flex flex-col gap-2">
+<div class="flex items-center gap-3 p-3 rounded-lg bg-surface-container-high">
+<div class="w-8 h-8 rounded-full bg-tertiary/20 text-tertiary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-base">timer</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface font-bold">+50 XP Early Decider</span>
+<span class="font-caption text-caption text-on-surface-variant">Si respondes en los primeros 10s</span>
+</div>
+</div>
+<div class="flex items-center gap-3 p-3 rounded-lg bg-surface-container-high">
+<div class="w-8 h-8 rounded-full bg-secondary-container text-secondary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-base">local_fire_department</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface font-bold">Racha Implacable</span>
+<span class="font-caption text-caption text-on-surface-variant">7 aciertos consecutivos sin fallo</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Rivals Real-Time Blitz Pressure (Mini Leaderboard) -->
+<div class="w-full bg-surface-container rounded-xl p-5 shadow-xl flex flex-col gap-3.5">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-label-md font-bold text-on-surface flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">leaderboard</span>
+              En Vivo en esta Sala
+            </span>
+<span class="flex items-center gap-1 font-caption text-caption text-on-surface-variant">
+<span class="w-2 h-2 rounded-full bg-tertiary animate-ping"></span>
+              28 rivales
+            </span>
+</div>
+<!-- User Rank Row 1 -->
+<div class="flex items-center justify-between p-2.5 rounded-lg bg-surface-container-high">
+<div class="flex items-center gap-2.5">
+<span class="font-label-sm text-label-sm font-extrabold text-tertiary w-4 text-center">1</span>
+<img class="w-7 h-7 rounded-full object-cover" data-alt="Cyberpunk style esports avatar with neon glowing visor and headphones, dark aesthetic matching deep indigo and slate tones" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDlntQ5tUJU1TZX3cCrSsp352dmqyU-cu-6fysCsBeLYGuSpOdhfzOzCv8KKy798awOeSzqsZz-yZvczULEiR6exmFHXlKJdOWavhm2jS9u5u976UL9OqpIZhsYr22Go2BK4ovs_aHLsy1MXB9dR0neRfxyaA0sxw2Bv-Pb1Yr924UpeswgIqDT4wPmLpJutiUrIYTUi8wb_zWavheK2XUyl7MnoxSQsbmNn0Ghl7M"/>
+<span class="font-label-sm text-label-sm font-semibold text-on-surface">Alex_DevSec</span>
+</div>
+<span class="font-label-sm text-label-sm font-bold text-tertiary font-mono">18,920</span>
+</div>
+<!-- User Rank Row 2 (Current User Highlighted) -->
+<div class="flex items-center justify-between p-2.5 rounded-lg bg-surface-container-highest shadow-[0_0_12px_-2px_rgba(192,193,255,0.3)]">
+<div class="flex items-center gap-2.5">
+<span class="font-label-sm text-label-sm font-extrabold text-primary w-4 text-center">2</span>
+<img class="w-7 h-7 rounded-full object-cover" data-alt="Futuristic software architect avatar with holographic data glasses and dark tech hoodie" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBJvb6dKljnpfV6hJB7hneqmheb_xPblwSR7qBCzunck4_jZYz4tVGgP8UafAVcmVko6oS-9t0duMOLUMNZ6dl2rAp-DD4RXk0nrODv0TPbG9tUROiLR6CfV9TcJhgEF0WVlHCgGK0ZDEwu9fc65zQyvmEEOl5_D55NO1WwVC6j8w7SN4fByfCXJGKl6ySQEOkZ7wKuYXQzGd5T-WSFWYxHXVbWp4eU0_5DuQACudg"/>
+<div class="flex items-center gap-1">
+<span class="font-label-sm text-label-sm font-bold text-primary">Tú (Diego)</span>
+<span class="font-caption text-caption bg-primary-container/30 text-primary px-1.5 rounded text-[10px]">TÚ</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm font-bold text-primary font-mono">17,450</span>
+</div>
+<!-- User Rank Row 3 -->
+<div class="flex items-center justify-between p-2.5 rounded-lg bg-surface-container-high">
+<div class="flex items-center gap-2.5">
+<span class="font-label-sm text-label-sm font-extrabold text-outline-variant w-4 text-center">3</span>
+<img class="w-7 h-7 rounded-full object-cover" data-alt="Minimalist geometric developer avatar profile picture in midnight blue and magenta accents" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDEW9uxYkA1RxS5dyIXP4ivJpdZ8iy8h4sy5DIsrePBTaYTkIQBr9_qQlQjwSLLlvY1LsUzQy7qKqzwlZtLKKyxzTyDdEoRQCbvC_VqaFly4D92wTKf8RYTu8zz_VrGsG6WrFh9UZiOeOILFNABNcydjLPiduJO4KXo7_kJ3ley37__fz0Hi0HdNNRJa98uEyXzvqPDCvlyd4ZXmf4o17swnjBBBOQla-xf2bVARgs"/>
+<span class="font-label-sm text-label-sm font-semibold text-on-surface-variant">SRE_Master</span>
+</div>
+<span class="font-label-sm text-label-sm font-bold text-on-surface-variant font-mono">16,800</span>
+</div>
+</div>
+<!-- Quick Strategy Tip -->
+<div class="w-full bg-surface-container-low rounded-xl p-4 flex items-start gap-3">
+<span class="material-symbols-outlined text-secondary text-lg mt-0.5">tips_and_updates</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary font-bold">Consejo Blitz</span>
+<p class="font-caption text-caption text-on-surface-variant">El multiplicador de velocidad desciende a x1.5 si quedan menos de 5 segundos. ¡Decide ahora!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Interactive JavaScript for countdown tick and option toggle demonstration -->
+<script>
+    (function() {
+      let secondsLeft = 8;
+      const countEl = document.getElementById('countdown-val');
+      
+      const interval = setInterval(() => {
+        if (secondsLeft > 1) {
+          secondsLeft--;
+          if (countEl) {
+            countEl.textContent = secondsLeft < 10 ? '0' + secondsLeft : secondsLeft;
+          }
+        } else {
+          clearInterval(interval);
+        }
+      }, 1000);
+
+      const buttons = document.querySelectorAll('#answers-container button');
+      buttons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          buttons.forEach(b => {
+            b.classList.remove('bg-surface-container-highest', 'scale-[1.01]', 'shadow-[0_0_24px_-4px_rgba(192,193,255,0.45)]');
+            b.classList.add('bg-surface-container-high');
+            const check = b.querySelector('.w-6.h-6');
+            if (check) check.remove();
+          });
+          btn.classList.remove('bg-surface-container-high');
+          btn.classList.add('bg-surface-container-highest', 'scale-[1.01]', 'shadow-[0_0_24px_-4px_rgba(192,193,255,0.45)]');
+        });
+      });
+    })();
+  </script>
+</div></main></body></html>
