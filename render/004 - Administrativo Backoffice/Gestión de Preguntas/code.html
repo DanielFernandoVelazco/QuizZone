@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"surface-bright":"#31394d","on-tertiary-fixed-variant":"#653e00","on-error-container":"#ffdad6","secondary-fixed-dim":"#c3c0ff","primary-container":"#8083ff","on-tertiary-fixed":"#2a1700","primary-fixed-dim":"#c0c1ff","on-primary":"#1000a9","on-primary-fixed":"#07006c","on-secondary-container":"#b3b1ff","surface-container-highest":"#2d3449","on-tertiary-container":"#3e2400","on-secondary-fixed-variant":"#3323cc","on-error":"#690005","on-primary-container":"#0d0096","inverse-surface":"#dae2fd","tertiary":"#ffb95f","surface-container":"#171f33","background":"#0b1326","surface-container-lowest":"#060e20","surface-tint":"#c0c1ff","tertiary-fixed":"#ffddb8","on-secondary-fixed":"#0f0069","surface-container-low":"#131b2e","surface-container-high":"#222a3d","surface-variant":"#2d3449","on-background":"#dae2fd","on-primary-fixed-variant":"#2f2ebe","secondary-fixed":"#e2dfff","outline-variant":"#464554","secondary-container":"#3626ce","error":"#ffb4ab","outline":"#908fa0","on-tertiary":"#472a00","inverse-primary":"#494bd6","error-container":"#93000a","tertiary-container":"#ca8100","primary":"#c0c1ff","surface-dim":"#0b1326","on-surface-variant":"#c7c4d7","tertiary-fixed-dim":"#ffb95f","secondary":"#c3c0ff","on-surface":"#dae2fd","on-secondary":"#1d00a5","surface":"#0b1326","primary-fixed":"#e1e0ff","inverse-on-surface":"#283044"},borderRadius:{DEFAULT:"0.25rem",lg:"0.5rem",xl:"0.75rem",full:"9999px"},spacing:{"space-xl":"2.5rem","margin":"2rem","margin-mobile":"1rem","space-sm":"0.5rem","gutter":"1.5rem","gutter-mobile":"1rem","space-xs":"0.25rem","space-md":"1rem","space-lg":"1.5rem"},fontFamily:{"display-lg":["Plus Jakarta Sans"],"label-md":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"display-lg-mobile":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"headline-xl-mobile":["Plus Jakarta Sans"],"label-lg":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"caption":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"headline-xl":["Plus Jakarta Sans"]},fontSize:{"display-lg":["3.5rem",{lineHeight:"4rem",fontWeight:"800"}],"label-md":["0.875rem",{lineHeight:"1.25rem",fontWeight:"600"}],"headline-md":["1.5rem",{lineHeight:"2rem",fontWeight:"700"}],"display-lg-mobile":["2.25rem",{lineHeight:"2.75rem",fontWeight:"800"}],"headline-sm":["1.25rem",{lineHeight:"1.75rem",fontWeight:"600"}],"headline-xl-mobile":["1.75rem",{lineHeight:"2.25rem",fontWeight:"700"}],"label-lg":["1rem",{lineHeight:"1.5rem",fontWeight:"600"}],"body-lg":["1.125rem",{lineHeight:"1.75rem",fontWeight:"400"}],"label-sm":["0.75rem",{lineHeight:"1rem",fontWeight:"700"}],"headline-lg":["2rem",{lineHeight:"2.5rem",fontWeight:"700"}],"body-md":["1rem",{lineHeight:"1.5rem",fontWeight:"400"}],"caption":["0.75rem",{lineHeight:"1rem",fontWeight:"500"}],"body-sm":["0.875rem",{lineHeight:"1.25rem",fontWeight:"400"}],"headline-xl":["2.5rem",{lineHeight:"3rem",fontWeight:"800"}]}}}}</script></head><body class="bg-surface font-body-md text-body-md text-on-surface min-h-screen selection:bg-primary-container selection:text-on-primary-container"><header class="fixed top-0 w-full z-50 bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.5)]"><div class="h-20 w-full px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md shrink-0"><a class="flex items-center gap-space-sm group" data-path="dashboard-administrativo" href="#"><img alt="QuizPulse Logo" class="h-8 w-auto object-contain transition-transform group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD2y67OihtqdUAdbh4SEo05Jp6jzf4ywOzHpmKn2p4NwHKtCiDym_MBL2PD2CAk0LYrZTTaVFVbrzvW0-q40GglrtUC-agL3PQrER2wlQMzh3KGfyhkfETP7zaYj2tVA1xDD4G1I1Mqm2RLX7D_8bk_QIJwC4ijYTJTOzI5pLmZsmEgqFAFYKQKV7BGNk8uz-Ikr0ckhF7_J40gScT2xR3Rmi959jGwCYpRyLaVES4"/><span class="font-headline-sm text-headline-sm font-bold tracking-tight text-on-surface">Quiz<span class="text-primary">Pulse</span></span></a><div class="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-surface-container-high shadow-[0_0_12px_-2px_rgba(192,193,255,0.2)]"><span class="w-1.5 h-1.5 rounded-full bg-tertiary animate-pulse"></span><span class="font-label-sm text-label-sm text-primary tracking-wider uppercase">ADMIN CONSOLE v2.4</span></div></div><nav class="hidden xl:flex items-center gap-space-xs" data-active-classes="bg-surface-container-high text-on-surface font-label-md text-label-md rounded-lg shadow-sm"><a class="px-3 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="dashboard-administrativo" href="#">Dashboard Admin</a><a class="px-3 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="gestion-de-quizzes" href="#">Gestión de Quizzes</a><a class="px-3 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="gestion-de-preguntas" href="#">Gestión de Preguntas</a><a class="px-3 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="gestion-de-usuarios" href="#">Gestión de Usuarios</a><a class="px-3 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="estadisticas-y-reportes" href="#">Estadísticas y Reportes</a></nav><div class="flex-1 max-w-xs mx-space-sm hidden lg:block"><div class="relative flex items-center"><span class="material-symbols-outlined absolute left-3 text-outline select-none pointer-events-none text-lg">search</span><input class="w-full bg-surface-container pl-10 pr-4 py-2 rounded-xl text-on-surface placeholder:text-outline font-body-sm text-body-sm focus:outline-none focus:ring-1 focus:ring-primary shadow-inner" placeholder="Buscar quizzes, preguntas, usuarios..." type="text"/></div></div><div class="flex items-center gap-space-sm shrink-0"><div class="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container-high shadow-[0_0_12px_-2px_rgba(245,158,11,0.2)]"><span class="font-label-md text-label-md text-tertiary select-none">🔥</span><span class="font-label-md text-label-md text-on-surface">142 en vivo</span></div><button aria-label="Notificaciones del sistema" class="relative p-2 rounded-full text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined block text-xl">notifications</span><span class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-tertiary shadow-[0_0_8px_rgba(255,185,95,0.6)]"></span></button><a class="flex items-center gap-space-xs pl-space-xs cursor-pointer group" data-path="configuracion" href="#"><img alt="Admin Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-primary/40 group-hover:ring-primary transition-all" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDe-iH6G0TuMGAKeQfl3Gj_gkkRYvwY4RcEuWdJ7blaEhiff00Kl3Wz4CC27F5HdACDuS0ktNewVxieEAOm443WLMLUS1bXl7VInuWwUgZi7YHMoquC2WIS3pQDxycna43oCWitjSlCPG-iCcRzv1ZQM6JeWNUOYCIsREIAkH4SAw1sObCMELBCUewCL38SVVTnpe6soJ8WgpTRPThLkEO33HHuPogPMRlawkCpjcw"/><div class="hidden md:flex flex-col text-left"><span class="font-label-sm text-label-sm text-on-surface font-semibold leading-tight">Admin Root</span><span class="font-caption text-caption text-primary leading-none">Superuser</span></div><span class="material-symbols-outlined text-outline group-hover:text-on-surface text-lg transition-transform group-hover:translate-y-0.5">expand_more</span></a></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-140px)]"><div class="flex flex-col w-full">
+<div class="w-full px-margin py-space-lg flex flex-col gap-space-lg">
+<!-- Header Section with Psychometric Metrics & Action Triggers -->
+<div class="relative overflow-hidden rounded-xl bg-surface-container-low p-space-lg shadow-xl">
+<div class="absolute -right-24 -top-24 w-96 h-96 bg-primary-container/10 rounded-full blur-3xl pointer-events-none"></div>
+<div class="absolute right-1/3 -bottom-20 w-64 h-64 bg-tertiary-container/10 rounded-full blur-2xl pointer-events-none"></div>
+<div class="relative z-10 flex flex-col lg:flex-row lg:items-center justify-between gap-space-lg">
+<div class="flex flex-col gap-space-xs max-w-2xl">
+<div class="flex items-center gap-space-xs">
+<span class="px-2.5 py-0.5 rounded-full bg-secondary-container/60 text-on-secondary-container font-label-sm text-label-sm uppercase tracking-wider">
+              Motor Psicométrico v3.8
+            </span>
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span>
+<span class="font-caption text-caption text-on-surface-variant">Calibrado en tiempo real</span>
+</div>
+<h1 class="font-headline-xl text-headline-xl text-on-surface tracking-tight">Banco Central de Preguntas</h1>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Repositorio unificado de preguntas técnicas, validación psicométrica y asignación a quizzes.
+          </p>
+</div>
+<!-- Metric Badges & Primary Actions -->
+<div class="flex flex-wrap lg:flex-nowrap items-center gap-space-md shrink-0">
+<div class="grid grid-cols-3 gap-space-xs bg-surface-container p-space-xs rounded-xl shadow-inner">
+<div class="flex flex-col px-3 py-2 rounded-lg bg-surface-container-high/60">
+<span class="font-caption text-caption text-outline uppercase tracking-wider">Reactivos</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">1,420</span>
+</div>
+<div class="flex flex-col px-3 py-2 rounded-lg bg-surface-container-high/60">
+<span class="font-caption text-caption text-outline uppercase tracking-wider">Calidad Verificada</span>
+<span class="font-headline-sm text-headline-sm text-primary font-bold">98.2%</span>
+</div>
+<div class="flex flex-col px-3 py-2 rounded-lg bg-surface-container-high/60">
+<span class="font-caption text-caption text-outline uppercase tracking-wider">En Revisión</span>
+<span class="font-headline-sm text-headline-sm text-tertiary font-bold">42</span>
+</div>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="px-4 py-2.5 rounded-xl bg-surface-container-high text-on-surface font-label-md text-label-md hover:bg-surface-bright transition-all shadow-md flex items-center gap-1.5 group">
+<span class="material-symbols-outlined text-outline group-hover:text-on-surface text-lg">fact_check</span>
+<span>Revisión por Lotes</span>
+</button>
+<button class="px-5 py-2.5 rounded-xl bg-primary text-on-primary font-label-md text-label-md hover:opacity-90 active:scale-95 transition-all shadow-[0_0_24px_rgba(192,193,255,0.3)] flex items-center gap-1.5">
+<span class="material-symbols-outlined text-lg">add_circle</span>
+<span>Agregar Pregunta</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Psychometric Filter & Search Matrix -->
+<div class="flex flex-col gap-space-sm p-space-md rounded-xl bg-surface-container shadow-md">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-space-sm items-center">
+<!-- Search Input -->
+<div class="md:col-span-5 relative flex items-center">
+<span class="material-symbols-outlined absolute left-3.5 text-outline pointer-events-none text-xl">search</span>
+<input class="w-full bg-surface-container-lowest pl-11 pr-10 py-2.5 rounded-xl text-on-surface placeholder:text-outline font-body-sm text-body-sm focus:outline-none focus:ring-2 focus:ring-primary shadow-inner" placeholder="Buscar por enunciado, etiqueta, código (#Q-CAP-09)..." type="text" value="Q-DIST"/>
+<button class="absolute right-3 text-outline hover:text-on-surface text-xs font-label-sm uppercase">ESC</button>
+</div>
+<!-- Filter: Question Type -->
+<div class="md:col-span-3">
+<div class="relative">
+<select class="w-full appearance-none bg-surface-container-lowest text-on-surface px-3.5 py-2.5 pr-8 rounded-xl font-body-sm text-body-sm focus:outline-none focus:ring-1 focus:ring-primary shadow-inner cursor-pointer">
+<option value="all">Tipo: Todos los formatos</option>
+<option selected="" value="mcq4">Opción Múltiple (4 alternativas)</option>
+<option value="single">Selección Única</option>
+<option value="tf">Verdadero / Falso</option>
+<option value="code">Código / Snippet Técnico</option>
+<option value="order">Ordenamiento Secuencial</option>
+</select>
+<span class="material-symbols-outlined absolute right-2.5 top-3 text-outline pointer-events-none text-base">expand_more</span>
+</div>
+</div>
+<!-- Filter: Discrimination / Difficulty -->
+<div class="md:col-span-2">
+<div class="relative">
+<select class="w-full appearance-none bg-surface-container-lowest text-on-surface px-3.5 py-2.5 pr-8 rounded-xl font-body-sm text-body-sm focus:outline-none focus:ring-1 focus:ring-primary shadow-inner cursor-pointer">
+<option value="all">Dificultad: Toda</option>
+<option value="hard">Alta (&lt; 40% acierto)</option>
+<option value="med">Media (40 - 70%)</option>
+<option value="easy">Baja (&gt; 70% acierto)</option>
+</select>
+<span class="material-symbols-outlined absolute right-2.5 top-3 text-outline pointer-events-none text-base">tune</span>
+</div>
+</div>
+<!-- Filter: Assignment status -->
+<div class="md:col-span-2">
+<div class="relative">
+<select class="w-full appearance-none bg-surface-container-lowest text-on-surface px-3.5 py-2.5 pr-8 rounded-xl font-body-sm text-body-sm focus:outline-none focus:ring-1 focus:ring-primary shadow-inner cursor-pointer">
+<option value="all">Estado: Asignadas &amp; Libres</option>
+<option value="assigned">Vinculadas a Quiz</option>
+<option value="orphaned">Huérfanas (Sin asignar)</option>
+</select>
+<span class="material-symbols-outlined absolute right-2.5 top-3 text-outline pointer-events-none text-base">link</span>
+</div>
+</div>
+</div>
+<!-- Active Filter Chips -->
+<div class="flex items-center gap-space-xs pt-1 flex-wrap font-label-sm text-label-sm">
+<span class="text-outline">Filtros aplicados:</span>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface">
+          Formato: Opción Múltiple (4)
+          <span class="material-symbols-outlined text-xs hover:text-error cursor-pointer">close</span>
+</span>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-secondary-container/40 text-on-secondary-container">
+          Dificultad Calibrada
+          <span class="material-symbols-outlined text-xs hover:text-error cursor-pointer">close</span>
+</span>
+<button class="text-primary hover:underline ml-1">Restablecer vista</button>
+</div>
+</div>
+<!-- Asymmetric Split Workbench: Item Bank vs Inspector / Quick Editor -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-start">
+<!-- LEFT PANEL: 60% Reactivos List -->
+<div class="lg:col-span-7 flex flex-col gap-space-sm">
+<div class="flex items-center justify-between px-space-xs">
+<span class="font-label-md text-label-md text-on-surface-variant flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+            Mostrando 5 de 1,420 reactivos filtrados
+          </span>
+<div class="flex items-center gap-space-xs text-outline font-caption text-caption">
+<span>Ordenar por:</span>
+<button class="text-on-surface font-semibold hover:text-primary flex items-center gap-0.5">
+              Tasa de Discriminación <span class="material-symbols-outlined text-sm">arrow_downward</span>
+</button>
+</div>
+</div>
+<!-- Reactivo 1 (Selected) -->
+<div class="group relative rounded-xl bg-surface-container-high p-space-md shadow-[0_0_24px_-4px_rgba(99,102,241,0.35)] transition-all cursor-pointer">
+<div class="absolute left-0 top-0 bottom-0 w-1.5 bg-primary rounded-l-xl"></div>
+<div class="flex flex-col gap-space-xs pl-2">
+<div class="flex items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-xs flex-wrap">
+<span class="px-2 py-0.5 rounded bg-surface-container-lowest text-primary font-label-sm text-label-sm font-mono tracking-wider">
+                  #Q-DIST-109
+                </span>
+<span class="px-2 py-0.5 rounded bg-secondary-container/50 text-on-secondary-container font-label-sm text-label-sm font-semibold">
+                  Arquitectura
+                </span>
+<span class="px-2 py-0.5 rounded bg-error-container/40 text-error font-label-sm text-label-sm font-semibold flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-error animate-ping"></span>
+                  Alta (38.2% acierto)
+                </span>
+</div>
+<span class="font-caption text-caption text-outline">Por Alex Dev</span>
+</div>
+<p class="font-headline-sm text-headline-sm text-on-surface font-semibold mt-1">
+              ¿Bajo el Teorema CAP, si ocurre una partición de red inevitable en un clúster distribuido, qué garantía debe sacrificarse formalmente para preservar Consistencia Estricta?
+            </p>
+<div class="mt-2 flex items-center justify-between pt-space-xs">
+<div class="flex items-center gap-space-md text-outline font-caption text-caption">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm text-primary">layers</span> 4 alternativas</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm text-tertiary">timer</span> 22.4s promedio</span>
+<span class="flex items-center gap-1 text-on-surface"><span class="material-symbols-outlined text-sm text-primary">hub</span> 2 quizzes vinculados</span>
+</div>
+<span class="px-2 py-1 rounded bg-primary text-on-primary font-label-sm text-label-sm">Editando ahora</span>
+</div>
+</div>
+</div>
+<!-- Reactivo 2 -->
+<div class="group relative rounded-xl bg-surface-container hover:bg-surface-container-high p-space-md shadow-sm hover:shadow-lg transition-all cursor-pointer">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-xs flex-wrap">
+<span class="px-2 py-0.5 rounded bg-surface-container-lowest text-on-surface-variant font-label-sm text-label-sm font-mono">
+                  #Q-K8S-044
+                </span>
+<span class="px-2 py-0.5 rounded bg-surface-container-highest text-on-surface-variant font-label-sm text-label-sm font-semibold">
+                  DevOps
+                </span>
+<span class="px-2 py-0.5 rounded bg-tertiary-container/30 text-tertiary font-label-sm text-label-sm font-semibold">
+                  Media (62% acierto)
+                </span>
+</div>
+<span class="font-caption text-caption text-outline">Por Sara Chen</span>
+</div>
+<p class="font-body-lg text-body-lg text-on-surface font-medium group-hover:text-primary transition-colors">
+              ¿Qué componente en el Control Plane de Kubernetes es directamente responsable de asignar Pods no programados a nodos de trabajo basándose en restricciones de recursos y affinity rules?
+            </p>
+<div class="flex items-center justify-between pt-space-xs">
+<div class="flex items-center gap-space-md text-outline font-caption text-caption">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">view_agenda</span> 4 alternativas</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">timer</span> 14.8s promedio</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">hub</span> 3 quizzes vinculados</span>
+</div>
+<button class="opacity-0 group-hover:opacity-100 transition-opacity p-1.5 rounded-lg hover:bg-surface-bright text-outline hover:text-on-surface">
+<span class="material-symbols-outlined text-base">edit</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Reactivo 3 -->
+<div class="group relative rounded-xl bg-surface-container hover:bg-surface-container-high p-space-md shadow-sm hover:shadow-lg transition-all cursor-pointer">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-xs flex-wrap">
+<span class="px-2 py-0.5 rounded bg-surface-container-lowest text-on-surface-variant font-label-sm text-label-sm font-mono">
+                  #Q-SAGA-088
+                </span>
+<span class="px-2 py-0.5 rounded bg-surface-container-highest text-on-surface-variant font-label-sm text-label-sm font-semibold">
+                  Microservicios
+                </span>
+<span class="px-2 py-0.5 rounded bg-tertiary-container/30 text-tertiary font-label-sm text-label-sm font-semibold">
+                  Media (45% acierto)
+                </span>
+</div>
+<span class="font-caption text-caption text-outline">Por Alex Dev</span>
+</div>
+<p class="font-body-lg text-body-lg text-on-surface font-medium group-hover:text-primary transition-colors">
+              Patrón Saga: ¿Cuál es la diferencia crítica en el manejo de transacciones compensatorias entre una implementación basada en Orquestación frente a una basada en Coreografía?
+            </p>
+<div class="flex items-center justify-between pt-space-xs">
+<div class="flex items-center gap-space-md text-outline font-caption text-caption">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">code</span> Snippet adjunto</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">timer</span> 35.1s promedio</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">hub</span> 1 quiz vinculado</span>
+</div>
+<button class="opacity-0 group-hover:opacity-100 transition-opacity p-1.5 rounded-lg hover:bg-surface-bright text-outline hover:text-on-surface">
+<span class="material-symbols-outlined text-base">edit</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Reactivo 4 -->
+<div class="group relative rounded-xl bg-surface-container hover:bg-surface-container-high p-space-md shadow-sm hover:shadow-lg transition-all cursor-pointer">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-xs flex-wrap">
+<span class="px-2 py-0.5 rounded bg-surface-container-lowest text-on-surface-variant font-label-sm text-label-sm font-mono">
+                  #Q-ALGO-210
+                </span>
+<span class="px-2 py-0.5 rounded bg-surface-container-highest text-on-surface-variant font-label-sm text-label-sm font-semibold">
+                  Estructuras de Datos
+                </span>
+<span class="px-2 py-0.5 rounded bg-primary-container/20 text-primary font-label-sm text-label-sm font-semibold">
+                  Baja (71% acierto)
+                </span>
+</div>
+<span class="font-caption text-caption text-outline">Por David R.</span>
+</div>
+<p class="font-body-lg text-body-lg text-on-surface font-medium group-hover:text-primary transition-colors">
+              ¿Cuál es la cota superior asintótica (Big-O) de complejidad temporal de búsqueda en el peor caso dentro de un Red-Black Tree debidamente balanceado?
+            </p>
+<div class="flex items-center justify-between pt-space-xs">
+<div class="flex items-center gap-space-md text-outline font-caption text-caption">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">view_agenda</span> 4 alternativas</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">timer</span> 9.6s promedio</span>
+<span class="flex items-center gap-1 text-tertiary"><span class="material-symbols-outlined text-sm">link_off</span> Huérfana (0 quizzes)</span>
+</div>
+<button class="opacity-0 group-hover:opacity-100 transition-opacity p-1.5 rounded-lg hover:bg-surface-bright text-outline hover:text-on-surface">
+<span class="material-symbols-outlined text-base">edit</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Reactivo 5 -->
+<div class="group relative rounded-xl bg-surface-container hover:bg-surface-container-high p-space-md shadow-sm hover:shadow-lg transition-all cursor-pointer">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-xs flex-wrap">
+<span class="px-2 py-0.5 rounded bg-surface-container-lowest text-on-surface-variant font-label-sm text-label-sm font-mono">
+                  #Q-WEB-305
+                </span>
+<span class="px-2 py-0.5 rounded bg-surface-container-highest text-on-surface-variant font-label-sm text-label-sm font-semibold">
+                  Frontend &amp; Runtime
+                </span>
+<span class="px-2 py-0.5 rounded bg-tertiary-container/30 text-tertiary font-label-sm text-label-sm font-semibold">
+                  Media (58% acierto)
+                </span>
+</div>
+<span class="font-caption text-caption text-outline">Por Elena Ramos</span>
+</div>
+<p class="font-body-lg text-body-lg text-on-surface font-medium group-hover:text-primary transition-colors">
+              Al combinar Server-Side Rendering (SSR) y React Server Components (RSC) en el App Router de Next.js, ¿en qué punto de ejecución se envía el JS bundle del componente al cliente?
+            </p>
+<div class="flex items-center justify-between pt-space-xs">
+<div class="flex items-center gap-space-md text-outline font-caption text-caption">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">view_agenda</span> 4 alternativas</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">timer</span> 18.2s promedio</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">hub</span> 4 quizzes vinculados</span>
+</div>
+<button class="opacity-0 group-hover:opacity-100 transition-opacity p-1.5 rounded-lg hover:bg-surface-bright text-outline hover:text-on-surface">
+<span class="material-symbols-outlined text-base">edit</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Pagination Bar -->
+<div class="flex items-center justify-between pt-space-sm px-space-xs">
+<span class="font-body-sm text-body-sm text-outline">Página 1 de 284</span>
+<div class="flex items-center gap-1">
+<button class="px-3 py-1.5 rounded-lg bg-surface-container text-outline hover:text-on-surface font-label-sm text-label-sm flex items-center">
+<span class="material-symbols-outlined text-base">chevron_left</span> Anterior
+            </button>
+<button class="w-8 h-8 rounded-lg bg-primary text-on-primary font-label-sm text-label-sm font-bold">1</button>
+<button class="w-8 h-8 rounded-lg bg-surface-container text-on-surface hover:bg-surface-container-high font-label-sm text-label-sm">2</button>
+<button class="w-8 h-8 rounded-lg bg-surface-container text-on-surface hover:bg-surface-container-high font-label-sm text-label-sm">3</button>
+<span class="text-outline px-1">...</span>
+<button class="w-8 h-8 rounded-lg bg-surface-container text-on-surface hover:bg-surface-container-high font-label-sm text-label-sm">284</button>
+<button class="px-3 py-1.5 rounded-lg bg-surface-container text-outline hover:text-on-surface font-label-sm text-label-sm flex items-center">
+              Siguiente <span class="material-symbols-outlined text-base">chevron_right</span>
+</button>
+</div>
+</div>
+</div>
+<!-- RIGHT PANEL: 40% Inspector & Quick Editor -->
+<div class="lg:col-span-5 flex flex-col gap-space-md sticky top-24">
+<div class="rounded-xl bg-surface-container-low p-space-md shadow-2xl flex flex-col gap-space-md">
+<!-- Inspector Header -->
+<div class="flex items-center justify-between pb-space-xs">
+<div class="flex flex-col">
+<div class="flex items-center gap-1.5">
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-wider">Inspector Psicométrico</span>
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+<span class="font-mono text-label-sm text-label-sm text-outline">Q-DIST-109</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">Edición Rápida y Validación</span>
+</div>
+<div class="flex items-center gap-1">
+<button class="p-2 rounded-lg bg-surface-container hover:bg-surface-bright text-on-surface-variant hover:text-on-surface transition-colors" title="Historial de versiones">
+<span class="material-symbols-outlined text-lg">history</span>
+</button>
+<button class="p-2 rounded-lg bg-surface-container hover:bg-surface-bright text-on-surface-variant hover:text-on-surface transition-colors" title="Duplicar reactivo">
+<span class="material-symbols-outlined text-lg">content_copy</span>
+</button>
+</div>
+</div>
+<!-- Psychometric Radar & Bi-serial Index -->
+<div class="p-space-sm rounded-xl bg-surface-container flex flex-col gap-space-xs">
+<div class="flex items-center justify-between text-outline font-label-sm text-label-sm">
+<span class="flex items-center gap-1 text-on-surface">
+<span class="material-symbols-outlined text-base text-primary">insights</span> Calibración Item Response Theory (IRT)
+              </span>
+<span class="text-primary font-mono font-bold">ÓPTIMO</span>
+</div>
+<div class="grid grid-cols-3 gap-space-xs mt-1 text-center">
+<div class="flex flex-col p-2 rounded-lg bg-surface-container-lowest">
+<span class="font-caption text-caption text-outline">Tiempo Resp.</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">22.4s</span>
+<span class="font-caption text-caption text-on-surface-variant">Esperado: 25s</span>
+</div>
+<div class="flex flex-col p-2 rounded-lg bg-surface-container-lowest">
+<span class="font-caption text-caption text-outline">Biserial (rpbi)</span>
+<span class="font-headline-sm text-headline-sm text-primary font-bold">0.48</span>
+<span class="font-caption text-caption text-primary">Excelente (&gt;0.4)</span>
+</div>
+<div class="flex flex-col p-2 rounded-lg bg-surface-container-lowest">
+<span class="font-caption text-caption text-outline">Reportes Amb.</span>
+<span class="font-headline-sm text-headline-sm text-tertiary font-bold">0</span>
+<span class="font-caption text-caption text-on-surface-variant">Sin disputas</span>
+</div>
+</div>
+</div>
+<!-- Question Prompt Field (Editable Markdown) -->
+<div class="flex flex-col gap-1.5">
+<div class="flex items-center justify-between">
+<label class="font-label-sm text-label-sm text-on-surface font-semibold flex items-center gap-1">
+<span>Enunciado del Reactivo</span>
+<span class="font-caption text-caption text-outline font-normal">(Soporta Markdown &amp; LaTeX)</span>
+</label>
+<div class="flex items-center gap-1 text-outline font-caption text-caption">
+<button class="hover:text-primary">Preview</button>
+<span>|</span>
+<button class="text-primary font-bold">Editor</button>
+</div>
+</div>
+<textarea class="w-full bg-surface-container-lowest text-on-surface p-space-sm rounded-xl font-body-sm text-body-sm focus:outline-none focus:ring-2 focus:ring-primary shadow-inner resize-y" rows="3">¿Bajo el Teorema CAP, si ocurre una partición de red inevitable en un clúster distribuido, qué garantía debe sacrificarse formalmente para preservar Consistencia Estricta (Linearizability)?</textarea>
+<!-- Code Block Preview -->
+<div class="bg-surface-container-lowest p-space-xs rounded-lg font-mono text-caption text-on-surface-variant overflow-x-auto flex items-center justify-between">
+<span class="text-tertiary"># Teorema CAP: P es mandatorio en redes asíncronas</span>
+<span class="text-outline text-xs">Python / Pseudo</span>
+</div>
+</div>
+<!-- Answer Options Matrix with Radio triggers -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold">Alternativas &amp; Llave de Respuesta</span>
+<span class="font-caption text-caption text-outline">Marca el radio para definir la opción correcta</span>
+</div>
+<!-- Option A (Correct) -->
+<div class="p-space-sm rounded-xl bg-surface-container flex flex-col gap-1.5 shadow-[0_0_16px_-4px_rgba(99,102,241,0.25)]">
+<div class="flex items-start gap-space-xs">
+<div class="pt-0.5">
+<input checked="" class="w-4 h-4 accent-primary cursor-pointer" id="opt_a" name="correct_opt" type="radio"/>
+</div>
+<div class="flex-1 flex flex-col gap-1">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-primary text-on-primary font-label-sm text-label-sm font-bold">A</span>
+<span class="font-label-sm text-label-sm text-primary font-semibold flex items-center gap-0.5">
+<span class="material-symbols-outlined text-sm">check_circle</span> Correcta (38.2% seleccionaron)
+                    </span>
+</div>
+<input class="w-full bg-surface-container-lowest px-3 py-1.5 rounded-lg text-on-surface font-body-sm text-body-sm focus:outline-none focus:ring-1 focus:ring-primary" type="text" value="Disponibilidad (Availability) - El sistema rechazará lecturas/escrituras para evitar split-brain."/>
+</div>
+</div>
+<!-- Didactic Feedback -->
+<div class="pl-6 pt-1">
+<span class="font-caption text-caption text-outline">Retroalimentación didáctica:</span>
+<input class="w-full bg-surface-container-high/50 px-2.5 py-1 rounded text-outline focus:text-on-surface font-caption text-caption focus:outline-none focus:ring-1 focus:ring-outline" type="text" value="Al presentarse partición (P), el teorema fuerza la elección entre C o A. Para garantizar C, se deniega la disponibilidad."/>
+</div>
+</div>
+<!-- Option B -->
+<div class="p-space-sm rounded-xl bg-surface-container hover:bg-surface-container-high/70 transition-colors flex flex-col gap-1">
+<div class="flex items-start gap-space-xs">
+<div class="pt-0.5">
+<input class="w-4 h-4 accent-primary cursor-pointer" id="opt_b" name="correct_opt" type="radio"/>
+</div>
+<div class="flex-1 flex flex-col gap-1">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-surface-container-lowest text-on-surface-variant font-label-sm text-label-sm font-bold">B</span>
+<span class="font-caption text-caption text-outline">Distractor 1 (41.5% eligieron este error)</span>
+</div>
+<input class="w-full bg-surface-container-lowest px-3 py-1.5 rounded-lg text-on-surface font-body-sm text-body-sm focus:outline-none focus:ring-1 focus:ring-primary" type="text" value="Tolerancia a Particiones (Partition Tolerance), cerrando sockets inmediatamente."/>
+</div>
+</div>
+</div>
+<!-- Option C -->
+<div class="p-space-sm rounded-xl bg-surface-container hover:bg-surface-container-high/70 transition-colors flex flex-col gap-1">
+<div class="flex items-start gap-space-xs">
+<div class="pt-0.5">
+<input class="w-4 h-4 accent-primary cursor-pointer" id="opt_c" name="correct_opt" type="radio"/>
+</div>
+<div class="flex-1 flex flex-col gap-1">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-surface-container-lowest text-on-surface-variant font-label-sm text-label-sm font-bold">C</span>
+<span class="font-caption text-caption text-outline">Distractor 2 (14.1% seleccionaron)</span>
+</div>
+<input class="w-full bg-surface-container-lowest px-3 py-1.5 rounded-lg text-on-surface font-body-sm text-body-sm focus:outline-none focus:ring-1 focus:ring-primary" type="text" value="Atomicidad y Aislamiento transaccional en el nodo líder de Paxos."/>
+</div>
+</div>
+</div>
+<!-- Option D -->
+<div class="p-space-sm rounded-xl bg-surface-container hover:bg-surface-container-high/70 transition-colors flex flex-col gap-1">
+<div class="flex items-start gap-space-xs">
+<div class="pt-0.5">
+<input class="w-4 h-4 accent-primary cursor-pointer" id="opt_d" name="correct_opt" type="radio"/>
+</div>
+<div class="flex-1 flex flex-col gap-1">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-surface-container-lowest text-on-surface-variant font-label-sm text-label-sm font-bold">D</span>
+<span class="font-caption text-caption text-outline">Distractor 3 (6.2% seleccionaron)</span>
+</div>
+<input class="w-full bg-surface-container-lowest px-3 py-1.5 rounded-lg text-on-surface font-body-sm text-body-sm focus:outline-none focus:ring-1 focus:ring-primary" type="text" value="Consistencia Eventual, migrando temporalmente a semántica CRDT."/>
+</div>
+</div>
+</div>
+</div>
+<!-- Associated Quizzes Tags -->
+<div class="flex flex-col gap-1.5 pt-space-xs">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Quizzes que contienen este reactivo:</span>
+<div class="flex flex-wrap gap-space-xs">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-surface-container text-on-surface font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-sm text-primary">quiz</span>
+                Desafío Maestro: Arquitectura de Software
+                <button class="hover:text-error"><span class="material-symbols-outlined text-xs">close</span></button>
+</span>
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-surface-container text-on-surface font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-sm text-tertiary">military_tech</span>
+                Entrevista Staff Engineer
+                <button class="hover:text-error"><span class="material-symbols-outlined text-xs">close</span></button>
+</span>
+<button class="px-2.5 py-1 rounded-lg bg-surface-container-high hover:bg-surface-bright text-primary font-label-sm text-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-sm">add</span> Vincular a Quiz
+              </button>
+</div>
+</div>
+<!-- Action Footbar -->
+<div class="pt-space-sm flex items-center justify-between gap-space-xs">
+<button class="px-3 py-2 rounded-xl bg-surface-container text-error hover:bg-error-container/30 transition-colors font-label-md text-label-md flex items-center gap-1">
+<span class="material-symbols-outlined text-lg">archive</span>
+<span>Archivar</span>
+</button>
+<div class="flex items-center gap-space-xs">
+<button class="px-4 py-2 rounded-xl bg-surface-container-high hover:bg-surface-bright text-on-surface font-label-md text-label-md transition-colors flex items-center gap-1.5">
+<span class="material-symbols-outlined text-lg">smart_display</span>
+<span>Previsualizar</span>
+</button>
+<button class="px-5 py-2 rounded-xl bg-primary text-on-primary font-label-md text-label-md hover:opacity-90 active:scale-95 transition-all shadow-[0_0_20px_rgba(192,193,255,0.35)] flex items-center gap-1.5">
+<span class="material-symbols-outlined text-lg">save</span>
+<span>Guardar Cambios</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+    // Micro-interactions for interactive item bank inspection
+    document.addEventListener('DOMContentLoaded', () => {
+      const optionInputs = document.querySelectorAll('input[name="correct_opt"]');
+      optionInputs.forEach(input => {
+        input.addEventListener('change', (e) => {
+          // Visual feedback on selecting correct key
+          console.log(`Reactivo Q-DIST-109: Nueva llave de respuesta configurada en opción ${e.target.id.toUpperCase()}`);
+        });
+      });
+    });
+  </script>
+</div></main><footer class="w-full bg-surface-container-lowest mt-space-xl py-space-xl"><div class="w-full px-margin flex flex-col md:flex-row items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm"><img alt="QuizPulse Logo" class="h-6 w-auto object-contain opacity-80" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD2y67OihtqdUAdbh4SEo05Jp6jzf4ywOzHpmKn2p4NwHKtCiDym_MBL2PD2CAk0LYrZTTaVFVbrzvW0-q40GglrtUC-agL3PQrER2wlQMzh3KGfyhkfETP7zaYj2tVA1xDD4G1I1Mqm2RLX7D_8bk_QIJwC4ijYTJTOzI5pLmZsmEgqFAFYKQKV7BGNk8uz-Ikr0ckhF7_J40gScT2xR3Rmi959jGwCYpRyLaVES4"/><span class="font-headline-sm text-headline-sm font-bold text-on-surface-variant">Quiz<span class="text-primary">Pulse</span> <span class="font-label-sm text-label-sm text-outline ml-1 font-normal">Console</span></span></div><p class="font-body-sm text-body-sm text-outline">© 2025 QuizPulse Platform Admin Operations. Desafía tu mente en tiempo real.</p><div class="flex items-center gap-space-lg font-label-sm text-label-sm text-outline"><a class="hover:text-on-surface transition-colors" href="#">Términos de Servicio</a><a class="hover:text-on-surface transition-colors" href="#">Privacidad</a><a class="hover:text-on-surface transition-colors" href="#">Soporte Operativo</a></div></div></footer></body></html>
